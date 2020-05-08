@@ -22,10 +22,10 @@ let package = Package(
         .target(
             name: "SwiftFigletKit",
             dependencies: [],
-            path: "Sources"),
+            path: "SwiftFigletKit/Sources"),
         .testTarget(
             name: "SwiftFigletKitTests",
             dependencies: ["SwiftFigletKit"],
-            path: "Tests"),
+            path: "SwiftFigletKit/Tests"),
     ]
 )
