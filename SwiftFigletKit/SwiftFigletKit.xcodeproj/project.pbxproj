@@ -23,7 +23,6 @@
 /* Begin PBXBuildFile section */
 		990CE61A2465CA1F00E23460 /* String+FKFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990CE6192465CA1F00E23460 /* String+FKFont.swift */; };
 		OBJ_22 /* SwiftFigletKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SwiftFigletKit.swift */; };
-		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_40 /* SwiftFigletKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* SwiftFigletKitTests.swift */; };
 		OBJ_41 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
 		OBJ_43 /* SwiftFigletKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftFigletKit::SwiftFigletKit::Product" /* SwiftFigletKit.framework */; };
@@ -47,11 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		990CE6182465C98700E23460 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		990CE6192465CA1F00E23460 /* String+FKFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+FKFont.swift"; sourceTree = "<group>"; };
+		990CE62E2465D00700E23460 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
+		990CE6312465D02C00E23460 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		OBJ_12 /* SwiftFigletKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFigletKitTests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
-		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* SwiftFigletKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFigletKit.swift; sourceTree = "<group>"; };
 		"SwiftFigletKit::SwiftFigletKit::Product" /* SwiftFigletKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftFigletKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SwiftFigletKit::SwiftFigletKitTests::Product" /* SwiftFigletKitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftFigletKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,8 +105,8 @@
 		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
-				990CE6182465C98700E23460 /* README.md */,
-				OBJ_6 /* Package.swift */,
+				990CE6312465D02C00E23460 /* README.md */,
+				990CE62E2465D00700E23460 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
 				OBJ_14 /* Products */,
@@ -226,7 +225,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_29 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
