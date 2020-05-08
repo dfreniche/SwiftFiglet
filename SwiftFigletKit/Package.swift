@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftFigletKit",
+    platforms: [.macOS(.v10_12)],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
@@ -20,9 +21,11 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "SwiftFigletKit",
-            dependencies: []),
+            dependencies: [],
+            path: "Sources"),
         .testTarget(
             name: "SwiftFigletKitTests",
-            dependencies: ["SwiftFigletKit"]),
+            dependencies: ["SwiftFigletKit"],
+            path: "Tests"),
     ]
 )
