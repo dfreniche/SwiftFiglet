@@ -8,9 +8,14 @@
 
 import Foundation
 
+/// Represents a whole set of Characters, a Figlet Font
 public struct SFKFont {
     
+    /// height of all Characters in this Font
     public var height: Int = 0
+    
+    /// all Characters in the font
+    /// - new Characters can be added using `appendChar`
     public var fkChar: [Character: SFKChar]
 
     public init() {
@@ -18,6 +23,12 @@ public struct SFKFont {
         self.fkChar = [Character : SFKChar]()
     }
     
+    
+    /// Appends a new char to the Font
+    /// - Parameters:
+    ///   - ascii: the ASCII character to be inserted, for instance "A"
+    ///   - char: an instance of `SFKChar` that contains the text-based design of that Character
+    /// - called twice for same `ascii` character overwrites previous design
     public mutating func appendChar(for ascii: Character, char: SFKChar) {
                     
         self.fkChar[ascii] = char
@@ -27,23 +38,56 @@ public struct SFKFont {
 
 public extension SFKFont {
     
+    /// Loads a Figlet fornt file and returns a fully loaded, ready to use `SFKFont` object
+    /// - Parameter file: font file name path including extension
     static func from(file: String) -> SFKFont {
 
         func extractHeaderFigletFontInfo(header: String, fileLines: [Substring]) -> (separator: Character, space: Character){
+            
+            /*
+             From: http://www.jave.de/docs/figfont.txt
+             
+             THE HEADER LINE
+
+             The header line gives information about the FIGfont.  Here is an example
+             showing the names of all parameters:
+
+                       flf2a$ 6 5 20 15 3 0 143 229    NOTE: The first five characters in
+                         |  | | | |  |  | |  |   |     the entire file must be "flf2a".
+                        /  /  | | |  |  | |  |   \
+               Signature  /  /  | |  |  | |   \   Codetag_Count
+                 Hardblank  /  /  |  |  |  \   Full_Layout*
+                      Height  /   |  |   \  Print_Direction
+                      Baseline   /    \   Comment_Lines
+                       Max_Length      Old_Layout*
+
+               * The two layout parameters are closely related and fairly complex.
+                   (See "INTERPRETATION OF LAYOUT PARAMETERS".)
+             */
+            
             print(header)
             
             let start = "flf2a"
             
             let headerParts = header.components(separatedBy: " ")
-            guard headerParts[0].starts(with: start) else { return (Character(""), Character("")) }
+            guard
+                !headerParts.isEmpty,
+                headerParts[0].starts(with: start)
+            else { return (Character(""), Character("")) }
             
+            // last character in start of header "flf2a$" is the hard blank character, in this case $
             let space = headerParts[0].last ?? "$"
+            
+            // number of comment lines
             let commentLines = headerParts[5]
             
+            // line terminator for characters
             let terminator: Character
             if let lineNumber = Int(commentLines) {
+                
                 terminator = fileLines[lineNumber + 1].last ?? "@"
             } else {
+                
                 terminator = "@"
             }
             
@@ -55,6 +99,7 @@ public extension SFKFont {
         let dir = FileManager.default.currentDirectoryPath
         let fileURL = URL(fileURLWithPath: dir.appending("/").appending(file))
         do {
+            
             var nextASCIIChar = 32
             let text = try String(contentsOf: fileURL, encoding: .utf8)
             let lines = text.split(separator: "\n")
@@ -72,12 +117,11 @@ public extension SFKFont {
                     nextASCIIChar = nextASCIIChar + 1
                     arrayLines = []
                 } else if line.last == headerInfo.separator {
+                    
                     arrayLines.append(String(line.dropLast().replacingOccurrences(of: String(headerInfo.space), with: " ")))
                 }
             }
-//            print(text)
-        }
-        catch {
+        } catch {
             
             /* error handling here */
             print(error)
