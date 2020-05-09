@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		990CE6282465CC6800E23460 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990CE6272465CC6800E23460 /* main.swift */; };
+		99BF8095246613110022B01E /* SwiftFigletKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BF8094246613110022B01E /* SwiftFigletKit.swift */; };
+		99BF80A3246617100022B01E /* starwars.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 99BF80A2246616F90022B01E /* starwars.flf */; };
+		99BF80A5246627990022B01E /* computer.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 99BF80A4246627640022B01E /* computer.flf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		990CE66D2465D45F00E23460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990CE65D2465D45F00E23460 /* SwiftFigletKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "SwiftFigletKit::SwiftFigletKit::Product";
+			remoteInfo = SwiftFigletKit;
+		};
+		990CE6712465D55B00E23460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990CE65D2465D45F00E23460 /* SwiftFigletKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftFigletKit::SwiftFigletKit";
+			remoteInfo = SwiftFigletKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		990CE6222465CC6800E23460 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = fonts;
+			dstSubfolderSpec = 16;
+			files = (
+				99BF80A3246617100022B01E /* starwars.flf in CopyFiles */,
+				99BF80A5246627990022B01E /* computer.flf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		990CE6242465CC6800E23460 /* SwiftFiglet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftFiglet; sourceTree = BUILT_PRODUCTS_DIR; };
+		990CE6272465CC6800E23460 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		990CE6562465D43800E23460 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
+		990CE65C2465D45F00E23460 /* manifest.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = manifest.db; sourceTree = "<group>"; };
+		990CE65D2465D45F00E23460 /* SwiftFigletKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SwiftFigletKit.xcodeproj; sourceTree = "<group>"; };
+		990CE6612465D45F00E23460 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
+		990CE6632465D45F00E23460 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		990CE6642465D45F00E23460 /* SwiftFigletKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFigletKitTests.swift; sourceTree = "<group>"; };
+		990CE6672465D45F00E23460 /* SwiftFigletKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFigletKit.swift; sourceTree = "<group>"; };
+		990CE6682465D45F00E23460 /* String+SFKFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+SFKFont.swift"; sourceTree = "<group>"; };
+		99BF8092246613110022B01E /* SwiftFigletKit.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFigletKit.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99BF8094246613110022B01E /* SwiftFigletKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFigletKit.swift; sourceTree = "<group>"; };
+		99BF8096246613110022B01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99BF80A2246616F90022B01E /* starwars.flf */ = {isa = PBXFileReference; lastKnownFileType = text; path = starwars.flf; sourceTree = "<group>"; };
+		99BF80A4246627640022B01E /* computer.flf */ = {isa = PBXFileReference; lastKnownFileType = text; path = computer.flf; sourceTree = "<group>"; };
+		99EFEE842465EDB5008C37FE /* SFKFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFKFont.swift; sourceTree = "<group>"; };
+		99EFEE892465EDC0008C37FE /* SFKChar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFKChar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		990CE6212465CC6800E23460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BF808F246613110022B01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		990CE61B2465CC6800E23460 = {
+			isa = PBXGroup;
+			children = (
+				990CE6562465D43800E23460 /* Package.swift */,
+				990CE6582465D45F00E23460 /* SwiftFigletKit */,
+				990CE6262465CC6800E23460 /* SwiftFiglet */,
+				99BF8093246613110022B01E /* SwiftFigletKit */,
+				990CE6252465CC6800E23460 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		990CE6252465CC6800E23460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				990CE6242465CC6800E23460 /* SwiftFiglet */,
+				99BF8092246613110022B01E /* SwiftFigletKit.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		990CE6262465CC6800E23460 /* SwiftFiglet */ = {
+			isa = PBXGroup;
+			children = (
+				99BF80A1246616D10022B01E /* fonts */,
+				990CE6272465CC6800E23460 /* main.swift */,
+			);
+			path = SwiftFiglet;
+			sourceTree = "<group>";
+		};
+		990CE6582465D45F00E23460 /* SwiftFigletKit */ = {
+			isa = PBXGroup;
+			children = (
+				990CE6592465D45F00E23460 /* .build */,
+				990CE65D2465D45F00E23460 /* SwiftFigletKit.xcodeproj */,
+				990CE6602465D45F00E23460 /* Tests */,
+				990CE6652465D45F00E23460 /* Sources */,
+			);
+			name = SwiftFigletKit;
+			path = ../SwiftFigletKit;
+			sourceTree = "<group>";
+		};
+		990CE6592465D45F00E23460 /* .build */ = {
+			isa = PBXGroup;
+			children = (
+				990CE65A2465D45F00E23460 /* checkouts */,
+				990CE65B2465D45F00E23460 /* repositories */,
+				990CE65C2465D45F00E23460 /* manifest.db */,
+			);
+			path = .build;
+			sourceTree = "<group>";
+		};
+		990CE65A2465D45F00E23460 /* checkouts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = checkouts;
+			sourceTree = "<group>";
+		};
+		990CE65B2465D45F00E23460 /* repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = repositories;
+			sourceTree = "<group>";
+		};
+		990CE65E2465D45F00E23460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				990CE66E2465D45F00E23460 /* SwiftFigletKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		990CE6602465D45F00E23460 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				990CE6612465D45F00E23460 /* LinuxMain.swift */,
+				990CE6622465D45F00E23460 /* SwiftFigletKitTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		990CE6622465D45F00E23460 /* SwiftFigletKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				990CE6632465D45F00E23460 /* XCTestManifests.swift */,
+				990CE6642465D45F00E23460 /* SwiftFigletKitTests.swift */,
+			);
+			path = SwiftFigletKitTests;
+			sourceTree = "<group>";
+		};
+		990CE6652465D45F00E23460 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				990CE6662465D45F00E23460 /* SwiftFigletKit */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		990CE6662465D45F00E23460 /* SwiftFigletKit */ = {
+			isa = PBXGroup;
+			children = (
+				990CE6672465D45F00E23460 /* SwiftFigletKit.swift */,
+				990CE6682465D45F00E23460 /* String+SFKFont.swift */,
+				99EFEE842465EDB5008C37FE /* SFKFont.swift */,
+				99EFEE892465EDC0008C37FE /* SFKChar.swift */,
+			);
+			path = SwiftFigletKit;
+			sourceTree = "<group>";
+		};
+		99BF8093246613110022B01E /* SwiftFigletKit */ = {
+			isa = PBXGroup;
+			children = (
+				99BF8094246613110022B01E /* SwiftFigletKit.swift */,
+				99BF8096246613110022B01E /* Info.plist */,
+			);
+			path = SwiftFigletKit;
+			sourceTree = "<group>";
+		};
+		99BF80A1246616D10022B01E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				99BF80A2246616F90022B01E /* starwars.flf */,
+				99BF80A4246627640022B01E /* computer.flf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		990CE6232465CC6800E23460 /* SwiftFiglet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990CE62B2465CC6800E23460 /* Build configuration list for PBXNativeTarget "SwiftFiglet" */;
+			buildPhases = (
+				990CE6202465CC6800E23460 /* Sources */,
+				990CE6212465CC6800E23460 /* Frameworks */,
+				990CE6222465CC6800E23460 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				990CE6722465D55B00E23460 /* PBXTargetDependency */,
+			);
+			name = SwiftFiglet;
+			packageProductDependencies = (
+			);
+			productName = SwiftFiglet;
+			productReference = 990CE6242465CC6800E23460 /* SwiftFiglet */;
+			productType = "com.apple.product-type.tool";
+		};
+		99BF8091246613110022B01E /* SwiftFigletKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99BF809C246613110022B01E /* Build configuration list for PBXNativeTarget "SwiftFigletKit" */;
+			buildPhases = (
+				99BF808E246613110022B01E /* Sources */,
+				99BF808F246613110022B01E /* Frameworks */,
+				99BF8090246613110022B01E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftFigletKit;
+			productName = SwiftFigletKit;
+			productReference = 99BF8092246613110022B01E /* SwiftFigletKit.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		990CE61C2465CC6800E23460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Diego Freniche Brito";
+				TargetAttributes = {
+					990CE6232465CC6800E23460 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					99BF8091246613110022B01E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 990CE61F2465CC6800E23460 /* Build configuration list for PBXProject "SwiftFiglet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 990CE61B2465CC6800E23460;
+			packageReferences = (
+			);
+			productRefGroup = 990CE6252465CC6800E23460 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 990CE65E2465D45F00E23460 /* Products */;
+					ProjectRef = 990CE65D2465D45F00E23460 /* SwiftFigletKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				990CE6232465CC6800E23460 /* SwiftFiglet */,
+				99BF8091246613110022B01E /* SwiftFigletKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		990CE66E2465D45F00E23460 /* SwiftFigletKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftFigletKit.framework;
+			remoteRef = 990CE66D2465D45F00E23460 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99BF8090246613110022B01E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		990CE6202465CC6800E23460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990CE6282465CC6800E23460 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BF808E246613110022B01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99BF8095246613110022B01E /* SwiftFigletKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		990CE6722465D55B00E23460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftFigletKit;
+			targetProxy = 990CE6712465D55B00E23460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		990CE6292465CC6800E23460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		990CE62A2465CC6800E23460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		990CE62C2465CC6800E23460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 722SF2V9RH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		990CE62D2465CC6800E23460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 722SF2V9RH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		99BF8097246613110022B01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 722SF2V9RH;
+				INFOPLIST_FILE = SwiftFigletKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freniche.swiftfiglet.SwiftFigletKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		99BF8098246613110022B01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 722SF2V9RH;
+				INFOPLIST_FILE = SwiftFigletKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freniche.swiftfiglet.SwiftFigletKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		990CE61F2465CC6800E23460 /* Build configuration list for PBXProject "SwiftFiglet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990CE6292465CC6800E23460 /* Debug */,
+				990CE62A2465CC6800E23460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990CE62B2465CC6800E23460 /* Build configuration list for PBXNativeTarget "SwiftFiglet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990CE62C2465CC6800E23460 /* Debug */,
+				990CE62D2465CC6800E23460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99BF809C246613110022B01E /* Build configuration list for PBXNativeTarget "SwiftFigletKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99BF8097246613110022B01E /* Debug */,
+				99BF8098246613110022B01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 990CE61C2465CC6800E23460 /* Project object */;
+}
