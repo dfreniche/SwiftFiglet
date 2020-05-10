@@ -26,7 +26,6 @@
 		9968D64D2466735B004009CF /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
 		99BF808B246612450022B01E /* SFKFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BF8089246612450022B01E /* SFKFont.swift */; };
 		99BF808C246612450022B01E /* SFKChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BF808A246612450022B01E /* SFKChar.swift */; };
-		OBJ_22 /* SwiftFigletKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SwiftFigletKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		99BF808A246612450022B01E /* SFKChar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFKChar.swift; sourceTree = "<group>"; };
 		OBJ_12 /* SwiftFigletKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFigletKitTests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
-		OBJ_9 /* SwiftFigletKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFigletKit.swift; sourceTree = "<group>"; };
 		"SwiftFigletKit::SwiftFigletKit::Product" /* SwiftFigletKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftFigletKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -122,7 +120,6 @@
 			children = (
 				99BF808A246612450022B01E /* SFKChar.swift */,
 				99BF8089246612450022B01E /* SFKFont.swift */,
-				OBJ_9 /* SwiftFigletKit.swift */,
 				9968D62D2466707F004009CF /* String+SFKFont.swift */,
 			);
 			name = SwiftFigletKit;
@@ -246,7 +243,6 @@
 			files = (
 				99BF808B246612450022B01E /* SFKFont.swift in Sources */,
 				99BF808C246612450022B01E /* SFKChar.swift in Sources */,
-				OBJ_22 /* SwiftFigletKit.swift in Sources */,
 				9968D62E2466707F004009CF /* String+SFKFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

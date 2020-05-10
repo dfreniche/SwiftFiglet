@@ -17,7 +17,8 @@ public extension String {
         for i in 0...font.height - 1 {
             for c in self {
                 
-                if let fontCharacter = font.fkChar[c] {
+                if let fontCharacter = font.fkChar[c],
+                   i < fontCharacter.lines.count {
                     
                     Swift.print(fontCharacter.lines[i], separator: "", terminator: "")
                 } else {

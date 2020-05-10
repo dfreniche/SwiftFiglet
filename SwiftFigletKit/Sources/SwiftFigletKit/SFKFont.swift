@@ -42,7 +42,7 @@ public extension SFKFont {
     /// - Parameter file: font file name path including extension
     static func from(file: String) -> SFKFont {
 
-        func extractHeaderFigletFontInfo(header: String, fileLines: [Substring]) -> (separator: Character, space: Character){
+        func extractHeaderFigletFontInfo(header: String, fileLines: [Substring]) -> (separator: Character, space: Character, fontHeight: Int){
             
             /*
              From: http://www.jave.de/docs/figfont.txt
@@ -73,7 +73,7 @@ public extension SFKFont {
             guard
                 !headerParts.isEmpty,
                 headerParts[0].starts(with: start)
-            else { return (Character(""), Character("")) }
+            else { return (Character(""), Character(""), 0) }
             
             // last character in start of header "flf2a$" is the hard blank character, in this case $
             let space = headerParts[0].last ?? "$"
@@ -91,7 +91,10 @@ public extension SFKFont {
                 terminator = "@"
             }
             
-            return (terminator, space)
+            // font height
+            let fontHeight = Int(headerParts[1]) ?? 0
+            
+            return (terminator, space, fontHeight)
         }
         
         var font = SFKFont()
@@ -101,8 +104,12 @@ public extension SFKFont {
         do {
             
             var nextASCIIChar = 32
-            let text = try String(contentsOf: fileURL, encoding: .utf8)
-            let lines = text.split(separator: "\n")
+            // opening file with ASCII encoding
+            let text = try String(contentsOf: fileURL, encoding: .ascii)
+            var lines = text.split(separator: "\n")
+            if lines.count == 1 {
+                lines = text.split(separator: "\r\n")
+            }
             var arrayLines: [String] = []
             
             let headerInfo = extractHeaderFigletFontInfo(header: String(lines[0]), fileLines: lines)
@@ -121,6 +128,8 @@ public extension SFKFont {
                     arrayLines.append(String(line.dropLast().replacingOccurrences(of: String(headerInfo.space), with: " ")))
                 }
             }
+            
+            font.height = headerInfo.fontHeight
         } catch {
             
             /* error handling here */

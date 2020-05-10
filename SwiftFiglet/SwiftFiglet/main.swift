@@ -26,7 +26,8 @@ let font = SFKFont.from(file: "fonts/starwars.flf")
 "is".print(withFigletFont: font)
 "magic".print(withFigletFont: font)
 
-let computerFont = SFKFont.from(file: "fonts/computer.flf")
+let computerFont = SFKFont.from(file: "fonts/Big-Money-ne.flf")
 
 
-"computer".print(withFigletFont: computerFont)
+"LA".print(withFigletFont: computerFont)
+"GAFAS".print(withFigletFont: computerFont)
