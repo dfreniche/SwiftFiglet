@@ -23,7 +23,6 @@ public struct SFKFont {
         self.fkChar = [Character : SFKChar]()
     }
     
-    
     /// Appends a new char to the Font
     /// - Parameters:
     ///   - ascii: the ASCII character to be inserted, for instance "A"
@@ -38,102 +37,62 @@ public struct SFKFont {
 
 public extension SFKFont {
     
-    /// Loads a Figlet fornt file and returns a fully loaded, ready to use `SFKFont` object
+    /// Loads a Figlet font file and returns a fully loaded, ready to use `SFKFont` object
+    /// - Parameter url: URL to the font file
+    static func from(url: URL) -> SFKFont? {
+    
+        guard let figletFile = SFKFigletFile.from(url:  url)
+        else { return nil }
+        
+        return from(file: figletFile)
+    }
+    
+    /// Loads a Figlet font file and returns a fully loaded, ready to use `SFKFont` object
     /// - Parameter file: font file name path including extension
-    static func from(file: String) -> SFKFont {
-
-        func extractHeaderFigletFontInfo(header: String, fileLines: [Substring]) -> (separator: Character, space: Character, fontHeight: Int){
-            
-            /*
-             From: http://www.jave.de/docs/figfont.txt
-             
-             THE HEADER LINE
-
-             The header line gives information about the FIGfont.  Here is an example
-             showing the names of all parameters:
-
-                       flf2a$ 6 5 20 15 3 0 143 229    NOTE: The first five characters in
-                         |  | | | |  |  | |  |   |     the entire file must be "flf2a".
-                        /  /  | | |  |  | |  |   \
-               Signature  /  /  | |  |  | |   \   Codetag_Count
-                 Hardblank  /  /  |  |  |  \   Full_Layout*
-                      Height  /   |  |   \  Print_Direction
-                      Baseline   /    \   Comment_Lines
-                       Max_Length      Old_Layout*
-
-               * The two layout parameters are closely related and fairly complex.
-                   (See "INTERPRETATION OF LAYOUT PARAMETERS".)
-             */
-            
-            print(header)
-            
-            let start = "flf2a"
-            
-            let headerParts = header.components(separatedBy: " ")
-            guard
-                !headerParts.isEmpty,
-                headerParts[0].starts(with: start)
-            else { return (Character(""), Character(""), 0) }
-            
-            // last character in start of header "flf2a$" is the hard blank character, in this case $
-            let space = headerParts[0].last ?? "$"
-            
-            // number of comment lines
-            let commentLines = headerParts[5]
-            
-            // line terminator for characters
-            let terminator: Character
-            if let lineNumber = Int(commentLines) {
-                
-                terminator = fileLines[lineNumber + 1].last ?? "@"
-            } else {
-                
-                terminator = "@"
-            }
-            
-            // font height
-            let fontHeight = Int(headerParts[1]) ?? 0
-            
-            return (terminator, space, fontHeight)
-        }
+    static func from(file: String) -> SFKFont? {
+        
+        guard let figletFile = SFKFigletFile.from(file: file)
+        else { return nil }
+        
+        return from(file: figletFile)
+    }
+    
+    static func from(file figletFile: SFKFigletFile) -> SFKFont? {
         
         var font = SFKFont()
 
-        let dir = FileManager.default.currentDirectoryPath
-        let fileURL = URL(fileURLWithPath: dir.appending("/").appending(file))
-        do {
-            
-            var nextASCIIChar = 32
-            // opening file with ASCII encoding
-            let text = try String(contentsOf: fileURL, encoding: .ascii)
-            var lines = text.split(separator: "\n")
-            if lines.count == 1 {
-                lines = text.split(separator: "\r\n")
-            }
-            var arrayLines: [String] = []
-            
-            let headerInfo = extractHeaderFigletFontInfo(header: String(lines[0]), fileLines: lines)
-            
-            for line in lines {
-                
-                if line.last == headerInfo.separator && line.dropLast().last == headerInfo.separator {
-                    
-                    let char = SFKChar(charLines: arrayLines)
-                    font.appendChar(for: Character(UnicodeScalar(nextASCIIChar) ?? " "), char: char)
+        font.height = figletFile.header.height
 
-                    nextASCIIChar = nextASCIIChar + 1
-                    arrayLines = []
-                } else if line.last == headerInfo.separator {
-                    
-                    arrayLines.append(String(line.dropLast().replacingOccurrences(of: String(headerInfo.space), with: " ")))
-                }
+        var nextASCIIChar = 32 // 32 is Space
+           
+//        let separator = figletFile.characterLineTerminator()
+        
+        var arrayLines: [String] = []
+
+        for line in figletFile.lines {
+            
+            let fontLine: Substring
+            
+            if arrayLines.count < font.height - 1 {
+
+                // remove last @
+                fontLine = line.dropLast()
+            } else {
+            
+                // remove last @@
+                fontLine = line.dropLast().dropLast()
             }
+            arrayLines.append(String(fontLine.replacingOccurrences(of: String(figletFile.header.hardBlank), with: " ")))
             
-            font.height = headerInfo.fontHeight
-        } catch {
-            
-            /* error handling here */
-            print(error)
+            // last line
+            if arrayLines.count == font.height {
+                                
+                let char = SFKChar(charLines: arrayLines)
+                font.appendChar(for: Character(UnicodeScalar(nextASCIIChar) ?? " "), char: char)
+
+                nextASCIIChar = nextASCIIChar + 1
+                arrayLines = []
+            }
         }
         
         return font
