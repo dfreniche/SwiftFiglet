@@ -17,6 +17,10 @@ let font = SFKFont.from(file: "fonts/starwars.flf")
 
 Once loaded, 
 
+## TODO
+
+- [ ] Add support for lines adding Unicode character to be loaded, like  `196  LATIN CAPITAL LETTER A WITH DIAERESIS`, see Banner.flf
+
 ## Fonts
 
 I've used the Figlet fonts from [xero's](https://github.com/xero/figlet-fonts) repo
