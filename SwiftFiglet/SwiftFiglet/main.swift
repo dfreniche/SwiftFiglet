@@ -8,26 +8,28 @@
 
 import Foundation
 import SwiftFigletKit
+import Files
 
 //print("Hello, World!".printWithFont(font: FKFont()))
 
-let font = SFKFont.from(file: "fonts/starwars.flf")
-
-//let a = [
-//"     ___  $   ",
-//"    /   \\ $   ",
-//"   /  ^  \\$   ",
-//"  /  /_\\  \\$  ",
-//" /  _____  \\$ ",
-//"/__/     \\__\\$",
-//"             $"]
-//font.appendChar(for: "a", char: SFKChar(charLines: a))
-"this".print(withFigletFont: font)
-"is".print(withFigletFont: font)
-"magic".print(withFigletFont: font)
-
-let computerFont = SFKFont.from(file: "fonts/Big-Money-ne.flf")
+if let font = SFKFont.from(file: "fonts/starwars.flf") {
+    
+    Banner.print(string: "this", withFigletFont: font)
+}
 
 
-"LA".print(withFigletFont: computerFont)
-"GAFAS".print(withFigletFont: computerFont)
+if let computerFont = SFKFont.from(file: "fonts/Big-Money-ne.flf") {
+    
+    Banner.print(string: "Hello", withFigletFont: computerFont)
+    Banner.print(string: "World", withFigletFont: computerFont)
+}
+
+
+try Folder(path: "fonts").files.enumerated().forEach { (index, file) in
+    print("* index: \(index) file: \(file.name)")
+    
+    if let font = SFKFont.from(file: "fonts/" + file.name) {
+        
+        Banner.print(string: "ABCDE-012345", withFigletFont: font)
+    }
+}

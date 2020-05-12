@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -399,6 +399,7 @@
 		9968D80024668599004009CF /* Thorned.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D47924666F68004009CF /* Thorned.flf */; };
 		9968D80124668599004009CF /* SL Script.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D47A24666F68004009CF /* SL Script.flf */; };
 		9968D80324668599004009CF /* Banner.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D47C24666F68004009CF /* Banner.flf */; };
+		99800A08246A9EE1004C7546 /* Files in Frameworks */ = {isa = PBXBuildFile; productRef = 99800A07246A9EE1004C7546 /* Files */; };
 		99BF8095246613110022B01E /* SwiftFigletKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BF8094246613110022B01E /* SwiftFigletKit.swift */; };
 /* End PBXBuildFile section */
 
@@ -1243,6 +1244,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99800A08246A9EE1004C7546 /* Files in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1792,6 +1794,7 @@
 			);
 			name = SwiftFiglet;
 			packageProductDependencies = (
+				99800A07246A9EE1004C7546 /* Files */,
 			);
 			productName = SwiftFiglet;
 			productReference = 990CE6242465CC6800E23460 /* SwiftFiglet */;
@@ -1842,6 +1845,7 @@
 			);
 			mainGroup = 990CE61B2465CC6800E23460;
 			packageReferences = (
+				99800A06246A9EE1004C7546 /* XCRemoteSwiftPackageReference "Files" */,
 			);
 			productRefGroup = 990CE6252465CC6800E23460 /* Products */;
 			projectDirPath = "";
@@ -2118,6 +2122,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		99800A06246A9EE1004C7546 /* XCRemoteSwiftPackageReference "Files" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JohnSundell/Files";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		99800A07246A9EE1004C7546 /* Files */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99800A06246A9EE1004C7546 /* XCRemoteSwiftPackageReference "Files" */;
+			productName = Files;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 990CE61C2465CC6800E23460 /* Project object */;
 }
