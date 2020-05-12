@@ -22,12 +22,13 @@
 /* Begin PBXBuildFile section */
 		994D0B2724680AD4006BAFEC /* SFKFigletFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D0B2624680AD4006BAFEC /* SFKFigletFile.swift */; };
 		994D0B2A24681275006BAFEC /* SFKFigletFileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D0B2824681179006BAFEC /* SFKFigletFileTests.swift */; };
-		994E7DF32468607200A944B6 /* Broadway.flf in Resources */ = {isa = PBXBuildFile; fileRef = 994E7DF22468607200A944B6 /* Broadway.flf */; };
 		994E7DF5246866A800A944B6 /* SFKFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E7DF4246866A800A944B6 /* SFKFontTests.swift */; };
-		9968D62E2466707F004009CF /* String+SFKFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9968D62D2466707F004009CF /* String+SFKFont.swift */; };
+		9968D62E2466707F004009CF /* SFKBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9968D62D2466707F004009CF /* SFKBanner.swift */; };
 		9968D64624667322004009CF /* SwiftFigletKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftFigletKit::SwiftFigletKit::Product" /* SwiftFigletKit.framework */; };
 		9968D64C2466735B004009CF /* SwiftFigletKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* SwiftFigletKitTests.swift */; };
 		9968D64D2466735B004009CF /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
+		99800A11246AC1DC004C7546 /* Wow.flf in Resources */ = {isa = PBXBuildFile; fileRef = 99800A0F246AC1DC004C7546 /* Wow.flf */; };
+		99800A12246AC1DC004C7546 /* Broadway.flf in Resources */ = {isa = PBXBuildFile; fileRef = 99800A10246AC1DC004C7546 /* Broadway.flf */; };
 		99BF808B246612450022B01E /* SFKFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BF8089246612450022B01E /* SFKFont.swift */; };
 		99BF808C246612450022B01E /* SFKChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BF808A246612450022B01E /* SFKChar.swift */; };
 /* End PBXBuildFile section */
@@ -47,10 +48,11 @@
 		990CE6312465D02C00E23460 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		994D0B2624680AD4006BAFEC /* SFKFigletFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFKFigletFile.swift; sourceTree = "<group>"; };
 		994D0B2824681179006BAFEC /* SFKFigletFileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFKFigletFileTests.swift; sourceTree = "<group>"; };
-		994E7DF22468607200A944B6 /* Broadway.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Broadway.flf; sourceTree = "<group>"; };
 		994E7DF4246866A800A944B6 /* SFKFontTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFKFontTests.swift; sourceTree = "<group>"; };
-		9968D62D2466707F004009CF /* String+SFKFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+SFKFont.swift"; sourceTree = "<group>"; };
+		9968D62D2466707F004009CF /* SFKBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFKBanner.swift; sourceTree = "<group>"; };
 		9968D64124667322004009CF /* SwiftFigletKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFigletKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99800A0F246AC1DC004C7546 /* Wow.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Wow.flf; sourceTree = "<group>"; };
+		99800A10246AC1DC004C7546 /* Broadway.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Broadway.flf; sourceTree = "<group>"; };
 		99BF8089246612450022B01E /* SFKFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFKFont.swift; sourceTree = "<group>"; };
 		99BF808A246612450022B01E /* SFKChar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFKChar.swift; sourceTree = "<group>"; };
 		OBJ_12 /* SwiftFigletKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFigletKitTests.swift; sourceTree = "<group>"; };
@@ -77,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99800A0E246AC1DC004C7546 /* testFonts */ = {
+			isa = PBXGroup;
+			children = (
+				99800A0F246AC1DC004C7546 /* Wow.flf */,
+				99800A10246AC1DC004C7546 /* Broadway.flf */,
+			);
+			path = testFonts;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,7 +99,7 @@
 		OBJ_11 /* SwiftFigletKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				994E7DF22468607200A944B6 /* Broadway.flf */,
+				99800A0E246AC1DC004C7546 /* testFonts */,
 				OBJ_12 /* SwiftFigletKitTests.swift */,
 				994D0B2824681179006BAFEC /* SFKFigletFileTests.swift */,
 				994E7DF4246866A800A944B6 /* SFKFontTests.swift */,
@@ -131,7 +142,7 @@
 			children = (
 				99BF808A246612450022B01E /* SFKChar.swift */,
 				99BF8089246612450022B01E /* SFKFont.swift */,
-				9968D62D2466707F004009CF /* String+SFKFont.swift */,
+				9968D62D2466707F004009CF /* SFKBanner.swift */,
 				994D0B2624680AD4006BAFEC /* SFKFigletFile.swift */,
 			);
 			name = SwiftFigletKit;
@@ -234,7 +245,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				994E7DF32468607200A944B6 /* Broadway.flf in Resources */,
+				99800A11246AC1DC004C7546 /* Wow.flf in Resources */,
+				99800A12246AC1DC004C7546 /* Broadway.flf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +271,7 @@
 				99BF808B246612450022B01E /* SFKFont.swift in Sources */,
 				994D0B2724680AD4006BAFEC /* SFKFigletFile.swift in Sources */,
 				99BF808C246612450022B01E /* SFKChar.swift in Sources */,
-				9968D62E2466707F004009CF /* String+SFKFont.swift in Sources */,
+				9968D62E2466707F004009CF /* SFKBanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

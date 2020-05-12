@@ -8,14 +8,16 @@
 import Foundation
 import Swift
 
-public extension String {
+
+/// Makes easy to print text banner messages using a SFKFigletFont
+public struct SFKBanner {
    
-    func print(withFigletFont font: SFKFont) {
+    public static func print(string: String, withFigletFont font: SFKFont) {
         
         guard font.height > 0 else { return }
         
         for i in 0...font.height - 1 {
-            for c in self {
+            for c in string {
                 
                 if let fontCharacter = font.fkChar[c],
                    i < fontCharacter.lines.count {
@@ -23,7 +25,7 @@ public extension String {
                     Swift.print(fontCharacter.lines[i], separator: "", terminator: "")
                 } else {
                     
-//                    Swift.print("\(c)")
+                    // Swift.print("\(c)")
                 }
             }
             Swift.print("")
