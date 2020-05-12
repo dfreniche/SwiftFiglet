@@ -63,9 +63,7 @@ public struct SFKFigletFile {
         /// Returns a Header from String passed. If can't create it bacause `from` does not follow Figlet header format, returns `nil`
         /// - Parameter header: first line from a Figlet font file
         public static func createFigletFontHeader(from header: String) -> Header? {
-            
-            print(header)
-            
+                        
             let headerParts = header.components(separatedBy: " ")
             guard
                 !headerParts.isEmpty,
@@ -136,11 +134,18 @@ public struct SFKFigletFile {
             // omittingEmptySubsequences is `false` to not lose empty lines added
             // as vertical spaces
             var lines = text.split(separator: CRLF.UnixStyle.rawValue, omittingEmptySubsequences: false)
-            if lines.count == 1 {
+            var finalLines: [Substring] = []
+            for line in lines {
                 
-                // if this fails we try Windows line terminator style
-                lines = text.split(separator: CRLF.WindowsStyle.rawValue, omittingEmptySubsequences: false)
+                // we try to split each line using Windows line terminator style
+                // some font files have mixed line endings
+                let splittedLine = line.split(separator: CRLF.WindowsStyle.rawValue, omittingEmptySubsequences: false)
+                for sl in splittedLine {
+                    
+                    finalLines.append(sl)
+                }
             }
+            lines = finalLines
             
             if let header = Header.createFigletFontHeader(from: String(lines.first ?? "")) {
             

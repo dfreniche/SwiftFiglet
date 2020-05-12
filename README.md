@@ -19,7 +19,11 @@ Once loaded,
 
 ## TODO
 
-- [ ] Add support for lines adding Unicode character to be loaded, like  `196  LATIN CAPITAL LETTER A WITH DIAERESIS`, see Banner.flf
+- [ ] Finish this README 😅
+- [ ] Add Swift Figlet File property as optional after loading a `SFKFont` from disk
+- [  ] Add support for lines adding Unicode character to be loaded, like  `196  LATIN CAPITAL LETTER A WITH DIAERESIS`, see Banner.flf
+- [x] test font Wow.flf with mixed line endings (`CR/LF` and `CR`)
+
 
 ## Fonts
 
