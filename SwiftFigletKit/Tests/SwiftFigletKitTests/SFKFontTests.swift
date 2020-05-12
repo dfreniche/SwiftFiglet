@@ -27,7 +27,7 @@ final class SFKFontTests: XCTestCase {
 
         let thisSourceFile = URL(fileURLWithPath: #file)
         let thisDirectory = thisSourceFile.deletingLastPathComponent()
-        let resourceURL = thisDirectory.appendingPathComponent("Broadway.flf")
+        let resourceURL = thisDirectory.appendingPathComponent("testFonts/Broadway.flf")
         
         let font = SFKFont.from(url: resourceURL)
         XCTAssertEqual(font!.height, 11)
