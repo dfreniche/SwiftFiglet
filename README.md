@@ -15,7 +15,7 @@ A simple library to read and display [banner](https://en.wikipedia.org/wiki/Bann
 ## Installation
 
 - Add FigletKit to your project using Swift Package Manager. From Xcode add this repo as a package.
-- Or clone this repo and copy over the required three files: `SFKFont`, `SFKChar`, `SFKBanner` and `SFKFigletFile`
+- Or clone this repo and copy over the required four files: `SFKFont`, `SFKChar`, `SFKBanner` and `SFKFigletFile`
 
 ## Limitations
 
@@ -40,7 +40,7 @@ let font = SFKFont.from(file: "fonts/starwars.flf")
 print(string: "Swift Figlet Kit", usingFont: font)
 ```
 
-- No step 3. I told you it was a simple library
+- No step 3. Told you it was a simple library 😅
 
 ## TODO
 
