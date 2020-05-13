@@ -33,4 +33,16 @@ final class SFKFontTests: XCTestCase {
         XCTAssertEqual(font!.height, 11)
         XCTAssertEqual(font!.fkChar["A"]?.lines, A)
     }
+    
+    func test_Given_FontFile_Font_ContainsFigletFontFile() {
+
+        let thisSourceFile = URL(fileURLWithPath: #file)
+        let thisDirectory = thisSourceFile.deletingLastPathComponent()
+        let resourceURL = thisDirectory.appendingPathComponent("testFonts/Broadway.flf")
+        
+        let font = SFKFont.from(url: resourceURL)
+        XCTAssertNotNil(font!.figletFile)
+        XCTAssertEqual(font!.figletFile?.header.commentLines, 29)
+        XCTAssertEqual(font!.figletFile?.header.hardBlank, "$")
+    }
 }

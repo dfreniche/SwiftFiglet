@@ -25,6 +25,15 @@ public struct SFKFont {
     /// all Characters in the font
     /// - new Characters can be added using `appendChar`
     public var fkChar: [Character: SFKChar]
+    
+    private var _figletFile:SFKFigletFile?
+    public var figletFile: SFKFigletFile? {
+        
+        get {
+            
+            _figletFile
+        }
+    }
 
     public init() {
         
@@ -65,10 +74,12 @@ public extension SFKFont {
         return from(file: figletFile)
     }
     
+    /// Given a Figlet font file already loaded returns a ready to use `SFKFont` object
     static func from(file figletFile: SFKFigletFile) -> SFKFont? {
         
         var font = SFKFont()
 
+        font._figletFile = figletFile
         font.height = figletFile.header.height
 
         var nextASCIIChar = 32 // 32 is Space
