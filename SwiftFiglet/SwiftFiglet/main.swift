@@ -10,26 +10,20 @@ import Foundation
 import SwiftFigletKit
 import Files
 
-//print("Hello, World!".printWithFont(font: FKFont()))
-
-if let font = SFKFont.from(file: "fonts/starwars.flf") {
+// We can load a Figlet Font just passing in file name
+if let font = SFKFont.from(file: "fonts/Banner.flf") {
     
-    Banner.print(string: "this", withFigletFont: font)
+    // Then we can print using that font
+    SFKBanner.print(string: "Swift Figlet Kit", withFigletFont: font)
 }
 
-
-if let computerFont = SFKFont.from(file: "fonts/Big-Money-ne.flf") {
-    
-    Banner.print(string: "Hello", withFigletFont: computerFont)
-    Banner.print(string: "World", withFigletFont: computerFont)
-}
-
-
+// we'll print "Swift Figlet Kit" using each font in the `fonts` directory
 try Folder(path: "fonts").files.enumerated().forEach { (index, file) in
+
     print("* index: \(index) file: \(file.name)")
-    
+
     if let font = SFKFont.from(file: "fonts/" + file.name) {
-        
-        Banner.print(string: "ABCDE-012345", withFigletFont: font)
+
+        SFKBanner.print(string: "Swift Figlet Kit", withFigletFont: font)
     }
 }
