@@ -12,7 +12,6 @@
 		9968D65524668597004009CF /* Muzzle.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2CE24666F66004009CF /* Muzzle.flf */; };
 		9968D65624668597004009CF /* Computer.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2CF24666F66004009CF /* Computer.flf */; };
 		9968D65824668597004009CF /* Electronic.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2D124666F66004009CF /* Electronic.flf */; };
-		9968D65924668597004009CF /* smblock.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2D224666F66004009CF /* smblock.tlf */; };
 		9968D65B24668597004009CF /* Ghoulish.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2D424666F66004009CF /* Ghoulish.flf */; };
 		9968D65C24668597004009CF /* NT Greek.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2D524666F66004009CF /* NT Greek.flf */; };
 		9968D65D24668597004009CF /* Fire Font-s.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2D624666F66004009CF /* Fire Font-s.flf */; };
@@ -28,11 +27,9 @@
 		9968D66724668597004009CF /* Impossible.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2E024666F66004009CF /* Impossible.flf */; };
 		9968D66824668597004009CF /* Bright.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2E124666F66004009CF /* Bright.flf */; };
 		9968D66924668597004009CF /* Madrid.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2E224666F66004009CF /* Madrid.flf */; };
-		9968D66A24668597004009CF /* mono9.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2E324666F66004009CF /* mono9.tlf */; };
 		9968D66B24668597004009CF /* 3-D.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2E424666F66004009CF /* 3-D.flf */; };
 		9968D66C24668597004009CF /* Benjamin.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2E524666F66004009CF /* Benjamin.flf */; };
 		9968D66D24668597004009CF /* Bloody.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2E624666F66004009CF /* Bloody.flf */; };
-		9968D66F24668597004009CF /* rustofat.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2E824666F66004009CF /* rustofat.tlf */; };
 		9968D67124668597004009CF /* heart_right.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2EA24666F66004009CF /* heart_right.flf */; };
 		9968D67224668597004009CF /* Sub-Zero.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2EB24666F66004009CF /* Sub-Zero.flf */; };
 		9968D67324668597004009CF /* Tiles.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2EC24666F66004009CF /* Tiles.flf */; };
@@ -50,7 +47,6 @@
 		9968D68224668597004009CF /* Nancyj-Fancy.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2FB24666F66004009CF /* Nancyj-Fancy.flf */; };
 		9968D68324668597004009CF /* Mike.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2FC24666F66004009CF /* Mike.flf */; };
 		9968D68424668597004009CF /* THIS.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2FD24666F66004009CF /* THIS.flf */; };
-		9968D68524668597004009CF /* mono12.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2FE24666F66004009CF /* mono12.tlf */; };
 		9968D68624668597004009CF /* Fun Faces.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2FF24666F66004009CF /* Fun Faces.flf */; };
 		9968D68724668597004009CF /* Dancing Font.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30024666F66004009CF /* Dancing Font.flf */; };
 		9968D68824668597004009CF /* DWhistled.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30124666F66004009CF /* DWhistled.flf */; };
@@ -119,7 +115,6 @@
 		9968D6CC24668597004009CF /* Avatar.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34524666F66004009CF /* Avatar.flf */; };
 		9968D6CD24668597004009CF /* Two Point.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34624666F66004009CF /* Two Point.flf */; };
 		9968D6CE24668597004009CF /* defleppard.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34724666F66004009CF /* defleppard.flf */; };
-		9968D6CF24668597004009CF /* emboss2.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34824666F66004009CF /* emboss2.tlf */; };
 		9968D6D124668597004009CF /* amc3liv1.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34A24666F66004009CF /* amc3liv1.flf */; };
 		9968D6D224668597004009CF /* Runyc.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34B24666F66004009CF /* Runyc.flf */; };
 		9968D6D424668597004009CF /* Thick.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34D24666F66004009CF /* Thick.flf */; };
@@ -142,7 +137,6 @@
 		9968D6E724668597004009CF /* Varsity.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36024666F66004009CF /* Varsity.flf */; };
 		9968D6E824668597004009CF /* amcun1.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36124666F66004009CF /* amcun1.flf */; };
 		9968D6EA24668597004009CF /* Soft.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36324666F66004009CF /* Soft.flf */; };
-		9968D6EC24668597004009CF /* smmono12.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36524666F66004009CF /* smmono12.tlf */; };
 		9968D6ED24668597004009CF /* Konto.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36624666F66004009CF /* Konto.flf */; };
 		9968D6EE24668597004009CF /* slscript.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36724666F66004009CF /* slscript.flf */; };
 		9968D6EF24668597004009CF /* Small Poison.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36824666F66004009CF /* Small Poison.flf */; };
@@ -174,24 +168,20 @@
 		9968D70A24668598004009CF /* Italic.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38324666F67004009CF /* Italic.flf */; };
 		9968D70B24668598004009CF /* amctubes.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38424666F67004009CF /* amctubes.flf */; };
 		9968D70C24668598004009CF /* swampland.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38524666F67004009CF /* swampland.flf */; };
-		9968D70D24668598004009CF /* smmono9.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38624666F67004009CF /* smmono9.tlf */; };
 		9968D70E24668598004009CF /* smshadow.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38724666F67004009CF /* smshadow.flf */; };
 		9968D70F24668598004009CF /* Line Blocks.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38824666F67004009CF /* Line Blocks.flf */; };
 		9968D71124668598004009CF /* 3d.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38A24666F67004009CF /* 3d.flf */; };
 		9968D71224668598004009CF /* Whimsy.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38B24666F67004009CF /* Whimsy.flf */; };
 		9968D71324668598004009CF /* Reverse.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38C24666F67004009CF /* Reverse.flf */; };
-		9968D71424668598004009CF /* bigmono9.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38D24666F67004009CF /* bigmono9.tlf */; };
 		9968D71524668598004009CF /* Cursive.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38E24666F67004009CF /* Cursive.flf */; };
 		9968D71624668598004009CF /* amc3line.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38F24666F67004009CF /* amc3line.flf */; };
 		9968D71724668598004009CF /* Larry 3D.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39024666F67004009CF /* Larry 3D.flf */; };
-		9968D71824668598004009CF /* bigascii9.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39124666F67004009CF /* bigascii9.tlf */; };
 		9968D71924668598004009CF /* AMC Razor.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39224666F67004009CF /* AMC Razor.flf */; };
 		9968D71A24668598004009CF /* Binary.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39324666F67004009CF /* Binary.flf */; };
 		9968D71B24668598004009CF /* AMC Slider.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39424666F67004009CF /* AMC Slider.flf */; };
 		9968D71D24668598004009CF /* Mini.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39624666F67004009CF /* Mini.flf */; };
 		9968D71E24668598004009CF /* Rammstein.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39724666F67004009CF /* Rammstein.flf */; };
 		9968D71F24668598004009CF /* amcthin.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39824666F67004009CF /* amcthin.flf */; };
-		9968D72024668598004009CF /* smbraille.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39924666F67004009CF /* smbraille.tlf */; };
 		9968D72124668598004009CF /* Small Script.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39A24666F67004009CF /* Small Script.flf */; };
 		9968D72224668598004009CF /* Isometric4.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39B24666F67004009CF /* Isometric4.flf */; };
 		9968D72324668598004009CF /* sblood.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39C24666F67004009CF /* sblood.flf */; };
@@ -203,11 +193,9 @@
 		9968D72A24668598004009CF /* Diamond.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3A324666F67004009CF /* Diamond.flf */; };
 		9968D72B24668598004009CF /* eftiwall.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3A424666F67004009CF /* eftiwall.flf */; };
 		9968D72C24668598004009CF /* Straight.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3A524666F67004009CF /* Straight.flf */; };
-		9968D72D24668598004009CF /* bigmono12.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3A624666F67004009CF /* bigmono12.tlf */; };
 		9968D72E24668598004009CF /* Delta Corps Priest 1.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3A724666F67004009CF /* Delta Corps Priest 1.flf */; };
 		9968D73024668598004009CF /* Stellar.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3A924666F67004009CF /* Stellar.flf */; };
 		9968D73124668598004009CF /* ANSI Shadow.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3AA24666F67004009CF /* ANSI Shadow.flf */; };
-		9968D73224668598004009CF /* rusto.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3AB24666F67004009CF /* rusto.tlf */; };
 		9968D73324668598004009CF /* Wavy.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3AC24666F67004009CF /* Wavy.flf */; };
 		9968D73424668598004009CF /* Invita.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3AD24666F67004009CF /* Invita.flf */; };
 		9968D73524668598004009CF /* Slant.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3AE24666F67004009CF /* Slant.flf */; };
@@ -220,7 +208,6 @@
 		9968D73D24668598004009CF /* Swan.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3B624666F67004009CF /* Swan.flf */; };
 		9968D73E24668598004009CF /* Contrast.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3B724666F67004009CF /* Contrast.flf */; };
 		9968D73F24668598004009CF /* Cricket.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3B824666F67004009CF /* Cricket.flf */; };
-		9968D74024668598004009CF /* bigascii12.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3B924666F67004009CF /* bigascii12.tlf */; };
 		9968D74124668598004009CF /* Trek.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3BA24666F67004009CF /* Trek.flf */; };
 		9968D74224668598004009CF /* Small Keyboard.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3BB24666F67004009CF /* Small Keyboard.flf */; };
 		9968D74324668598004009CF /* Swamp Land.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3BC24666F67004009CF /* Swamp Land.flf */; };
@@ -230,8 +217,6 @@
 		9968D74724668598004009CF /* Speed.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3C024666F67004009CF /* Speed.flf */; };
 		9968D74824668598004009CF /* calgphy2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3C124666F67004009CF /* calgphy2.flf */; };
 		9968D74A24668598004009CF /* Puzzle.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3C324666F67004009CF /* Puzzle.flf */; };
-		9968D74B24668598004009CF /* wideterm.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3C424666F67004009CF /* wideterm.tlf */; };
-		9968D74C24668598004009CF /* circle.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3C524666F67004009CF /* circle.tlf */; };
 		9968D74D24668598004009CF /* Cybersmall.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3C624666F67004009CF /* Cybersmall.flf */; };
 		9968D74E24668598004009CF /* Alpha.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3C724666F67004009CF /* Alpha.flf */; };
 		9968D74F24668598004009CF /* Banner3.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3C824666F67004009CF /* Banner3.flf */; };
@@ -281,7 +266,6 @@
 		9968D78224668598004009CF /* Dot Matrix.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3FB24666F67004009CF /* Dot Matrix.flf */; };
 		9968D78324668598004009CF /* horizontalleft.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3FC24666F67004009CF /* horizontalleft.flf */; };
 		9968D78424668598004009CF /* Merlin2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3FD24666F67004009CF /* Merlin2.flf */; };
-		9968D78524668598004009CF /* smascii9.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3FE24666F67004009CF /* smascii9.tlf */; };
 		9968D78624668598004009CF /* ntgreek.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3FF24666F67004009CF /* ntgreek.flf */; };
 		9968D78724668598004009CF /* Test1.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40024666F67004009CF /* Test1.flf */; };
 		9968D78824668598004009CF /* smtengwar.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40124666F67004009CF /* smtengwar.flf */; };
@@ -296,12 +280,10 @@
 		9968D79124668598004009CF /* Tanja.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40A24666F67004009CF /* Tanja.flf */; };
 		9968D79224668598004009CF /* Big.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40B24666F67004009CF /* Big.flf */; };
 		9968D79324668598004009CF /* heart_left.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40C24666F67004009CF /* heart_left.flf */; };
-		9968D79424668598004009CF /* letter.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40D24666F67004009CF /* letter.tlf */; };
 		9968D79524668598004009CF /* Rectangles.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40E24666F68004009CF /* Rectangles.flf */; };
 		9968D79624668598004009CF /* Knob.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40F24666F68004009CF /* Knob.flf */; };
 		9968D79724668598004009CF /* Epic.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41024666F68004009CF /* Epic.flf */; };
 		9968D79824668598004009CF /* Ghost.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41124666F68004009CF /* Ghost.flf */; };
-		9968D79924668598004009CF /* rebel.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41224666F68004009CF /* rebel.tlf */; };
 		9968D79A24668598004009CF /* AMC Untitled.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41324666F68004009CF /* AMC Untitled.flf */; };
 		9968D79B24668598004009CF /* Pawp.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41424666F68004009CF /* Pawp.flf */; };
 		9968D79C24668598004009CF /* funfaces.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41524666F68004009CF /* funfaces.flf */; };
@@ -322,7 +304,6 @@
 		9968D7AE24668598004009CF /* wetletter.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42724666F68004009CF /* wetletter.flf */; };
 		9968D7AF24668598004009CF /* Chiseled.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42824666F68004009CF /* Chiseled.flf */; };
 		9968D7B024668598004009CF /* amcrazor.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42924666F68004009CF /* amcrazor.flf */; };
-		9968D7B124668598004009CF /* future.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42A24666F68004009CF /* future.tlf */; };
 		9968D7B224668598004009CF /* Gradient.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42B24666F68004009CF /* Gradient.flf */; };
 		9968D7B324668598004009CF /* Henry 3D.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42C24666F68004009CF /* Henry 3D.flf */; };
 		9968D7B424668598004009CF /* Hieroglyphs.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42D24666F68004009CF /* Hieroglyphs.flf */; };
@@ -331,7 +312,6 @@
 		9968D7B824668598004009CF /* Stop.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43124666F68004009CF /* Stop.flf */; };
 		9968D7B924668598004009CF /* henry3d.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43224666F68004009CF /* henry3d.flf */; };
 		9968D7BB24668598004009CF /* AMC Tubes.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43424666F68004009CF /* AMC Tubes.flf */; };
-		9968D7BC24668598004009CF /* ascii9.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43524666F68004009CF /* ascii9.tlf */; };
 		9968D7BD24668599004009CF /* Broadway.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43624666F68004009CF /* Broadway.flf */; };
 		9968D7BE24668599004009CF /* O8.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43724666F68004009CF /* O8.flf */; };
 		9968D7BF24668599004009CF /* Tinker-Toy.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43824666F68004009CF /* Tinker-Toy.flf */; };
@@ -351,7 +331,6 @@
 		9968D7CD24668599004009CF /* OS2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44624666F68004009CF /* OS2.flf */; };
 		9968D7CE24668599004009CF /* Bigfig.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44724666F68004009CF /* Bigfig.flf */; };
 		9968D7CF24668599004009CF /* amcaaa01.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44824666F68004009CF /* amcaaa01.flf */; };
-		9968D7D124668599004009CF /* smascii12.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44A24666F68004009CF /* smascii12.tlf */; };
 		9968D7D224668599004009CF /* smslant.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44B24666F68004009CF /* smslant.flf */; };
 		9968D7D324668599004009CF /* Efti Robot.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44C24666F68004009CF /* Efti Robot.flf */; };
 		9968D7D424668599004009CF /* Nancyj-Improved.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44D24666F68004009CF /* Nancyj-Improved.flf */; };
@@ -362,13 +341,11 @@
 		9968D7D924668599004009CF /* red_phoenix.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45224666F68004009CF /* red_phoenix.flf */; };
 		9968D7DA24668599004009CF /* Fire Font-k.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45324666F68004009CF /* Fire Font-k.flf */; };
 		9968D7DB24668599004009CF /* ANSI Regular.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45424666F68004009CF /* ANSI Regular.flf */; };
-		9968D7DC24668599004009CF /* pagga.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45524666F68004009CF /* pagga.tlf */; };
 		9968D7DD24668599004009CF /* DANC4.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45624666F68004009CF /* DANC4.flf */; };
 		9968D7DE24668599004009CF /* Ogre.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45724666F68004009CF /* Ogre.flf */; };
 		9968D7DF24668599004009CF /* Stampatello.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45824666F68004009CF /* Stampatello.flf */; };
 		9968D7E024668599004009CF /* Konto Slant.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45924666F68004009CF /* Konto Slant.flf */; };
 		9968D7E124668599004009CF /* Patorjk-HeX.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45A24666F68004009CF /* Patorjk-HeX.flf */; };
-		9968D7E224668599004009CF /* ascii12.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45B24666F68004009CF /* ascii12.tlf */; };
 		9968D7E324668599004009CF /* lildevil.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45C24666F68004009CF /* lildevil.flf */; };
 		9968D7E424668599004009CF /* starwars 2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45D24666F68004009CF /* starwars 2.flf */; };
 		9968D7E524668599004009CF /* Three Point.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45E24666F68004009CF /* Three Point.flf */; };
@@ -385,7 +362,6 @@
 		9968D7F224668599004009CF /* cosmic.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46B24666F68004009CF /* cosmic.flf */; };
 		9968D7F324668599004009CF /* Double.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46C24666F68004009CF /* Double.flf */; };
 		9968D7F424668599004009CF /* Morse2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46D24666F68004009CF /* Morse2.flf */; };
-		9968D7F524668599004009CF /* emboss.tlf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46E24666F68004009CF /* emboss.tlf */; };
 		9968D7F624668599004009CF /* Heart Left.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46F24666F68004009CF /* Heart Left.flf */; };
 		9968D7F724668599004009CF /* 3x5.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D47024666F68004009CF /* 3x5.flf */; };
 		9968D7F824668599004009CF /* Keyboard.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D47124666F68004009CF /* Keyboard.flf */; };
@@ -438,7 +414,6 @@
 				9968D65524668597004009CF /* Muzzle.flf in CopyFiles */,
 				9968D65624668597004009CF /* Computer.flf in CopyFiles */,
 				9968D65824668597004009CF /* Electronic.flf in CopyFiles */,
-				9968D65924668597004009CF /* smblock.tlf in CopyFiles */,
 				9968D65B24668597004009CF /* Ghoulish.flf in CopyFiles */,
 				9968D65C24668597004009CF /* NT Greek.flf in CopyFiles */,
 				9968D65D24668597004009CF /* Fire Font-s.flf in CopyFiles */,
@@ -454,11 +429,9 @@
 				9968D66724668597004009CF /* Impossible.flf in CopyFiles */,
 				9968D66824668597004009CF /* Bright.flf in CopyFiles */,
 				9968D66924668597004009CF /* Madrid.flf in CopyFiles */,
-				9968D66A24668597004009CF /* mono9.tlf in CopyFiles */,
 				9968D66B24668597004009CF /* 3-D.flf in CopyFiles */,
 				9968D66C24668597004009CF /* Benjamin.flf in CopyFiles */,
 				9968D66D24668597004009CF /* Bloody.flf in CopyFiles */,
-				9968D66F24668597004009CF /* rustofat.tlf in CopyFiles */,
 				9968D67124668597004009CF /* heart_right.flf in CopyFiles */,
 				9968D67224668597004009CF /* Sub-Zero.flf in CopyFiles */,
 				9968D67324668597004009CF /* Tiles.flf in CopyFiles */,
@@ -476,7 +449,6 @@
 				9968D68224668597004009CF /* Nancyj-Fancy.flf in CopyFiles */,
 				9968D68324668597004009CF /* Mike.flf in CopyFiles */,
 				9968D68424668597004009CF /* THIS.flf in CopyFiles */,
-				9968D68524668597004009CF /* mono12.tlf in CopyFiles */,
 				9968D68624668597004009CF /* Fun Faces.flf in CopyFiles */,
 				9968D68724668597004009CF /* Dancing Font.flf in CopyFiles */,
 				9968D68824668597004009CF /* DWhistled.flf in CopyFiles */,
@@ -545,7 +517,6 @@
 				9968D6CC24668597004009CF /* Avatar.flf in CopyFiles */,
 				9968D6CD24668597004009CF /* Two Point.flf in CopyFiles */,
 				9968D6CE24668597004009CF /* defleppard.flf in CopyFiles */,
-				9968D6CF24668597004009CF /* emboss2.tlf in CopyFiles */,
 				9968D6D124668597004009CF /* amc3liv1.flf in CopyFiles */,
 				9968D6D224668597004009CF /* Runyc.flf in CopyFiles */,
 				9968D6D424668597004009CF /* Thick.flf in CopyFiles */,
@@ -568,7 +539,6 @@
 				9968D6E724668597004009CF /* Varsity.flf in CopyFiles */,
 				9968D6E824668597004009CF /* amcun1.flf in CopyFiles */,
 				9968D6EA24668597004009CF /* Soft.flf in CopyFiles */,
-				9968D6EC24668597004009CF /* smmono12.tlf in CopyFiles */,
 				9968D6ED24668597004009CF /* Konto.flf in CopyFiles */,
 				9968D6EE24668597004009CF /* slscript.flf in CopyFiles */,
 				9968D6EF24668597004009CF /* Small Poison.flf in CopyFiles */,
@@ -600,24 +570,20 @@
 				9968D70A24668598004009CF /* Italic.flf in CopyFiles */,
 				9968D70B24668598004009CF /* amctubes.flf in CopyFiles */,
 				9968D70C24668598004009CF /* swampland.flf in CopyFiles */,
-				9968D70D24668598004009CF /* smmono9.tlf in CopyFiles */,
 				9968D70E24668598004009CF /* smshadow.flf in CopyFiles */,
 				9968D70F24668598004009CF /* Line Blocks.flf in CopyFiles */,
 				9968D71124668598004009CF /* 3d.flf in CopyFiles */,
 				9968D71224668598004009CF /* Whimsy.flf in CopyFiles */,
 				9968D71324668598004009CF /* Reverse.flf in CopyFiles */,
-				9968D71424668598004009CF /* bigmono9.tlf in CopyFiles */,
 				9968D71524668598004009CF /* Cursive.flf in CopyFiles */,
 				9968D71624668598004009CF /* amc3line.flf in CopyFiles */,
 				9968D71724668598004009CF /* Larry 3D.flf in CopyFiles */,
-				9968D71824668598004009CF /* bigascii9.tlf in CopyFiles */,
 				9968D71924668598004009CF /* AMC Razor.flf in CopyFiles */,
 				9968D71A24668598004009CF /* Binary.flf in CopyFiles */,
 				9968D71B24668598004009CF /* AMC Slider.flf in CopyFiles */,
 				9968D71D24668598004009CF /* Mini.flf in CopyFiles */,
 				9968D71E24668598004009CF /* Rammstein.flf in CopyFiles */,
 				9968D71F24668598004009CF /* amcthin.flf in CopyFiles */,
-				9968D72024668598004009CF /* smbraille.tlf in CopyFiles */,
 				9968D72124668598004009CF /* Small Script.flf in CopyFiles */,
 				9968D72224668598004009CF /* Isometric4.flf in CopyFiles */,
 				9968D72324668598004009CF /* sblood.flf in CopyFiles */,
@@ -629,11 +595,9 @@
 				9968D72A24668598004009CF /* Diamond.flf in CopyFiles */,
 				9968D72B24668598004009CF /* eftiwall.flf in CopyFiles */,
 				9968D72C24668598004009CF /* Straight.flf in CopyFiles */,
-				9968D72D24668598004009CF /* bigmono12.tlf in CopyFiles */,
 				9968D72E24668598004009CF /* Delta Corps Priest 1.flf in CopyFiles */,
 				9968D73024668598004009CF /* Stellar.flf in CopyFiles */,
 				9968D73124668598004009CF /* ANSI Shadow.flf in CopyFiles */,
-				9968D73224668598004009CF /* rusto.tlf in CopyFiles */,
 				9968D73324668598004009CF /* Wavy.flf in CopyFiles */,
 				9968D73424668598004009CF /* Invita.flf in CopyFiles */,
 				9968D73524668598004009CF /* Slant.flf in CopyFiles */,
@@ -646,7 +610,6 @@
 				9968D73D24668598004009CF /* Swan.flf in CopyFiles */,
 				9968D73E24668598004009CF /* Contrast.flf in CopyFiles */,
 				9968D73F24668598004009CF /* Cricket.flf in CopyFiles */,
-				9968D74024668598004009CF /* bigascii12.tlf in CopyFiles */,
 				9968D74124668598004009CF /* Trek.flf in CopyFiles */,
 				9968D74224668598004009CF /* Small Keyboard.flf in CopyFiles */,
 				9968D74324668598004009CF /* Swamp Land.flf in CopyFiles */,
@@ -656,8 +619,6 @@
 				9968D74724668598004009CF /* Speed.flf in CopyFiles */,
 				9968D74824668598004009CF /* calgphy2.flf in CopyFiles */,
 				9968D74A24668598004009CF /* Puzzle.flf in CopyFiles */,
-				9968D74B24668598004009CF /* wideterm.tlf in CopyFiles */,
-				9968D74C24668598004009CF /* circle.tlf in CopyFiles */,
 				9968D74D24668598004009CF /* Cybersmall.flf in CopyFiles */,
 				9968D74E24668598004009CF /* Alpha.flf in CopyFiles */,
 				9968D74F24668598004009CF /* Banner3.flf in CopyFiles */,
@@ -707,7 +668,6 @@
 				9968D78224668598004009CF /* Dot Matrix.flf in CopyFiles */,
 				9968D78324668598004009CF /* horizontalleft.flf in CopyFiles */,
 				9968D78424668598004009CF /* Merlin2.flf in CopyFiles */,
-				9968D78524668598004009CF /* smascii9.tlf in CopyFiles */,
 				9968D78624668598004009CF /* ntgreek.flf in CopyFiles */,
 				9968D78724668598004009CF /* Test1.flf in CopyFiles */,
 				9968D78824668598004009CF /* smtengwar.flf in CopyFiles */,
@@ -722,12 +682,10 @@
 				9968D79124668598004009CF /* Tanja.flf in CopyFiles */,
 				9968D79224668598004009CF /* Big.flf in CopyFiles */,
 				9968D79324668598004009CF /* heart_left.flf in CopyFiles */,
-				9968D79424668598004009CF /* letter.tlf in CopyFiles */,
 				9968D79524668598004009CF /* Rectangles.flf in CopyFiles */,
 				9968D79624668598004009CF /* Knob.flf in CopyFiles */,
 				9968D79724668598004009CF /* Epic.flf in CopyFiles */,
 				9968D79824668598004009CF /* Ghost.flf in CopyFiles */,
-				9968D79924668598004009CF /* rebel.tlf in CopyFiles */,
 				9968D79A24668598004009CF /* AMC Untitled.flf in CopyFiles */,
 				9968D79B24668598004009CF /* Pawp.flf in CopyFiles */,
 				9968D79C24668598004009CF /* funfaces.flf in CopyFiles */,
@@ -748,7 +706,6 @@
 				9968D7AE24668598004009CF /* wetletter.flf in CopyFiles */,
 				9968D7AF24668598004009CF /* Chiseled.flf in CopyFiles */,
 				9968D7B024668598004009CF /* amcrazor.flf in CopyFiles */,
-				9968D7B124668598004009CF /* future.tlf in CopyFiles */,
 				9968D7B224668598004009CF /* Gradient.flf in CopyFiles */,
 				9968D7B324668598004009CF /* Henry 3D.flf in CopyFiles */,
 				9968D7B424668598004009CF /* Hieroglyphs.flf in CopyFiles */,
@@ -757,7 +714,6 @@
 				9968D7B824668598004009CF /* Stop.flf in CopyFiles */,
 				9968D7B924668598004009CF /* henry3d.flf in CopyFiles */,
 				9968D7BB24668598004009CF /* AMC Tubes.flf in CopyFiles */,
-				9968D7BC24668598004009CF /* ascii9.tlf in CopyFiles */,
 				9968D7BD24668599004009CF /* Broadway.flf in CopyFiles */,
 				9968D7BE24668599004009CF /* O8.flf in CopyFiles */,
 				9968D7BF24668599004009CF /* Tinker-Toy.flf in CopyFiles */,
@@ -777,7 +733,6 @@
 				9968D7CD24668599004009CF /* OS2.flf in CopyFiles */,
 				9968D7CE24668599004009CF /* Bigfig.flf in CopyFiles */,
 				9968D7CF24668599004009CF /* amcaaa01.flf in CopyFiles */,
-				9968D7D124668599004009CF /* smascii12.tlf in CopyFiles */,
 				9968D7D224668599004009CF /* smslant.flf in CopyFiles */,
 				9968D7D324668599004009CF /* Efti Robot.flf in CopyFiles */,
 				9968D7D424668599004009CF /* Nancyj-Improved.flf in CopyFiles */,
@@ -788,13 +743,11 @@
 				9968D7D924668599004009CF /* red_phoenix.flf in CopyFiles */,
 				9968D7DA24668599004009CF /* Fire Font-k.flf in CopyFiles */,
 				9968D7DB24668599004009CF /* ANSI Regular.flf in CopyFiles */,
-				9968D7DC24668599004009CF /* pagga.tlf in CopyFiles */,
 				9968D7DD24668599004009CF /* DANC4.flf in CopyFiles */,
 				9968D7DE24668599004009CF /* Ogre.flf in CopyFiles */,
 				9968D7DF24668599004009CF /* Stampatello.flf in CopyFiles */,
 				9968D7E024668599004009CF /* Konto Slant.flf in CopyFiles */,
 				9968D7E124668599004009CF /* Patorjk-HeX.flf in CopyFiles */,
-				9968D7E224668599004009CF /* ascii12.tlf in CopyFiles */,
 				9968D7E324668599004009CF /* lildevil.flf in CopyFiles */,
 				9968D7E424668599004009CF /* starwars 2.flf in CopyFiles */,
 				9968D7E524668599004009CF /* Three Point.flf in CopyFiles */,
@@ -811,7 +764,6 @@
 				9968D7F224668599004009CF /* cosmic.flf in CopyFiles */,
 				9968D7F324668599004009CF /* Double.flf in CopyFiles */,
 				9968D7F424668599004009CF /* Morse2.flf in CopyFiles */,
-				9968D7F524668599004009CF /* emboss.tlf in CopyFiles */,
 				9968D7F624668599004009CF /* Heart Left.flf in CopyFiles */,
 				9968D7F724668599004009CF /* 3x5.flf in CopyFiles */,
 				9968D7F824668599004009CF /* Keyboard.flf in CopyFiles */,
@@ -845,7 +797,6 @@
 		9968D2CE24666F66004009CF /* Muzzle.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Muzzle.flf; sourceTree = "<group>"; };
 		9968D2CF24666F66004009CF /* Computer.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Computer.flf; sourceTree = "<group>"; };
 		9968D2D124666F66004009CF /* Electronic.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Electronic.flf; sourceTree = "<group>"; };
-		9968D2D224666F66004009CF /* smblock.tlf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smblock.tlf; sourceTree = "<group>"; };
 		9968D2D424666F66004009CF /* Ghoulish.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ghoulish.flf; sourceTree = "<group>"; };
 		9968D2D524666F66004009CF /* NT Greek.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NT Greek.flf"; sourceTree = "<group>"; };
 		9968D2D624666F66004009CF /* Fire Font-s.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Fire Font-s.flf"; sourceTree = "<group>"; };
@@ -861,11 +812,9 @@
 		9968D2E024666F66004009CF /* Impossible.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Impossible.flf; sourceTree = "<group>"; };
 		9968D2E124666F66004009CF /* Bright.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bright.flf; sourceTree = "<group>"; };
 		9968D2E224666F66004009CF /* Madrid.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Madrid.flf; sourceTree = "<group>"; };
-		9968D2E324666F66004009CF /* mono9.tlf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mono9.tlf; sourceTree = "<group>"; };
 		9968D2E424666F66004009CF /* 3-D.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3-D.flf"; sourceTree = "<group>"; };
 		9968D2E524666F66004009CF /* Benjamin.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Benjamin.flf; sourceTree = "<group>"; };
 		9968D2E624666F66004009CF /* Bloody.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bloody.flf; sourceTree = "<group>"; };
-		9968D2E824666F66004009CF /* rustofat.tlf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rustofat.tlf; sourceTree = "<group>"; };
 		9968D2EA24666F66004009CF /* heart_right.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = heart_right.flf; sourceTree = "<group>"; };
 		9968D2EB24666F66004009CF /* Sub-Zero.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Sub-Zero.flf"; sourceTree = "<group>"; };
 		9968D2EC24666F66004009CF /* Tiles.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tiles.flf; sourceTree = "<group>"; };
@@ -883,7 +832,6 @@
 		9968D2FB24666F66004009CF /* Nancyj-Fancy.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Nancyj-Fancy.flf"; sourceTree = "<group>"; };
 		9968D2FC24666F66004009CF /* Mike.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mike.flf; sourceTree = "<group>"; };
 		9968D2FD24666F66004009CF /* THIS.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THIS.flf; sourceTree = "<group>"; };
-		9968D2FE24666F66004009CF /* mono12.tlf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mono12.tlf; sourceTree = "<group>"; };
 		9968D2FF24666F66004009CF /* Fun Faces.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Fun Faces.flf"; sourceTree = "<group>"; };
 		9968D30024666F66004009CF /* Dancing Font.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Dancing Font.flf"; sourceTree = "<group>"; };
 		9968D30124666F66004009CF /* DWhistled.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DWhistled.flf; sourceTree = "<group>"; };
@@ -952,7 +900,6 @@
 		9968D34524666F66004009CF /* Avatar.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Avatar.flf; sourceTree = "<group>"; };
 		9968D34624666F66004009CF /* Two Point.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Two Point.flf"; sourceTree = "<group>"; };
 		9968D34724666F66004009CF /* defleppard.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = defleppard.flf; sourceTree = "<group>"; };
-		9968D34824666F66004009CF /* emboss2.tlf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = emboss2.tlf; sourceTree = "<group>"; };
 		9968D34A24666F66004009CF /* amc3liv1.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amc3liv1.flf; sourceTree = "<group>"; };
 		9968D34B24666F66004009CF /* Runyc.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Runyc.flf; sourceTree = "<group>"; };
 		9968D34D24666F66004009CF /* Thick.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Thick.flf; sourceTree = "<group>"; };
@@ -975,7 +922,6 @@
 		9968D36024666F66004009CF /* Varsity.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Varsity.flf; sourceTree = "<group>"; };
 		9968D36124666F66004009CF /* amcun1.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amcun1.flf; sourceTree = "<group>"; };
 		9968D36324666F66004009CF /* Soft.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Soft.flf; sourceTree = "<group>"; };
-		9968D36524666F66004009CF /* smmono12.tlf */ = {isa = PBXFileReference; lastKnownFileType = file; path = smmono12.tlf; sourceTree = "<group>"; };
 		9968D36624666F66004009CF /* Konto.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Konto.flf; sourceTree = "<group>"; };
 		9968D36724666F66004009CF /* slscript.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = slscript.flf; sourceTree = "<group>"; };
 		9968D36824666F66004009CF /* Small Poison.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Small Poison.flf"; sourceTree = "<group>"; };
@@ -1007,24 +953,20 @@
 		9968D38324666F67004009CF /* Italic.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Italic.flf; sourceTree = "<group>"; };
 		9968D38424666F67004009CF /* amctubes.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amctubes.flf; sourceTree = "<group>"; };
 		9968D38524666F67004009CF /* swampland.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swampland.flf; sourceTree = "<group>"; };
-		9968D38624666F67004009CF /* smmono9.tlf */ = {isa = PBXFileReference; lastKnownFileType = file; path = smmono9.tlf; sourceTree = "<group>"; };
 		9968D38724666F67004009CF /* smshadow.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smshadow.flf; sourceTree = "<group>"; };
 		9968D38824666F67004009CF /* Line Blocks.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Line Blocks.flf"; sourceTree = "<group>"; };
 		9968D38A24666F67004009CF /* 3d.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3d.flf; sourceTree = "<group>"; };
 		9968D38B24666F67004009CF /* Whimsy.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Whimsy.flf; sourceTree = "<group>"; };
 		9968D38C24666F67004009CF /* Reverse.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Reverse.flf; sourceTree = "<group>"; };
-		9968D38D24666F67004009CF /* bigmono9.tlf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bigmono9.tlf; sourceTree = "<group>"; };
 		9968D38E24666F67004009CF /* Cursive.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cursive.flf; sourceTree = "<group>"; };
 		9968D38F24666F67004009CF /* amc3line.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amc3line.flf; sourceTree = "<group>"; };
 		9968D39024666F67004009CF /* Larry 3D.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Larry 3D.flf"; sourceTree = "<group>"; };
-		9968D39124666F67004009CF /* bigascii9.tlf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bigascii9.tlf; sourceTree = "<group>"; };
 		9968D39224666F67004009CF /* AMC Razor.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AMC Razor.flf"; sourceTree = "<group>"; };
 		9968D39324666F67004009CF /* Binary.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Binary.flf; sourceTree = "<group>"; };
 		9968D39424666F67004009CF /* AMC Slider.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AMC Slider.flf"; sourceTree = "<group>"; };
 		9968D39624666F67004009CF /* Mini.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mini.flf; sourceTree = "<group>"; };
 		9968D39724666F67004009CF /* Rammstein.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rammstein.flf; sourceTree = "<group>"; };
 		9968D39824666F67004009CF /* amcthin.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amcthin.flf; sourceTree = "<group>"; };
-		9968D39924666F67004009CF /* smbraille.tlf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smbraille.tlf; sourceTree = "<group>"; };
 		9968D39A24666F67004009CF /* Small Script.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Small Script.flf"; sourceTree = "<group>"; };
 		9968D39B24666F67004009CF /* Isometric4.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Isometric4.flf; sourceTree = "<group>"; };
 		9968D39C24666F67004009CF /* sblood.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sblood.flf; sourceTree = "<group>"; };
@@ -1036,11 +978,9 @@
 		9968D3A324666F67004009CF /* Diamond.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Diamond.flf; sourceTree = "<group>"; };
 		9968D3A424666F67004009CF /* eftiwall.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eftiwall.flf; sourceTree = "<group>"; };
 		9968D3A524666F67004009CF /* Straight.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Straight.flf; sourceTree = "<group>"; };
-		9968D3A624666F67004009CF /* bigmono12.tlf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bigmono12.tlf; sourceTree = "<group>"; };
 		9968D3A724666F67004009CF /* Delta Corps Priest 1.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Delta Corps Priest 1.flf"; sourceTree = "<group>"; };
 		9968D3A924666F67004009CF /* Stellar.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Stellar.flf; sourceTree = "<group>"; };
 		9968D3AA24666F67004009CF /* ANSI Shadow.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ANSI Shadow.flf"; sourceTree = "<group>"; };
-		9968D3AB24666F67004009CF /* rusto.tlf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rusto.tlf; sourceTree = "<group>"; };
 		9968D3AC24666F67004009CF /* Wavy.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Wavy.flf; sourceTree = "<group>"; };
 		9968D3AD24666F67004009CF /* Invita.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Invita.flf; sourceTree = "<group>"; };
 		9968D3AE24666F67004009CF /* Slant.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Slant.flf; sourceTree = "<group>"; };
@@ -1053,7 +993,6 @@
 		9968D3B624666F67004009CF /* Swan.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Swan.flf; sourceTree = "<group>"; };
 		9968D3B724666F67004009CF /* Contrast.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Contrast.flf; sourceTree = "<group>"; };
 		9968D3B824666F67004009CF /* Cricket.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cricket.flf; sourceTree = "<group>"; };
-		9968D3B924666F67004009CF /* bigascii12.tlf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bigascii12.tlf; sourceTree = "<group>"; };
 		9968D3BA24666F67004009CF /* Trek.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Trek.flf; sourceTree = "<group>"; };
 		9968D3BB24666F67004009CF /* Small Keyboard.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Small Keyboard.flf"; sourceTree = "<group>"; };
 		9968D3BC24666F67004009CF /* Swamp Land.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Swamp Land.flf"; sourceTree = "<group>"; };
@@ -1063,8 +1002,6 @@
 		9968D3C024666F67004009CF /* Speed.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Speed.flf; sourceTree = "<group>"; };
 		9968D3C124666F67004009CF /* calgphy2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calgphy2.flf; sourceTree = "<group>"; };
 		9968D3C324666F67004009CF /* Puzzle.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle.flf; sourceTree = "<group>"; };
-		9968D3C424666F67004009CF /* wideterm.tlf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wideterm.tlf; sourceTree = "<group>"; };
-		9968D3C524666F67004009CF /* circle.tlf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = circle.tlf; sourceTree = "<group>"; };
 		9968D3C624666F67004009CF /* Cybersmall.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cybersmall.flf; sourceTree = "<group>"; };
 		9968D3C724666F67004009CF /* Alpha.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Alpha.flf; sourceTree = "<group>"; };
 		9968D3C824666F67004009CF /* Banner3.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Banner3.flf; sourceTree = "<group>"; };
@@ -1114,7 +1051,6 @@
 		9968D3FB24666F67004009CF /* Dot Matrix.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Dot Matrix.flf"; sourceTree = "<group>"; };
 		9968D3FC24666F67004009CF /* horizontalleft.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horizontalleft.flf; sourceTree = "<group>"; };
 		9968D3FD24666F67004009CF /* Merlin2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Merlin2.flf; sourceTree = "<group>"; };
-		9968D3FE24666F67004009CF /* smascii9.tlf */ = {isa = PBXFileReference; lastKnownFileType = file; path = smascii9.tlf; sourceTree = "<group>"; };
 		9968D3FF24666F67004009CF /* ntgreek.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ntgreek.flf; sourceTree = "<group>"; };
 		9968D40024666F67004009CF /* Test1.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test1.flf; sourceTree = "<group>"; };
 		9968D40124666F67004009CF /* smtengwar.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smtengwar.flf; sourceTree = "<group>"; };
@@ -1129,12 +1065,10 @@
 		9968D40A24666F67004009CF /* Tanja.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tanja.flf; sourceTree = "<group>"; };
 		9968D40B24666F67004009CF /* Big.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Big.flf; sourceTree = "<group>"; };
 		9968D40C24666F67004009CF /* heart_left.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = heart_left.flf; sourceTree = "<group>"; };
-		9968D40D24666F67004009CF /* letter.tlf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = letter.tlf; sourceTree = "<group>"; };
 		9968D40E24666F68004009CF /* Rectangles.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rectangles.flf; sourceTree = "<group>"; };
 		9968D40F24666F68004009CF /* Knob.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Knob.flf; sourceTree = "<group>"; };
 		9968D41024666F68004009CF /* Epic.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Epic.flf; sourceTree = "<group>"; };
 		9968D41124666F68004009CF /* Ghost.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ghost.flf; sourceTree = "<group>"; };
-		9968D41224666F68004009CF /* rebel.tlf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rebel.tlf; sourceTree = "<group>"; };
 		9968D41324666F68004009CF /* AMC Untitled.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AMC Untitled.flf"; sourceTree = "<group>"; };
 		9968D41424666F68004009CF /* Pawp.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pawp.flf; sourceTree = "<group>"; };
 		9968D41524666F68004009CF /* funfaces.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = funfaces.flf; sourceTree = "<group>"; };
@@ -1155,7 +1089,6 @@
 		9968D42724666F68004009CF /* wetletter.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wetletter.flf; sourceTree = "<group>"; };
 		9968D42824666F68004009CF /* Chiseled.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chiseled.flf; sourceTree = "<group>"; };
 		9968D42924666F68004009CF /* amcrazor.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amcrazor.flf; sourceTree = "<group>"; };
-		9968D42A24666F68004009CF /* future.tlf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = future.tlf; sourceTree = "<group>"; };
 		9968D42B24666F68004009CF /* Gradient.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gradient.flf; sourceTree = "<group>"; };
 		9968D42C24666F68004009CF /* Henry 3D.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Henry 3D.flf"; sourceTree = "<group>"; };
 		9968D42D24666F68004009CF /* Hieroglyphs.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hieroglyphs.flf; sourceTree = "<group>"; };
@@ -1164,7 +1097,6 @@
 		9968D43124666F68004009CF /* Stop.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Stop.flf; sourceTree = "<group>"; };
 		9968D43224666F68004009CF /* henry3d.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = henry3d.flf; sourceTree = "<group>"; };
 		9968D43424666F68004009CF /* AMC Tubes.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AMC Tubes.flf"; sourceTree = "<group>"; };
-		9968D43524666F68004009CF /* ascii9.tlf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ascii9.tlf; sourceTree = "<group>"; };
 		9968D43624666F68004009CF /* Broadway.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Broadway.flf; sourceTree = "<group>"; };
 		9968D43724666F68004009CF /* O8.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = O8.flf; sourceTree = "<group>"; };
 		9968D43824666F68004009CF /* Tinker-Toy.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Tinker-Toy.flf"; sourceTree = "<group>"; };
@@ -1184,7 +1116,6 @@
 		9968D44624666F68004009CF /* OS2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OS2.flf; sourceTree = "<group>"; };
 		9968D44724666F68004009CF /* Bigfig.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bigfig.flf; sourceTree = "<group>"; };
 		9968D44824666F68004009CF /* amcaaa01.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amcaaa01.flf; sourceTree = "<group>"; };
-		9968D44A24666F68004009CF /* smascii12.tlf */ = {isa = PBXFileReference; lastKnownFileType = file; path = smascii12.tlf; sourceTree = "<group>"; };
 		9968D44B24666F68004009CF /* smslant.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smslant.flf; sourceTree = "<group>"; };
 		9968D44C24666F68004009CF /* Efti Robot.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Efti Robot.flf"; sourceTree = "<group>"; };
 		9968D44D24666F68004009CF /* Nancyj-Improved.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Nancyj-Improved.flf"; sourceTree = "<group>"; };
@@ -1195,13 +1126,11 @@
 		9968D45224666F68004009CF /* red_phoenix.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = red_phoenix.flf; sourceTree = "<group>"; };
 		9968D45324666F68004009CF /* Fire Font-k.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Fire Font-k.flf"; sourceTree = "<group>"; };
 		9968D45424666F68004009CF /* ANSI Regular.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ANSI Regular.flf"; sourceTree = "<group>"; };
-		9968D45524666F68004009CF /* pagga.tlf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pagga.tlf; sourceTree = "<group>"; };
 		9968D45624666F68004009CF /* DANC4.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DANC4.flf; sourceTree = "<group>"; };
 		9968D45724666F68004009CF /* Ogre.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ogre.flf; sourceTree = "<group>"; };
 		9968D45824666F68004009CF /* Stampatello.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Stampatello.flf; sourceTree = "<group>"; };
 		9968D45924666F68004009CF /* Konto Slant.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Konto Slant.flf"; sourceTree = "<group>"; };
 		9968D45A24666F68004009CF /* Patorjk-HeX.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Patorjk-HeX.flf"; sourceTree = "<group>"; };
-		9968D45B24666F68004009CF /* ascii12.tlf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ascii12.tlf; sourceTree = "<group>"; };
 		9968D45C24666F68004009CF /* lildevil.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lildevil.flf; sourceTree = "<group>"; };
 		9968D45D24666F68004009CF /* starwars 2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "starwars 2.flf"; sourceTree = "<group>"; };
 		9968D45E24666F68004009CF /* Three Point.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Three Point.flf"; sourceTree = "<group>"; };
@@ -1218,7 +1147,6 @@
 		9968D46B24666F68004009CF /* cosmic.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cosmic.flf; sourceTree = "<group>"; };
 		9968D46C24666F68004009CF /* Double.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Double.flf; sourceTree = "<group>"; };
 		9968D46D24666F68004009CF /* Morse2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Morse2.flf; sourceTree = "<group>"; };
-		9968D46E24666F68004009CF /* emboss.tlf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = emboss.tlf; sourceTree = "<group>"; };
 		9968D46F24666F68004009CF /* Heart Left.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Heart Left.flf"; sourceTree = "<group>"; };
 		9968D47024666F68004009CF /* 3x5.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3x5.flf; sourceTree = "<group>"; };
 		9968D47124666F68004009CF /* Keyboard.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Keyboard.flf; sourceTree = "<group>"; };
@@ -1376,7 +1304,6 @@
 				9968D2CE24666F66004009CF /* Muzzle.flf */,
 				9968D2CF24666F66004009CF /* Computer.flf */,
 				9968D2D124666F66004009CF /* Electronic.flf */,
-				9968D2D224666F66004009CF /* smblock.tlf */,
 				9968D2D424666F66004009CF /* Ghoulish.flf */,
 				9968D2D524666F66004009CF /* NT Greek.flf */,
 				9968D2D624666F66004009CF /* Fire Font-s.flf */,
@@ -1392,11 +1319,9 @@
 				9968D2E024666F66004009CF /* Impossible.flf */,
 				9968D2E124666F66004009CF /* Bright.flf */,
 				9968D2E224666F66004009CF /* Madrid.flf */,
-				9968D2E324666F66004009CF /* mono9.tlf */,
 				9968D2E424666F66004009CF /* 3-D.flf */,
 				9968D2E524666F66004009CF /* Benjamin.flf */,
 				9968D2E624666F66004009CF /* Bloody.flf */,
-				9968D2E824666F66004009CF /* rustofat.tlf */,
 				9968D2EA24666F66004009CF /* heart_right.flf */,
 				9968D2EB24666F66004009CF /* Sub-Zero.flf */,
 				9968D2EC24666F66004009CF /* Tiles.flf */,
@@ -1414,7 +1339,6 @@
 				9968D2FB24666F66004009CF /* Nancyj-Fancy.flf */,
 				9968D2FC24666F66004009CF /* Mike.flf */,
 				9968D2FD24666F66004009CF /* THIS.flf */,
-				9968D2FE24666F66004009CF /* mono12.tlf */,
 				9968D2FF24666F66004009CF /* Fun Faces.flf */,
 				9968D30024666F66004009CF /* Dancing Font.flf */,
 				9968D30124666F66004009CF /* DWhistled.flf */,
@@ -1483,7 +1407,6 @@
 				9968D34524666F66004009CF /* Avatar.flf */,
 				9968D34624666F66004009CF /* Two Point.flf */,
 				9968D34724666F66004009CF /* defleppard.flf */,
-				9968D34824666F66004009CF /* emboss2.tlf */,
 				9968D34A24666F66004009CF /* amc3liv1.flf */,
 				9968D34B24666F66004009CF /* Runyc.flf */,
 				9968D34D24666F66004009CF /* Thick.flf */,
@@ -1506,7 +1429,6 @@
 				9968D36024666F66004009CF /* Varsity.flf */,
 				9968D36124666F66004009CF /* amcun1.flf */,
 				9968D36324666F66004009CF /* Soft.flf */,
-				9968D36524666F66004009CF /* smmono12.tlf */,
 				9968D36624666F66004009CF /* Konto.flf */,
 				9968D36724666F66004009CF /* slscript.flf */,
 				9968D36824666F66004009CF /* Small Poison.flf */,
@@ -1538,24 +1460,20 @@
 				9968D38324666F67004009CF /* Italic.flf */,
 				9968D38424666F67004009CF /* amctubes.flf */,
 				9968D38524666F67004009CF /* swampland.flf */,
-				9968D38624666F67004009CF /* smmono9.tlf */,
 				9968D38724666F67004009CF /* smshadow.flf */,
 				9968D38824666F67004009CF /* Line Blocks.flf */,
 				9968D38A24666F67004009CF /* 3d.flf */,
 				9968D38B24666F67004009CF /* Whimsy.flf */,
 				9968D38C24666F67004009CF /* Reverse.flf */,
-				9968D38D24666F67004009CF /* bigmono9.tlf */,
 				9968D38E24666F67004009CF /* Cursive.flf */,
 				9968D38F24666F67004009CF /* amc3line.flf */,
 				9968D39024666F67004009CF /* Larry 3D.flf */,
-				9968D39124666F67004009CF /* bigascii9.tlf */,
 				9968D39224666F67004009CF /* AMC Razor.flf */,
 				9968D39324666F67004009CF /* Binary.flf */,
 				9968D39424666F67004009CF /* AMC Slider.flf */,
 				9968D39624666F67004009CF /* Mini.flf */,
 				9968D39724666F67004009CF /* Rammstein.flf */,
 				9968D39824666F67004009CF /* amcthin.flf */,
-				9968D39924666F67004009CF /* smbraille.tlf */,
 				9968D39A24666F67004009CF /* Small Script.flf */,
 				9968D39B24666F67004009CF /* Isometric4.flf */,
 				9968D39C24666F67004009CF /* sblood.flf */,
@@ -1567,11 +1485,9 @@
 				9968D3A324666F67004009CF /* Diamond.flf */,
 				9968D3A424666F67004009CF /* eftiwall.flf */,
 				9968D3A524666F67004009CF /* Straight.flf */,
-				9968D3A624666F67004009CF /* bigmono12.tlf */,
 				9968D3A724666F67004009CF /* Delta Corps Priest 1.flf */,
 				9968D3A924666F67004009CF /* Stellar.flf */,
 				9968D3AA24666F67004009CF /* ANSI Shadow.flf */,
-				9968D3AB24666F67004009CF /* rusto.tlf */,
 				9968D3AC24666F67004009CF /* Wavy.flf */,
 				9968D3AD24666F67004009CF /* Invita.flf */,
 				9968D3AE24666F67004009CF /* Slant.flf */,
@@ -1584,7 +1500,6 @@
 				9968D3B624666F67004009CF /* Swan.flf */,
 				9968D3B724666F67004009CF /* Contrast.flf */,
 				9968D3B824666F67004009CF /* Cricket.flf */,
-				9968D3B924666F67004009CF /* bigascii12.tlf */,
 				9968D3BA24666F67004009CF /* Trek.flf */,
 				9968D3BB24666F67004009CF /* Small Keyboard.flf */,
 				9968D3BC24666F67004009CF /* Swamp Land.flf */,
@@ -1594,8 +1509,6 @@
 				9968D3C024666F67004009CF /* Speed.flf */,
 				9968D3C124666F67004009CF /* calgphy2.flf */,
 				9968D3C324666F67004009CF /* Puzzle.flf */,
-				9968D3C424666F67004009CF /* wideterm.tlf */,
-				9968D3C524666F67004009CF /* circle.tlf */,
 				9968D3C624666F67004009CF /* Cybersmall.flf */,
 				9968D3C724666F67004009CF /* Alpha.flf */,
 				9968D3C824666F67004009CF /* Banner3.flf */,
@@ -1645,7 +1558,6 @@
 				9968D3FB24666F67004009CF /* Dot Matrix.flf */,
 				9968D3FC24666F67004009CF /* horizontalleft.flf */,
 				9968D3FD24666F67004009CF /* Merlin2.flf */,
-				9968D3FE24666F67004009CF /* smascii9.tlf */,
 				9968D3FF24666F67004009CF /* ntgreek.flf */,
 				9968D40024666F67004009CF /* Test1.flf */,
 				9968D40124666F67004009CF /* smtengwar.flf */,
@@ -1660,12 +1572,10 @@
 				9968D40A24666F67004009CF /* Tanja.flf */,
 				9968D40B24666F67004009CF /* Big.flf */,
 				9968D40C24666F67004009CF /* heart_left.flf */,
-				9968D40D24666F67004009CF /* letter.tlf */,
 				9968D40E24666F68004009CF /* Rectangles.flf */,
 				9968D40F24666F68004009CF /* Knob.flf */,
 				9968D41024666F68004009CF /* Epic.flf */,
 				9968D41124666F68004009CF /* Ghost.flf */,
-				9968D41224666F68004009CF /* rebel.tlf */,
 				9968D41324666F68004009CF /* AMC Untitled.flf */,
 				9968D41424666F68004009CF /* Pawp.flf */,
 				9968D41524666F68004009CF /* funfaces.flf */,
@@ -1686,7 +1596,6 @@
 				9968D42724666F68004009CF /* wetletter.flf */,
 				9968D42824666F68004009CF /* Chiseled.flf */,
 				9968D42924666F68004009CF /* amcrazor.flf */,
-				9968D42A24666F68004009CF /* future.tlf */,
 				9968D42B24666F68004009CF /* Gradient.flf */,
 				9968D42C24666F68004009CF /* Henry 3D.flf */,
 				9968D42D24666F68004009CF /* Hieroglyphs.flf */,
@@ -1695,7 +1604,6 @@
 				9968D43124666F68004009CF /* Stop.flf */,
 				9968D43224666F68004009CF /* henry3d.flf */,
 				9968D43424666F68004009CF /* AMC Tubes.flf */,
-				9968D43524666F68004009CF /* ascii9.tlf */,
 				9968D43624666F68004009CF /* Broadway.flf */,
 				9968D43724666F68004009CF /* O8.flf */,
 				9968D43824666F68004009CF /* Tinker-Toy.flf */,
@@ -1715,7 +1623,6 @@
 				9968D44624666F68004009CF /* OS2.flf */,
 				9968D44724666F68004009CF /* Bigfig.flf */,
 				9968D44824666F68004009CF /* amcaaa01.flf */,
-				9968D44A24666F68004009CF /* smascii12.tlf */,
 				9968D44B24666F68004009CF /* smslant.flf */,
 				9968D44C24666F68004009CF /* Efti Robot.flf */,
 				9968D44D24666F68004009CF /* Nancyj-Improved.flf */,
@@ -1726,13 +1633,11 @@
 				9968D45224666F68004009CF /* red_phoenix.flf */,
 				9968D45324666F68004009CF /* Fire Font-k.flf */,
 				9968D45424666F68004009CF /* ANSI Regular.flf */,
-				9968D45524666F68004009CF /* pagga.tlf */,
 				9968D45624666F68004009CF /* DANC4.flf */,
 				9968D45724666F68004009CF /* Ogre.flf */,
 				9968D45824666F68004009CF /* Stampatello.flf */,
 				9968D45924666F68004009CF /* Konto Slant.flf */,
 				9968D45A24666F68004009CF /* Patorjk-HeX.flf */,
-				9968D45B24666F68004009CF /* ascii12.tlf */,
 				9968D45C24666F68004009CF /* lildevil.flf */,
 				9968D45D24666F68004009CF /* starwars 2.flf */,
 				9968D45E24666F68004009CF /* Three Point.flf */,
@@ -1749,7 +1654,6 @@
 				9968D46B24666F68004009CF /* cosmic.flf */,
 				9968D46C24666F68004009CF /* Double.flf */,
 				9968D46D24666F68004009CF /* Morse2.flf */,
-				9968D46E24666F68004009CF /* emboss.tlf */,
 				9968D46F24666F68004009CF /* Heart Left.flf */,
 				9968D47024666F68004009CF /* 3x5.flf */,
 				9968D47124666F68004009CF /* Keyboard.flf */,
