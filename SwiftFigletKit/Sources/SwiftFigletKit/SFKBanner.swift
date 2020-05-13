@@ -1,5 +1,4 @@
 //
-//  String+SFKFont.swift
 //  SwiftFigletKit
 //
 /*
@@ -21,25 +20,23 @@ import Swift
 
 
 /// Makes easy to print text banner messages using a SFKFigletFont
-public struct SFKBanner {
-   
-    public static func print(string: String, withFigletFont font: SFKFont) {
-        
-        guard font.height > 0 else { return }
-        
-        for i in 0...font.height - 1 {
-            for c in string {
+public func print(string: String, usingFont font: SFKFont) {
+    
+    guard font.height > 0 else { return }
+    
+    for i in 0...font.height - 1 {
+        for c in string {
+            
+            if let fontCharacter = font.fkChar[c],
+               i < fontCharacter.lines.count {
                 
-                if let fontCharacter = font.fkChar[c],
-                   i < fontCharacter.lines.count {
-                    
-                    Swift.print(fontCharacter.lines[i], separator: "", terminator: "")
-                } else {
-                    
-                    // Swift.print("\(c)")
-                }
+                Swift.print(fontCharacter.lines[i], separator: "", terminator: "")
+            } else {
+                
+                // Swift.print("\(c)")
             }
-            Swift.print("")
         }
+        Swift.print("")
     }
 }
+

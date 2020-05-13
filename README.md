@@ -37,7 +37,7 @@ let font = SFKFont.from(file: "fonts/starwars.flf")
 - Once loaded, you can start printing to the console using
 
 ```swift
-SFKBanner.print(string: "Swift Figlet Kit", withFigletFont: font)
+print(string: "Swift Figlet Kit", usingFont: font)
 ```
 
 - No step 3. I told you it was a simple library

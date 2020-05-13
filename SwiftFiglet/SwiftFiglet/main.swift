@@ -14,7 +14,7 @@ import Files
 if let font = SFKFont.from(file: "fonts/Banner.flf") {
     
     // Then we can print using that font
-    SFKBanner.print(string: "Swift Figlet Kit", withFigletFont: font)
+    print(string: "Swift Figlet Kit", usingFont: font)
 }
 
 // we'll print "Swift Figlet Kit" using each font in the `fonts` directory
@@ -24,6 +24,6 @@ try Folder(path: "fonts").files.enumerated().forEach { (index, file) in
 
     if let font = SFKFont.from(file: "fonts/" + file.name) {
 
-        SFKBanner.print(string: "Swift Figlet Kit", withFigletFont: font)
+        print(string: "Swift Figlet Kit", usingFont: font)
     }
 }
