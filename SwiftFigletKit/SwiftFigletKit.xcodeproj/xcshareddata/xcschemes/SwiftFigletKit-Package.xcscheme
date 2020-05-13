@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SwiftFigletKit::SwiftFigletKitTests"
+               BlueprintIdentifier = "9968D64024667322004009CF"
                BuildableName = "SwiftFigletKitTests.xctest"
                BlueprintName = "SwiftFigletKitTests"
                ReferencedContainer = "container:SwiftFigletKit.xcodeproj">

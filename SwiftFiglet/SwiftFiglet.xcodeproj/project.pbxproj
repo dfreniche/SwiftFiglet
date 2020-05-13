@@ -1,0 +1,2050 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		990CE6282465CC6800E23460 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990CE6272465CC6800E23460 /* main.swift */; };
+		9968D65424668597004009CF /* Nipples.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2CD24666F66004009CF /* Nipples.flf */; };
+		9968D65524668597004009CF /* Muzzle.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2CE24666F66004009CF /* Muzzle.flf */; };
+		9968D65624668597004009CF /* Computer.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2CF24666F66004009CF /* Computer.flf */; };
+		9968D65824668597004009CF /* Electronic.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2D124666F66004009CF /* Electronic.flf */; };
+		9968D65B24668597004009CF /* Ghoulish.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2D424666F66004009CF /* Ghoulish.flf */; };
+		9968D65C24668597004009CF /* NT Greek.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2D524666F66004009CF /* NT Greek.flf */; };
+		9968D65D24668597004009CF /* Fire Font-s.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2D624666F66004009CF /* Fire Font-s.flf */; };
+		9968D65E24668597004009CF /* LCD.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2D724666F66004009CF /* LCD.flf */; };
+		9968D65F24668597004009CF /* JS Bracket Letters.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2D824666F66004009CF /* JS Bracket Letters.flf */; };
+		9968D66024668597004009CF /* Efti Chess.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2D924666F66004009CF /* Efti Chess.flf */; };
+		9968D66124668597004009CF /* Letters.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2DA24666F66004009CF /* Letters.flf */; };
+		9968D66224668597004009CF /* rev.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2DB24666F66004009CF /* rev.flf */; };
+		9968D66324668597004009CF /* Barbwire.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2DC24666F66004009CF /* Barbwire.flf */; };
+		9968D66424668597004009CF /* dancingfont.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2DD24666F66004009CF /* dancingfont.flf */; };
+		9968D66524668597004009CF /* threepoint.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2DE24666F66004009CF /* threepoint.flf */; };
+		9968D66624668597004009CF /* smkeyboard.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2DF24666F66004009CF /* smkeyboard.flf */; };
+		9968D66724668597004009CF /* Impossible.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2E024666F66004009CF /* Impossible.flf */; };
+		9968D66824668597004009CF /* Bright.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2E124666F66004009CF /* Bright.flf */; };
+		9968D66924668597004009CF /* Madrid.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2E224666F66004009CF /* Madrid.flf */; };
+		9968D66B24668597004009CF /* 3-D.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2E424666F66004009CF /* 3-D.flf */; };
+		9968D66C24668597004009CF /* Benjamin.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2E524666F66004009CF /* Benjamin.flf */; };
+		9968D66D24668597004009CF /* Bloody.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2E624666F66004009CF /* Bloody.flf */; };
+		9968D67124668597004009CF /* heart_right.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2EA24666F66004009CF /* heart_right.flf */; };
+		9968D67224668597004009CF /* Sub-Zero.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2EB24666F66004009CF /* Sub-Zero.flf */; };
+		9968D67324668597004009CF /* Tiles.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2EC24666F66004009CF /* Tiles.flf */; };
+		9968D67424668597004009CF /* Pyramid.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2ED24666F66004009CF /* Pyramid.flf */; };
+		9968D67524668597004009CF /* Crawford.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2EE24666F66004009CF /* Crawford.flf */; };
+		9968D67624668597004009CF /* Small Slant.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2EF24666F66004009CF /* Small Slant.flf */; };
+		9968D67724668597004009CF /* Big Money-nw.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2F024666F66004009CF /* Big Money-nw.flf */; };
+		9968D67824668597004009CF /* Shadow.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2F124666F66004009CF /* Shadow.flf */; };
+		9968D67924668597004009CF /* starstrips.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2F224666F66004009CF /* starstrips.flf */; };
+		9968D67A24668597004009CF /* Red Phoenix.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2F324666F66004009CF /* Red Phoenix.flf */; };
+		9968D67C24668597004009CF /* fire_font-s.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2F524666F66004009CF /* fire_font-s.flf */; };
+		9968D67E24668597004009CF /* Bulbhead.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2F724666F66004009CF /* Bulbhead.flf */; };
+		9968D67F24668597004009CF /* Mshebrew210.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2F824666F66004009CF /* Mshebrew210.flf */; };
+		9968D68024668597004009CF /* Doh.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2F924666F66004009CF /* Doh.flf */; };
+		9968D68224668597004009CF /* Nancyj-Fancy.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2FB24666F66004009CF /* Nancyj-Fancy.flf */; };
+		9968D68324668597004009CF /* Mike.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2FC24666F66004009CF /* Mike.flf */; };
+		9968D68424668597004009CF /* THIS.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2FD24666F66004009CF /* THIS.flf */; };
+		9968D68624668597004009CF /* Fun Faces.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D2FF24666F66004009CF /* Fun Faces.flf */; };
+		9968D68724668597004009CF /* Dancing Font.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30024666F66004009CF /* Dancing Font.flf */; };
+		9968D68824668597004009CF /* DWhistled.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30124666F66004009CF /* DWhistled.flf */; };
+		9968D68924668597004009CF /* Slide.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30224666F66004009CF /* Slide.flf */; };
+		9968D68A24668597004009CF /* horizontalright.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30324666F66004009CF /* horizontalright.flf */; };
+		9968D68B24668597004009CF /* ASCII-New-Roman.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30424666F66004009CF /* ASCII-New-Roman.flf */; };
+		9968D68C24668597004009CF /* Big-Money-ne.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30524666F66004009CF /* Big-Money-ne.flf */; };
+		9968D68D24668597004009CF /* smscript.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30624666F66004009CF /* smscript.flf */; };
+		9968D68E24668597004009CF /* amcneko.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30724666F66004009CF /* amcneko.flf */; };
+		9968D68F24668597004009CF /* JS Block Letters.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30824666F66004009CF /* JS Block Letters.flf */; };
+		9968D69024668597004009CF /* amcslash.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30924666F66004009CF /* amcslash.flf */; };
+		9968D69124668597004009CF /* AMC Razor2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30A24666F66004009CF /* AMC Razor2.flf */; };
+		9968D69224668597004009CF /* Alligator.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30B24666F66004009CF /* Alligator.flf */; };
+		9968D69324668597004009CF /* Graceful.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30C24666F66004009CF /* Graceful.flf */; };
+		9968D69424668597004009CF /* flowerpower.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30D24666F66004009CF /* flowerpower.flf */; };
+		9968D69524668597004009CF /* Wow.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30E24666F66004009CF /* Wow.flf */; };
+		9968D69624668597004009CF /* starwars.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D30F24666F66004009CF /* starwars.flf */; };
+		9968D69724668597004009CF /* kontoslant.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D31024666F66004009CF /* kontoslant.flf */; };
+		9968D69824668597004009CF /* Relief2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D31124666F66004009CF /* Relief2.flf */; };
+		9968D69A24668597004009CF /* dosrebel.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D31324666F66004009CF /* dosrebel.flf */; };
+		9968D69B24668597004009CF /* Ticks Slant.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D31424666F66004009CF /* Ticks Slant.flf */; };
+		9968D69C24668597004009CF /* Basic.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D31524666F66004009CF /* Basic.flf */; };
+		9968D69D24668597004009CF /* Horizontal Right.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D31624666F66004009CF /* Horizontal Right.flf */; };
+		9968D69E24668597004009CF /* AMC Thin.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D31724666F66004009CF /* AMC Thin.flf */; };
+		9968D69F24668597004009CF /* Colossal.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D31824666F66004009CF /* Colossal.flf */; };
+		9968D6A024668597004009CF /* Decimal.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D31924666F66004009CF /* Decimal.flf */; };
+		9968D6A224668597004009CF /* Jerusalem.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D31B24666F66004009CF /* Jerusalem.flf */; };
+		9968D6A324668597004009CF /* Small Shadow.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D31C24666F66004009CF /* Small Shadow.flf */; };
+		9968D6A424668597004009CF /* Bear.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D31D24666F66004009CF /* Bear.flf */; };
+		9968D6A524668597004009CF /* ascii_new_roman.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D31E24666F66004009CF /* ascii_new_roman.flf */; };
+		9968D6A624668597004009CF /* Small.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D31F24666F66004009CF /* Small.flf */; };
+		9968D6A724668597004009CF /* Old Banner.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D32024666F66004009CF /* Old Banner.flf */; };
+		9968D6A824668597004009CF /* NScript.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D32124666F66004009CF /* NScript.flf */; };
+		9968D6A924668597004009CF /* Calvin S.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D32224666F66004009CF /* Calvin S.flf */; };
+		9968D6AA24668597004009CF /* oldbanner.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D32324666F66004009CF /* oldbanner.flf */; };
+		9968D6AB24668597004009CF /* Morse.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D32424666F66004009CF /* Morse.flf */; };
+		9968D6AC24668597004009CF /* Fender.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D32524666F66004009CF /* Fender.flf */; };
+		9968D6AD24668597004009CF /* smpoison.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D32624666F66004009CF /* smpoison.flf */; };
+		9968D6AE24668597004009CF /* Four Tops.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D32724666F66004009CF /* Four Tops.flf */; };
+		9968D6AF24668597004009CF /* smallcaps.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D32824666F66004009CF /* smallcaps.flf */; };
+		9968D6B124668597004009CF /* 3d_diagonal.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D32A24666F66004009CF /* 3d_diagonal.flf */; };
+		9968D6B224668597004009CF /* peaksslant.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D32B24666F66004009CF /* peaksslant.flf */; };
+		9968D6B324668597004009CF /* Slant Relief.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D32C24666F66004009CF /* Slant Relief.flf */; };
+		9968D6B424668597004009CF /* usaflag.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D32D24666F66004009CF /* usaflag.flf */; };
+		9968D6B524668597004009CF /* Hollywood.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D32E24666F66004009CF /* Hollywood.flf */; };
+		9968D6B624668597004009CF /* Poison.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D32F24666F66004009CF /* Poison.flf */; };
+		9968D6B724668597004009CF /* Pepper.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D33024666F66004009CF /* Pepper.flf */; };
+		9968D6B824668597004009CF /* Rot13.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D33124666F66004009CF /* Rot13.flf */; };
+		9968D6B924668597004009CF /* Flower Power.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D33224666F66004009CF /* Flower Power.flf */; };
+		9968D6BA24668597004009CF /* Efti Piti.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D33324666F66004009CF /* Efti Piti.flf */; };
+		9968D6BB24668597004009CF /* Puffy.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D33424666F66004009CF /* Puffy.flf */; };
+		9968D6BC24668597004009CF /* Heart Right.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D33524666F66004009CF /* Heart Right.flf */; };
+		9968D6BD24668597004009CF /* santaclara.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D33624666F66004009CF /* santaclara.flf */; };
+		9968D6BE24668597004009CF /* eftitalic.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D33724666F66004009CF /* eftitalic.flf */; };
+		9968D6BF24668597004009CF /* Catwalk.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D33824666F66004009CF /* Catwalk.flf */; };
+		9968D6C024668597004009CF /* DOS Rebel.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D33924666F66004009CF /* DOS Rebel.flf */; };
+		9968D6C124668597004009CF /* Cards.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D33A24666F66004009CF /* Cards.flf */; };
+		9968D6C324668597004009CF /* Isometric1.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D33C24666F66004009CF /* Isometric1.flf */; };
+		9968D6C424668597004009CF /* amcslder.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D33D24666F66004009CF /* amcslder.flf */; };
+		9968D6C524668597004009CF /* Dr Pepper.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D33E24666F66004009CF /* Dr Pepper.flf */; };
+		9968D6C624668597004009CF /* Chunky.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D33F24666F66004009CF /* Chunky.flf */; };
+		9968D6C724668597004009CF /* eftifont.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34024666F66004009CF /* eftifont.flf */; };
+		9968D6C824668597004009CF /* Tsalagi.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34124666F66004009CF /* Tsalagi.flf */; };
+		9968D6CA24668597004009CF /* Block.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34324666F66004009CF /* Block.flf */; };
+		9968D6CB24668597004009CF /* Mirror.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34424666F66004009CF /* Mirror.flf */; };
+		9968D6CC24668597004009CF /* Avatar.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34524666F66004009CF /* Avatar.flf */; };
+		9968D6CD24668597004009CF /* Two Point.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34624666F66004009CF /* Two Point.flf */; };
+		9968D6CE24668597004009CF /* defleppard.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34724666F66004009CF /* defleppard.flf */; };
+		9968D6D124668597004009CF /* amc3liv1.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34A24666F66004009CF /* amc3liv1.flf */; };
+		9968D6D224668597004009CF /* Runyc.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34B24666F66004009CF /* Runyc.flf */; };
+		9968D6D424668597004009CF /* Thick.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34D24666F66004009CF /* Thick.flf */; };
+		9968D6D624668597004009CF /* 4Max.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D34F24666F66004009CF /* 4Max.flf */; };
+		9968D6D724668597004009CF /* Efti Wall.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D35024666F66004009CF /* Efti Wall.flf */; };
+		9968D6D824668597004009CF /* Univers.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D35124666F66004009CF /* Univers.flf */; };
+		9968D6D924668597004009CF /* AMC 3 Liv1.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D35224666F66004009CF /* AMC 3 Liv1.flf */; };
+		9968D6DA24668597004009CF /* s-relief.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D35324666F66004009CF /* s-relief.flf */; };
+		9968D6DB24668597004009CF /* Isometric3.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D35424666F66004009CF /* Isometric3.flf */; };
+		9968D6DC24668597004009CF /* Def Leppard.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D35524666F66004009CF /* Def Leppard.flf */; };
+		9968D6DD24668597004009CF /* Glenyn.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D35624666F66004009CF /* Glenyn.flf */; };
+		9968D6DE24668597004009CF /* Alphabet.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D35724666F66004009CF /* Alphabet.flf */; };
+		9968D6DF24668597004009CF /* AMC AAA01.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D35824666F66004009CF /* AMC AAA01.flf */; };
+		9968D6E024668597004009CF /* Small Tengwar.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D35924666F66004009CF /* Small Tengwar.flf */; };
+		9968D6E224668597004009CF /* Isometric2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D35B24666F66004009CF /* Isometric2.flf */; };
+		9968D6E324668597004009CF /* Banner3-D.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D35C24666F66004009CF /* Banner3-D.flf */; };
+		9968D6E424668597004009CF /* Braced.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D35D24666F66004009CF /* Braced.flf */; };
+		9968D6E524668597004009CF /* Double Shorts.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D35E24666F66004009CF /* Double Shorts.flf */; };
+		9968D6E624668597004009CF /* Script.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D35F24666F66004009CF /* Script.flf */; };
+		9968D6E724668597004009CF /* Varsity.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36024666F66004009CF /* Varsity.flf */; };
+		9968D6E824668597004009CF /* amcun1.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36124666F66004009CF /* amcun1.flf */; };
+		9968D6EA24668597004009CF /* Soft.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36324666F66004009CF /* Soft.flf */; };
+		9968D6ED24668597004009CF /* Konto.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36624666F66004009CF /* Konto.flf */; };
+		9968D6EE24668597004009CF /* slscript.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36724666F66004009CF /* slscript.flf */; };
+		9968D6EF24668597004009CF /* Small Poison.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36824666F66004009CF /* Small Poison.flf */; };
+		9968D6F024668597004009CF /* Rowan Cap.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36924666F67004009CF /* Rowan Cap.flf */; };
+		9968D6F124668597004009CF /* twopoint.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36A24666F67004009CF /* twopoint.flf */; };
+		9968D6F224668598004009CF /* Fun Face.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36B24666F67004009CF /* Fun Face.flf */; };
+		9968D6F324668598004009CF /* Cosmike.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36C24666F67004009CF /* Cosmike.flf */; };
+		9968D6F524668598004009CF /* Broadway KB.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36E24666F67004009CF /* Broadway KB.flf */; };
+		9968D6F624668598004009CF /* Stforek.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D36F24666F67004009CF /* Stforek.flf */; };
+		9968D6F724668598004009CF /* Cola.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D37024666F67004009CF /* Cola.flf */; };
+		9968D6F824668598004009CF /* Mnemonic.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D37124666F67004009CF /* Mnemonic.flf */; };
+		9968D6F924668598004009CF /* 3D Diagonal.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D37224666F67004009CF /* 3D Diagonal.flf */; };
+		9968D6FA24668598004009CF /* Sweet.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D37324666F67004009CF /* Sweet.flf */; };
+		9968D6FB24668598004009CF /* JS Capital Curves.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D37424666F67004009CF /* JS Capital Curves.flf */; };
+		9968D6FC24668598004009CF /* Nancyj-Underlined.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D37524666F67004009CF /* Nancyj-Underlined.flf */; };
+		9968D6FD24668598004009CF /* Efti Font.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D37624666F67004009CF /* Efti Font.flf */; };
+		9968D6FE24668598004009CF /* 5lineoblique.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D37724666F67004009CF /* 5lineoblique.flf */; };
+		9968D6FF24668598004009CF /* Greek.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D37824666F67004009CF /* Greek.flf */; };
+		9968D70024668598004009CF /* eftiwater.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D37924666F67004009CF /* eftiwater.flf */; };
+		9968D70124668598004009CF /* AMC 3 Line.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D37A24666F67004009CF /* AMC 3 Line.flf */; };
+		9968D70224668598004009CF /* Filter.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D37B24666F67004009CF /* Filter.flf */; };
+		9968D70324668598004009CF /* eftirobot.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D37C24666F67004009CF /* eftirobot.flf */; };
+		9968D70424668598004009CF /* The Edge.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D37D24666F67004009CF /* The Edge.flf */; };
+		9968D70524668598004009CF /* eftipiti.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D37E24666F67004009CF /* eftipiti.flf */; };
+		9968D70624668598004009CF /* 3D-ASCII.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D37F24666F67004009CF /* 3D-ASCII.flf */; };
+		9968D70724668598004009CF /* Tombstone.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38024666F67004009CF /* Tombstone.flf */; };
+		9968D70824668598004009CF /* Spliff.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38124666F67004009CF /* Spliff.flf */; };
+		9968D70924668598004009CF /* Kban.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38224666F67004009CF /* Kban.flf */; };
+		9968D70A24668598004009CF /* Italic.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38324666F67004009CF /* Italic.flf */; };
+		9968D70B24668598004009CF /* amctubes.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38424666F67004009CF /* amctubes.flf */; };
+		9968D70C24668598004009CF /* swampland.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38524666F67004009CF /* swampland.flf */; };
+		9968D70E24668598004009CF /* smshadow.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38724666F67004009CF /* smshadow.flf */; };
+		9968D70F24668598004009CF /* Line Blocks.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38824666F67004009CF /* Line Blocks.flf */; };
+		9968D71124668598004009CF /* 3d.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38A24666F67004009CF /* 3d.flf */; };
+		9968D71224668598004009CF /* Whimsy.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38B24666F67004009CF /* Whimsy.flf */; };
+		9968D71324668598004009CF /* Reverse.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38C24666F67004009CF /* Reverse.flf */; };
+		9968D71524668598004009CF /* Cursive.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38E24666F67004009CF /* Cursive.flf */; };
+		9968D71624668598004009CF /* amc3line.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D38F24666F67004009CF /* amc3line.flf */; };
+		9968D71724668598004009CF /* Larry 3D.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39024666F67004009CF /* Larry 3D.flf */; };
+		9968D71924668598004009CF /* AMC Razor.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39224666F67004009CF /* AMC Razor.flf */; };
+		9968D71A24668598004009CF /* Binary.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39324666F67004009CF /* Binary.flf */; };
+		9968D71B24668598004009CF /* AMC Slider.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39424666F67004009CF /* AMC Slider.flf */; };
+		9968D71D24668598004009CF /* Mini.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39624666F67004009CF /* Mini.flf */; };
+		9968D71E24668598004009CF /* Rammstein.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39724666F67004009CF /* Rammstein.flf */; };
+		9968D71F24668598004009CF /* amcthin.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39824666F67004009CF /* amcthin.flf */; };
+		9968D72124668598004009CF /* Small Script.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39A24666F67004009CF /* Small Script.flf */; };
+		9968D72224668598004009CF /* Isometric4.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39B24666F67004009CF /* Isometric4.flf */; };
+		9968D72324668598004009CF /* sblood.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39C24666F67004009CF /* sblood.flf */; };
+		9968D72424668598004009CF /* Ticks.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39D24666F67004009CF /* Ticks.flf */; };
+		9968D72524668598004009CF /* Horizontal Left.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D39E24666F67004009CF /* Horizontal Left.flf */; };
+		9968D72724668598004009CF /* broadway_kb.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3A024666F67004009CF /* broadway_kb.flf */; };
+		9968D72824668598004009CF /* Nancyj.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3A124666F67004009CF /* Nancyj.flf */; };
+		9968D72924668598004009CF /* AMC Neko.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3A224666F67004009CF /* AMC Neko.flf */; };
+		9968D72A24668598004009CF /* Diamond.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3A324666F67004009CF /* Diamond.flf */; };
+		9968D72B24668598004009CF /* eftiwall.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3A424666F67004009CF /* eftiwall.flf */; };
+		9968D72C24668598004009CF /* Straight.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3A524666F67004009CF /* Straight.flf */; };
+		9968D72E24668598004009CF /* Delta Corps Priest 1.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3A724666F67004009CF /* Delta Corps Priest 1.flf */; };
+		9968D73024668598004009CF /* Stellar.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3A924666F67004009CF /* Stellar.flf */; };
+		9968D73124668598004009CF /* ANSI Shadow.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3AA24666F67004009CF /* ANSI Shadow.flf */; };
+		9968D73324668598004009CF /* Wavy.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3AC24666F67004009CF /* Wavy.flf */; };
+		9968D73424668598004009CF /* Invita.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3AD24666F67004009CF /* Invita.flf */; };
+		9968D73524668598004009CF /* Slant.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3AE24666F67004009CF /* Slant.flf */; };
+		9968D73624668598004009CF /* README.md in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3AF24666F67004009CF /* README.md */; };
+		9968D73724668598004009CF /* Bubble.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3B024666F67004009CF /* Bubble.flf */; };
+		9968D73824668598004009CF /* Marquee.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3B124666F67004009CF /* Marquee.flf */; };
+		9968D73924668598004009CF /* Santa Clara.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3B224666F67004009CF /* Santa Clara.flf */; };
+		9968D73B24668598004009CF /* Diet Cola.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3B424666F67004009CF /* Diet Cola.flf */; };
+		9968D73C24668598004009CF /* eftichess.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3B524666F67004009CF /* eftichess.flf */; };
+		9968D73D24668598004009CF /* Swan.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3B624666F67004009CF /* Swan.flf */; };
+		9968D73E24668598004009CF /* Contrast.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3B724666F67004009CF /* Contrast.flf */; };
+		9968D73F24668598004009CF /* Cricket.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3B824666F67004009CF /* Cricket.flf */; };
+		9968D74124668598004009CF /* Trek.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3BA24666F67004009CF /* Trek.flf */; };
+		9968D74224668598004009CF /* Small Keyboard.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3BB24666F67004009CF /* Small Keyboard.flf */; };
+		9968D74324668598004009CF /* Swamp Land.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3BC24666F67004009CF /* Swamp Land.flf */; };
+		9968D74424668598004009CF /* dietcola.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3BD24666F67004009CF /* dietcola.flf */; };
+		9968D74524668598004009CF /* Gothic.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3BE24666F67004009CF /* Gothic.flf */; };
+		9968D74624668598004009CF /* Goofy.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3BF24666F67004009CF /* Goofy.flf */; };
+		9968D74724668598004009CF /* Speed.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3C024666F67004009CF /* Speed.flf */; };
+		9968D74824668598004009CF /* calgphy2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3C124666F67004009CF /* calgphy2.flf */; };
+		9968D74A24668598004009CF /* Puzzle.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3C324666F67004009CF /* Puzzle.flf */; };
+		9968D74D24668598004009CF /* Cybersmall.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3C624666F67004009CF /* Cybersmall.flf */; };
+		9968D74E24668598004009CF /* Alpha.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3C724666F67004009CF /* Alpha.flf */; };
+		9968D74F24668598004009CF /* Banner3.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3C824666F67004009CF /* Banner3.flf */; };
+		9968D75024668598004009CF /* Pebbles.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3C924666F67004009CF /* Pebbles.flf */; };
+		9968D75124668598004009CF /* Coinstak.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3CA24666F67004009CF /* Coinstak.flf */; };
+		9968D75224668598004009CF /* S Blood.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3CB24666F67004009CF /* S Blood.flf */; };
+		9968D75324668598004009CF /* ICL-1900.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3CC24666F67004009CF /* ICL-1900.flf */; };
+		9968D75524668598004009CF /* Digital.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3CE24666F67004009CF /* Digital.flf */; };
+		9968D75624668598004009CF /* fourtops.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3CF24666F67004009CF /* fourtops.flf */; };
+		9968D75824668598004009CF /* Moscow.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3D124666F67004009CF /* Moscow.flf */; };
+		9968D75924668598004009CF /* Big Money-sw.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3D224666F67004009CF /* Big Money-sw.flf */; };
+		9968D75A24668598004009CF /* Big Chief.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3D324666F67004009CF /* Big Chief.flf */; };
+		9968D75B24668598004009CF /* Maxfour.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3D424666F67004009CF /* Maxfour.flf */; };
+		9968D75C24668598004009CF /* Fraktur.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3D524666F67004009CF /* Fraktur.flf */; };
+		9968D75D24668598004009CF /* 5 Line Oblique.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3D624666F67004009CF /* 5 Line Oblique.flf */; };
+		9968D75E24668598004009CF /* Efti Italic.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3D724666F67004009CF /* Efti Italic.flf */; };
+		9968D75F24668598004009CF /* Term.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3D824666F67004009CF /* Term.flf */; };
+		9968D76124668598004009CF /* Katakana.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3DA24666F67004009CF /* Katakana.flf */; };
+		9968D76224668598004009CF /* ticksslant.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3DB24666F67004009CF /* ticksslant.flf */; };
+		9968D76324668598004009CF /* Georgi16.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3DC24666F67004009CF /* Georgi16.flf */; };
+		9968D76424668598004009CF /* Crawford2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3DD24666F67004009CF /* Crawford2.flf */; };
+		9968D76524668598004009CF /* Stronger Than All.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3DE24666F67004009CF /* Stronger Than All.flf */; };
+		9968D76624668598004009CF /* Caligraphy.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3DF24666F67004009CF /* Caligraphy.flf */; };
+		9968D76724668598004009CF /* AMC Slash.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3E024666F67004009CF /* AMC Slash.flf */; };
+		9968D76824668598004009CF /* Relief.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3E124666F67004009CF /* Relief.flf */; };
+		9968D76924668598004009CF /* Jazmine.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3E224666F67004009CF /* Jazmine.flf */; };
+		9968D76A24668598004009CF /* dotmatrix.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3E324666F67004009CF /* dotmatrix.flf */; };
+		9968D76D24668598004009CF /* Banner4.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3E624666F67004009CF /* Banner4.flf */; };
+		9968D76E24668598004009CF /* Small Caps.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3E724666F67004009CF /* Small Caps.flf */; };
+		9968D76F24668598004009CF /* Big Money-se.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3E824666F67004009CF /* Big Money-se.flf */; };
+		9968D77024668598004009CF /* 1Row.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3E924666F67004009CF /* 1Row.flf */; };
+		9968D77124668598004009CF /* Rotated.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3EA24666F67004009CF /* Rotated.flf */; };
+		9968D77224668598004009CF /* Stick Letters.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3EB24666F67004009CF /* Stick Letters.flf */; };
+		9968D77324668598004009CF /* Doom.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3EC24666F67004009CF /* Doom.flf */; };
+		9968D77424668598004009CF /* Linux.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3ED24666F67004009CF /* Linux.flf */; };
+		9968D77524668598004009CF /* Tengwar.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3EE24666F67004009CF /* Tengwar.flf */; };
+		9968D77624668598004009CF /* Twisted.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3EF24666F67004009CF /* Twisted.flf */; };
+		9968D77724668598004009CF /* Wet Letter.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3F024666F67004009CF /* Wet Letter.flf */; };
+		9968D77824668598004009CF /* rowancap.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3F124666F67004009CF /* rowancap.flf */; };
+		9968D77924668598004009CF /* Peaks.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3F224666F67004009CF /* Peaks.flf */; };
+		9968D77A24668598004009CF /* Larry 3D 2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3F324666F67004009CF /* Larry 3D 2.flf */; };
+		9968D77C24668598004009CF /* Ivrit.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3F524666F67004009CF /* Ivrit.flf */; };
+		9968D77D24668598004009CF /* Acrobatic.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3F624666F67004009CF /* Acrobatic.flf */; };
+		9968D77E24668598004009CF /* Contessa.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3F724666F67004009CF /* Contessa.flf */; };
+		9968D77F24668598004009CF /* NV Script.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3F824666F67004009CF /* NV Script.flf */; };
+		9968D78124668598004009CF /* Star Wars.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3FA24666F67004009CF /* Star Wars.flf */; };
+		9968D78224668598004009CF /* Dot Matrix.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3FB24666F67004009CF /* Dot Matrix.flf */; };
+		9968D78324668598004009CF /* horizontalleft.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3FC24666F67004009CF /* horizontalleft.flf */; };
+		9968D78424668598004009CF /* Merlin2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3FD24666F67004009CF /* Merlin2.flf */; };
+		9968D78624668598004009CF /* ntgreek.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D3FF24666F67004009CF /* ntgreek.flf */; };
+		9968D78724668598004009CF /* Test1.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40024666F67004009CF /* Test1.flf */; };
+		9968D78824668598004009CF /* smtengwar.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40124666F67004009CF /* smtengwar.flf */; };
+		9968D78924668598004009CF /* Cyberlarge.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40224666F67004009CF /* Cyberlarge.flf */; };
+		9968D78A24668598004009CF /* larry3d.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40324666F67004009CF /* larry3d.flf */; };
+		9968D78B24668598004009CF /* Peaks Slant.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40424666F67004009CF /* Peaks Slant.flf */; };
+		9968D78C24668598004009CF /* Rounded.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40524666F67004009CF /* Rounded.flf */; };
+		9968D78D24668598004009CF /* Short.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40624666F67004009CF /* Short.flf */; };
+		9968D78E24668598004009CF /* Hex.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40724666F67004009CF /* Hex.flf */; };
+		9968D78F24668598004009CF /* Jacky.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40824666F67004009CF /* Jacky.flf */; };
+		9968D79024668598004009CF /* Lil Devil.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40924666F67004009CF /* Lil Devil.flf */; };
+		9968D79124668598004009CF /* Tanja.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40A24666F67004009CF /* Tanja.flf */; };
+		9968D79224668598004009CF /* Big.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40B24666F67004009CF /* Big.flf */; };
+		9968D79324668598004009CF /* heart_left.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40C24666F67004009CF /* heart_left.flf */; };
+		9968D79524668598004009CF /* Rectangles.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40E24666F68004009CF /* Rectangles.flf */; };
+		9968D79624668598004009CF /* Knob.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D40F24666F68004009CF /* Knob.flf */; };
+		9968D79724668598004009CF /* Epic.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41024666F68004009CF /* Epic.flf */; };
+		9968D79824668598004009CF /* Ghost.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41124666F68004009CF /* Ghost.flf */; };
+		9968D79A24668598004009CF /* AMC Untitled.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41324666F68004009CF /* AMC Untitled.flf */; };
+		9968D79B24668598004009CF /* Pawp.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41424666F68004009CF /* Pawp.flf */; };
+		9968D79C24668598004009CF /* funfaces.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41524666F68004009CF /* funfaces.flf */; };
+		9968D79D24668598004009CF /* Merlin1.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41624666F68004009CF /* Merlin1.flf */; };
+		9968D79E24668598004009CF /* Flipped.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41724666F68004009CF /* Flipped.flf */; };
+		9968D7A024668598004009CF /* Arrows.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41924666F68004009CF /* Arrows.flf */; };
+		9968D7A224668598004009CF /* Shimrod.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41B24666F68004009CF /* Shimrod.flf */; };
+		9968D7A324668598004009CF /* Blocks.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41C24666F68004009CF /* Blocks.flf */; };
+		9968D7A424668598004009CF /* B1FF.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41D24666F68004009CF /* B1FF.flf */; };
+		9968D7A524668598004009CF /* funface.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D41E24666F68004009CF /* funface.flf */; };
+		9968D7A724668598004009CF /* smisome1.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42024666F68004009CF /* smisome1.flf */; };
+		9968D7A824668598004009CF /* Lockergnome.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42124666F68004009CF /* Lockergnome.flf */; };
+		9968D7A924668598004009CF /* drpepper.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42224666F68004009CF /* drpepper.flf */; };
+		9968D7AA24668598004009CF /* Caligraphy2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42324666F68004009CF /* Caligraphy2.flf */; };
+		9968D7AB24668598004009CF /* Graffiti.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42424666F68004009CF /* Graffiti.flf */; };
+		9968D7AC24668598004009CF /* amcrazo2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42524666F68004009CF /* amcrazo2.flf */; };
+		9968D7AD24668598004009CF /* lineblocks.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42624666F68004009CF /* lineblocks.flf */; };
+		9968D7AE24668598004009CF /* wetletter.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42724666F68004009CF /* wetletter.flf */; };
+		9968D7AF24668598004009CF /* Chiseled.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42824666F68004009CF /* Chiseled.flf */; };
+		9968D7B024668598004009CF /* amcrazor.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42924666F68004009CF /* amcrazor.flf */; };
+		9968D7B224668598004009CF /* Gradient.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42B24666F68004009CF /* Gradient.flf */; };
+		9968D7B324668598004009CF /* Henry 3D.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42C24666F68004009CF /* Henry 3D.flf */; };
+		9968D7B424668598004009CF /* Hieroglyphs.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42D24666F68004009CF /* Hieroglyphs.flf */; };
+		9968D7B524668598004009CF /* JS Stick Letters.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D42E24666F68004009CF /* JS Stick Letters.flf */; };
+		9968D7B724668598004009CF /* Bolger.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43024666F68004009CF /* Bolger.flf */; };
+		9968D7B824668598004009CF /* Stop.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43124666F68004009CF /* Stop.flf */; };
+		9968D7B924668598004009CF /* henry3d.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43224666F68004009CF /* henry3d.flf */; };
+		9968D7BB24668598004009CF /* AMC Tubes.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43424666F68004009CF /* AMC Tubes.flf */; };
+		9968D7BD24668599004009CF /* Broadway.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43624666F68004009CF /* Broadway.flf */; };
+		9968D7BE24668599004009CF /* O8.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43724666F68004009CF /* O8.flf */; };
+		9968D7BF24668599004009CF /* Tinker-Toy.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43824666F68004009CF /* Tinker-Toy.flf */; };
+		9968D7C024668599004009CF /* JS Cursive.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43924666F68004009CF /* JS Cursive.flf */; };
+		9968D7C124668599004009CF /* doubleshorts.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43A24666F68004009CF /* doubleshorts.flf */; };
+		9968D7C224668599004009CF /* alligator3.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43B24666F68004009CF /* alligator3.flf */; };
+		9968D7C324668599004009CF /* Small Isometric1.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43C24666F68004009CF /* Small Isometric1.flf */; };
+		9968D7C424668599004009CF /* Train.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43D24666F68004009CF /* Train.flf */; };
+		9968D7C524668599004009CF /* Stacey.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43E24666F68004009CF /* Stacey.flf */; };
+		9968D7C624668599004009CF /* Alligator2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D43F24666F68004009CF /* Alligator2.flf */; };
+		9968D7C724668599004009CF /* Octal.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44024666F68004009CF /* Octal.flf */; };
+		9968D7C824668599004009CF /* Lean.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44124666F68004009CF /* Lean.flf */; };
+		9968D7C924668599004009CF /* Bell.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44224666F68004009CF /* Bell.flf */; };
+		9968D7CA24668599004009CF /* Elite.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44324666F68004009CF /* Elite.flf */; };
+		9968D7CB24668599004009CF /* Rozzo.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44424666F68004009CF /* Rozzo.flf */; };
+		9968D7CC24668599004009CF /* Fuzzy.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44524666F68004009CF /* Fuzzy.flf */; };
+		9968D7CD24668599004009CF /* OS2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44624666F68004009CF /* OS2.flf */; };
+		9968D7CE24668599004009CF /* Bigfig.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44724666F68004009CF /* Bigfig.flf */; };
+		9968D7CF24668599004009CF /* amcaaa01.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44824666F68004009CF /* amcaaa01.flf */; };
+		9968D7D224668599004009CF /* smslant.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44B24666F68004009CF /* smslant.flf */; };
+		9968D7D324668599004009CF /* Efti Robot.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44C24666F68004009CF /* Efti Robot.flf */; };
+		9968D7D424668599004009CF /* Nancyj-Improved.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44D24666F68004009CF /* Nancyj-Improved.flf */; };
+		9968D7D524668599004009CF /* Crazy.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44E24666F68004009CF /* Crazy.flf */; };
+		9968D7D624668599004009CF /* Tubular.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D44F24666F68004009CF /* Tubular.flf */; };
+		9968D7D724668599004009CF /* maxiwi.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45024666F68004009CF /* maxiwi.flf */; };
+		9968D7D824668599004009CF /* Efti Water.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45124666F68004009CF /* Efti Water.flf */; };
+		9968D7D924668599004009CF /* red_phoenix.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45224666F68004009CF /* red_phoenix.flf */; };
+		9968D7DA24668599004009CF /* Fire Font-k.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45324666F68004009CF /* Fire Font-k.flf */; };
+		9968D7DB24668599004009CF /* ANSI Regular.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45424666F68004009CF /* ANSI Regular.flf */; };
+		9968D7DD24668599004009CF /* DANC4.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45624666F68004009CF /* DANC4.flf */; };
+		9968D7DE24668599004009CF /* Ogre.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45724666F68004009CF /* Ogre.flf */; };
+		9968D7DF24668599004009CF /* Stampatello.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45824666F68004009CF /* Stampatello.flf */; };
+		9968D7E024668599004009CF /* Konto Slant.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45924666F68004009CF /* Konto Slant.flf */; };
+		9968D7E124668599004009CF /* Patorjk-HeX.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45A24666F68004009CF /* Patorjk-HeX.flf */; };
+		9968D7E324668599004009CF /* lildevil.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45C24666F68004009CF /* lildevil.flf */; };
+		9968D7E424668599004009CF /* starwars 2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45D24666F68004009CF /* starwars 2.flf */; };
+		9968D7E524668599004009CF /* Three Point.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45E24666F68004009CF /* Three Point.flf */; };
+		9968D7E624668599004009CF /* Weird.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D45F24666F68004009CF /* Weird.flf */; };
+		9968D7E724668599004009CF /* Patorjk's Cheese.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46024666F68004009CF /* Patorjk's Cheese.flf */; };
+		9968D7E824668599004009CF /* USA Flag.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46124666F68004009CF /* USA Flag.flf */; };
+		9968D7E924668599004009CF /* Serifcap.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46224666F68004009CF /* Serifcap.flf */; };
+		9968D7EC24668599004009CF /* Standard.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46524666F68004009CF /* Standard.flf */; };
+		9968D7ED24668599004009CF /* Stampate.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46624666F68004009CF /* Stampate.flf */; };
+		9968D7EE24668599004009CF /* Thin.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46724666F68004009CF /* Thin.flf */; };
+		9968D7EF24668599004009CF /* Georgia11.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46824666F68004009CF /* Georgia11.flf */; };
+		9968D7F024668599004009CF /* Cybermedium.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46924666F68004009CF /* Cybermedium.flf */; };
+		9968D7F124668599004009CF /* Cygnet.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46A24666F68004009CF /* Cygnet.flf */; };
+		9968D7F224668599004009CF /* cosmic.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46B24666F68004009CF /* cosmic.flf */; };
+		9968D7F324668599004009CF /* Double.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46C24666F68004009CF /* Double.flf */; };
+		9968D7F424668599004009CF /* Morse2.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46D24666F68004009CF /* Morse2.flf */; };
+		9968D7F624668599004009CF /* Heart Left.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D46F24666F68004009CF /* Heart Left.flf */; };
+		9968D7F724668599004009CF /* 3x5.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D47024666F68004009CF /* 3x5.flf */; };
+		9968D7F824668599004009CF /* Keyboard.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D47124666F68004009CF /* Keyboard.flf */; };
+		9968D7F924668599004009CF /* fire_font-k.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D47224666F68004009CF /* fire_font-k.flf */; };
+		9968D7FA24668599004009CF /* bigchief.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D47324666F68004009CF /* bigchief.flf */; };
+		9968D7FB24668599004009CF /* Star Strips.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D47424666F68004009CF /* Star Strips.flf */; };
+		9968D7FC24668599004009CF /* Modular.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D47524666F68004009CF /* Modular.flf */; };
+		9968D7FD24668599004009CF /* Roman.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D47624666F68004009CF /* Roman.flf */; };
+		9968D7FE24668599004009CF /* miniwi.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D47724666F68004009CF /* miniwi.flf */; };
+		9968D7FF24668599004009CF /* Runic.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D47824666F68004009CF /* Runic.flf */; };
+		9968D80024668599004009CF /* Thorned.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D47924666F68004009CF /* Thorned.flf */; };
+		9968D80124668599004009CF /* SL Script.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D47A24666F68004009CF /* SL Script.flf */; };
+		9968D80324668599004009CF /* Banner.flf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9968D47C24666F68004009CF /* Banner.flf */; };
+		99800A08246A9EE1004C7546 /* Files in Frameworks */ = {isa = PBXBuildFile; productRef = 99800A07246A9EE1004C7546 /* Files */; };
+		99BF8095246613110022B01E /* SwiftFigletKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BF8094246613110022B01E /* SwiftFigletKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		990CE66D2465D45F00E23460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990CE65D2465D45F00E23460 /* SwiftFigletKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "SwiftFigletKit::SwiftFigletKit::Product";
+			remoteInfo = SwiftFigletKit;
+		};
+		990CE6712465D55B00E23460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990CE65D2465D45F00E23460 /* SwiftFigletKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftFigletKit::SwiftFigletKit";
+			remoteInfo = SwiftFigletKit;
+		};
+		9968D65224668552004009CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990CE65D2465D45F00E23460 /* SwiftFigletKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9968D64124667322004009CF;
+			remoteInfo = SwiftFigletKitTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		990CE6222465CC6800E23460 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = fonts;
+			dstSubfolderSpec = 16;
+			files = (
+				9968D65424668597004009CF /* Nipples.flf in CopyFiles */,
+				9968D65524668597004009CF /* Muzzle.flf in CopyFiles */,
+				9968D65624668597004009CF /* Computer.flf in CopyFiles */,
+				9968D65824668597004009CF /* Electronic.flf in CopyFiles */,
+				9968D65B24668597004009CF /* Ghoulish.flf in CopyFiles */,
+				9968D65C24668597004009CF /* NT Greek.flf in CopyFiles */,
+				9968D65D24668597004009CF /* Fire Font-s.flf in CopyFiles */,
+				9968D65E24668597004009CF /* LCD.flf in CopyFiles */,
+				9968D65F24668597004009CF /* JS Bracket Letters.flf in CopyFiles */,
+				9968D66024668597004009CF /* Efti Chess.flf in CopyFiles */,
+				9968D66124668597004009CF /* Letters.flf in CopyFiles */,
+				9968D66224668597004009CF /* rev.flf in CopyFiles */,
+				9968D66324668597004009CF /* Barbwire.flf in CopyFiles */,
+				9968D66424668597004009CF /* dancingfont.flf in CopyFiles */,
+				9968D66524668597004009CF /* threepoint.flf in CopyFiles */,
+				9968D66624668597004009CF /* smkeyboard.flf in CopyFiles */,
+				9968D66724668597004009CF /* Impossible.flf in CopyFiles */,
+				9968D66824668597004009CF /* Bright.flf in CopyFiles */,
+				9968D66924668597004009CF /* Madrid.flf in CopyFiles */,
+				9968D66B24668597004009CF /* 3-D.flf in CopyFiles */,
+				9968D66C24668597004009CF /* Benjamin.flf in CopyFiles */,
+				9968D66D24668597004009CF /* Bloody.flf in CopyFiles */,
+				9968D67124668597004009CF /* heart_right.flf in CopyFiles */,
+				9968D67224668597004009CF /* Sub-Zero.flf in CopyFiles */,
+				9968D67324668597004009CF /* Tiles.flf in CopyFiles */,
+				9968D67424668597004009CF /* Pyramid.flf in CopyFiles */,
+				9968D67524668597004009CF /* Crawford.flf in CopyFiles */,
+				9968D67624668597004009CF /* Small Slant.flf in CopyFiles */,
+				9968D67724668597004009CF /* Big Money-nw.flf in CopyFiles */,
+				9968D67824668597004009CF /* Shadow.flf in CopyFiles */,
+				9968D67924668597004009CF /* starstrips.flf in CopyFiles */,
+				9968D67A24668597004009CF /* Red Phoenix.flf in CopyFiles */,
+				9968D67C24668597004009CF /* fire_font-s.flf in CopyFiles */,
+				9968D67E24668597004009CF /* Bulbhead.flf in CopyFiles */,
+				9968D67F24668597004009CF /* Mshebrew210.flf in CopyFiles */,
+				9968D68024668597004009CF /* Doh.flf in CopyFiles */,
+				9968D68224668597004009CF /* Nancyj-Fancy.flf in CopyFiles */,
+				9968D68324668597004009CF /* Mike.flf in CopyFiles */,
+				9968D68424668597004009CF /* THIS.flf in CopyFiles */,
+				9968D68624668597004009CF /* Fun Faces.flf in CopyFiles */,
+				9968D68724668597004009CF /* Dancing Font.flf in CopyFiles */,
+				9968D68824668597004009CF /* DWhistled.flf in CopyFiles */,
+				9968D68924668597004009CF /* Slide.flf in CopyFiles */,
+				9968D68A24668597004009CF /* horizontalright.flf in CopyFiles */,
+				9968D68B24668597004009CF /* ASCII-New-Roman.flf in CopyFiles */,
+				9968D68C24668597004009CF /* Big-Money-ne.flf in CopyFiles */,
+				9968D68D24668597004009CF /* smscript.flf in CopyFiles */,
+				9968D68E24668597004009CF /* amcneko.flf in CopyFiles */,
+				9968D68F24668597004009CF /* JS Block Letters.flf in CopyFiles */,
+				9968D69024668597004009CF /* amcslash.flf in CopyFiles */,
+				9968D69124668597004009CF /* AMC Razor2.flf in CopyFiles */,
+				9968D69224668597004009CF /* Alligator.flf in CopyFiles */,
+				9968D69324668597004009CF /* Graceful.flf in CopyFiles */,
+				9968D69424668597004009CF /* flowerpower.flf in CopyFiles */,
+				9968D69524668597004009CF /* Wow.flf in CopyFiles */,
+				9968D69624668597004009CF /* starwars.flf in CopyFiles */,
+				9968D69724668597004009CF /* kontoslant.flf in CopyFiles */,
+				9968D69824668597004009CF /* Relief2.flf in CopyFiles */,
+				9968D69A24668597004009CF /* dosrebel.flf in CopyFiles */,
+				9968D69B24668597004009CF /* Ticks Slant.flf in CopyFiles */,
+				9968D69C24668597004009CF /* Basic.flf in CopyFiles */,
+				9968D69D24668597004009CF /* Horizontal Right.flf in CopyFiles */,
+				9968D69E24668597004009CF /* AMC Thin.flf in CopyFiles */,
+				9968D69F24668597004009CF /* Colossal.flf in CopyFiles */,
+				9968D6A024668597004009CF /* Decimal.flf in CopyFiles */,
+				9968D6A224668597004009CF /* Jerusalem.flf in CopyFiles */,
+				9968D6A324668597004009CF /* Small Shadow.flf in CopyFiles */,
+				9968D6A424668597004009CF /* Bear.flf in CopyFiles */,
+				9968D6A524668597004009CF /* ascii_new_roman.flf in CopyFiles */,
+				9968D6A624668597004009CF /* Small.flf in CopyFiles */,
+				9968D6A724668597004009CF /* Old Banner.flf in CopyFiles */,
+				9968D6A824668597004009CF /* NScript.flf in CopyFiles */,
+				9968D6A924668597004009CF /* Calvin S.flf in CopyFiles */,
+				9968D6AA24668597004009CF /* oldbanner.flf in CopyFiles */,
+				9968D6AB24668597004009CF /* Morse.flf in CopyFiles */,
+				9968D6AC24668597004009CF /* Fender.flf in CopyFiles */,
+				9968D6AD24668597004009CF /* smpoison.flf in CopyFiles */,
+				9968D6AE24668597004009CF /* Four Tops.flf in CopyFiles */,
+				9968D6AF24668597004009CF /* smallcaps.flf in CopyFiles */,
+				9968D6B124668597004009CF /* 3d_diagonal.flf in CopyFiles */,
+				9968D6B224668597004009CF /* peaksslant.flf in CopyFiles */,
+				9968D6B324668597004009CF /* Slant Relief.flf in CopyFiles */,
+				9968D6B424668597004009CF /* usaflag.flf in CopyFiles */,
+				9968D6B524668597004009CF /* Hollywood.flf in CopyFiles */,
+				9968D6B624668597004009CF /* Poison.flf in CopyFiles */,
+				9968D6B724668597004009CF /* Pepper.flf in CopyFiles */,
+				9968D6B824668597004009CF /* Rot13.flf in CopyFiles */,
+				9968D6B924668597004009CF /* Flower Power.flf in CopyFiles */,
+				9968D6BA24668597004009CF /* Efti Piti.flf in CopyFiles */,
+				9968D6BB24668597004009CF /* Puffy.flf in CopyFiles */,
+				9968D6BC24668597004009CF /* Heart Right.flf in CopyFiles */,
+				9968D6BD24668597004009CF /* santaclara.flf in CopyFiles */,
+				9968D6BE24668597004009CF /* eftitalic.flf in CopyFiles */,
+				9968D6BF24668597004009CF /* Catwalk.flf in CopyFiles */,
+				9968D6C024668597004009CF /* DOS Rebel.flf in CopyFiles */,
+				9968D6C124668597004009CF /* Cards.flf in CopyFiles */,
+				9968D6C324668597004009CF /* Isometric1.flf in CopyFiles */,
+				9968D6C424668597004009CF /* amcslder.flf in CopyFiles */,
+				9968D6C524668597004009CF /* Dr Pepper.flf in CopyFiles */,
+				9968D6C624668597004009CF /* Chunky.flf in CopyFiles */,
+				9968D6C724668597004009CF /* eftifont.flf in CopyFiles */,
+				9968D6C824668597004009CF /* Tsalagi.flf in CopyFiles */,
+				9968D6CA24668597004009CF /* Block.flf in CopyFiles */,
+				9968D6CB24668597004009CF /* Mirror.flf in CopyFiles */,
+				9968D6CC24668597004009CF /* Avatar.flf in CopyFiles */,
+				9968D6CD24668597004009CF /* Two Point.flf in CopyFiles */,
+				9968D6CE24668597004009CF /* defleppard.flf in CopyFiles */,
+				9968D6D124668597004009CF /* amc3liv1.flf in CopyFiles */,
+				9968D6D224668597004009CF /* Runyc.flf in CopyFiles */,
+				9968D6D424668597004009CF /* Thick.flf in CopyFiles */,
+				9968D6D624668597004009CF /* 4Max.flf in CopyFiles */,
+				9968D6D724668597004009CF /* Efti Wall.flf in CopyFiles */,
+				9968D6D824668597004009CF /* Univers.flf in CopyFiles */,
+				9968D6D924668597004009CF /* AMC 3 Liv1.flf in CopyFiles */,
+				9968D6DA24668597004009CF /* s-relief.flf in CopyFiles */,
+				9968D6DB24668597004009CF /* Isometric3.flf in CopyFiles */,
+				9968D6DC24668597004009CF /* Def Leppard.flf in CopyFiles */,
+				9968D6DD24668597004009CF /* Glenyn.flf in CopyFiles */,
+				9968D6DE24668597004009CF /* Alphabet.flf in CopyFiles */,
+				9968D6DF24668597004009CF /* AMC AAA01.flf in CopyFiles */,
+				9968D6E024668597004009CF /* Small Tengwar.flf in CopyFiles */,
+				9968D6E224668597004009CF /* Isometric2.flf in CopyFiles */,
+				9968D6E324668597004009CF /* Banner3-D.flf in CopyFiles */,
+				9968D6E424668597004009CF /* Braced.flf in CopyFiles */,
+				9968D6E524668597004009CF /* Double Shorts.flf in CopyFiles */,
+				9968D6E624668597004009CF /* Script.flf in CopyFiles */,
+				9968D6E724668597004009CF /* Varsity.flf in CopyFiles */,
+				9968D6E824668597004009CF /* amcun1.flf in CopyFiles */,
+				9968D6EA24668597004009CF /* Soft.flf in CopyFiles */,
+				9968D6ED24668597004009CF /* Konto.flf in CopyFiles */,
+				9968D6EE24668597004009CF /* slscript.flf in CopyFiles */,
+				9968D6EF24668597004009CF /* Small Poison.flf in CopyFiles */,
+				9968D6F024668597004009CF /* Rowan Cap.flf in CopyFiles */,
+				9968D6F124668597004009CF /* twopoint.flf in CopyFiles */,
+				9968D6F224668598004009CF /* Fun Face.flf in CopyFiles */,
+				9968D6F324668598004009CF /* Cosmike.flf in CopyFiles */,
+				9968D6F524668598004009CF /* Broadway KB.flf in CopyFiles */,
+				9968D6F624668598004009CF /* Stforek.flf in CopyFiles */,
+				9968D6F724668598004009CF /* Cola.flf in CopyFiles */,
+				9968D6F824668598004009CF /* Mnemonic.flf in CopyFiles */,
+				9968D6F924668598004009CF /* 3D Diagonal.flf in CopyFiles */,
+				9968D6FA24668598004009CF /* Sweet.flf in CopyFiles */,
+				9968D6FB24668598004009CF /* JS Capital Curves.flf in CopyFiles */,
+				9968D6FC24668598004009CF /* Nancyj-Underlined.flf in CopyFiles */,
+				9968D6FD24668598004009CF /* Efti Font.flf in CopyFiles */,
+				9968D6FE24668598004009CF /* 5lineoblique.flf in CopyFiles */,
+				9968D6FF24668598004009CF /* Greek.flf in CopyFiles */,
+				9968D70024668598004009CF /* eftiwater.flf in CopyFiles */,
+				9968D70124668598004009CF /* AMC 3 Line.flf in CopyFiles */,
+				9968D70224668598004009CF /* Filter.flf in CopyFiles */,
+				9968D70324668598004009CF /* eftirobot.flf in CopyFiles */,
+				9968D70424668598004009CF /* The Edge.flf in CopyFiles */,
+				9968D70524668598004009CF /* eftipiti.flf in CopyFiles */,
+				9968D70624668598004009CF /* 3D-ASCII.flf in CopyFiles */,
+				9968D70724668598004009CF /* Tombstone.flf in CopyFiles */,
+				9968D70824668598004009CF /* Spliff.flf in CopyFiles */,
+				9968D70924668598004009CF /* Kban.flf in CopyFiles */,
+				9968D70A24668598004009CF /* Italic.flf in CopyFiles */,
+				9968D70B24668598004009CF /* amctubes.flf in CopyFiles */,
+				9968D70C24668598004009CF /* swampland.flf in CopyFiles */,
+				9968D70E24668598004009CF /* smshadow.flf in CopyFiles */,
+				9968D70F24668598004009CF /* Line Blocks.flf in CopyFiles */,
+				9968D71124668598004009CF /* 3d.flf in CopyFiles */,
+				9968D71224668598004009CF /* Whimsy.flf in CopyFiles */,
+				9968D71324668598004009CF /* Reverse.flf in CopyFiles */,
+				9968D71524668598004009CF /* Cursive.flf in CopyFiles */,
+				9968D71624668598004009CF /* amc3line.flf in CopyFiles */,
+				9968D71724668598004009CF /* Larry 3D.flf in CopyFiles */,
+				9968D71924668598004009CF /* AMC Razor.flf in CopyFiles */,
+				9968D71A24668598004009CF /* Binary.flf in CopyFiles */,
+				9968D71B24668598004009CF /* AMC Slider.flf in CopyFiles */,
+				9968D71D24668598004009CF /* Mini.flf in CopyFiles */,
+				9968D71E24668598004009CF /* Rammstein.flf in CopyFiles */,
+				9968D71F24668598004009CF /* amcthin.flf in CopyFiles */,
+				9968D72124668598004009CF /* Small Script.flf in CopyFiles */,
+				9968D72224668598004009CF /* Isometric4.flf in CopyFiles */,
+				9968D72324668598004009CF /* sblood.flf in CopyFiles */,
+				9968D72424668598004009CF /* Ticks.flf in CopyFiles */,
+				9968D72524668598004009CF /* Horizontal Left.flf in CopyFiles */,
+				9968D72724668598004009CF /* broadway_kb.flf in CopyFiles */,
+				9968D72824668598004009CF /* Nancyj.flf in CopyFiles */,
+				9968D72924668598004009CF /* AMC Neko.flf in CopyFiles */,
+				9968D72A24668598004009CF /* Diamond.flf in CopyFiles */,
+				9968D72B24668598004009CF /* eftiwall.flf in CopyFiles */,
+				9968D72C24668598004009CF /* Straight.flf in CopyFiles */,
+				9968D72E24668598004009CF /* Delta Corps Priest 1.flf in CopyFiles */,
+				9968D73024668598004009CF /* Stellar.flf in CopyFiles */,
+				9968D73124668598004009CF /* ANSI Shadow.flf in CopyFiles */,
+				9968D73324668598004009CF /* Wavy.flf in CopyFiles */,
+				9968D73424668598004009CF /* Invita.flf in CopyFiles */,
+				9968D73524668598004009CF /* Slant.flf in CopyFiles */,
+				9968D73624668598004009CF /* README.md in CopyFiles */,
+				9968D73724668598004009CF /* Bubble.flf in CopyFiles */,
+				9968D73824668598004009CF /* Marquee.flf in CopyFiles */,
+				9968D73924668598004009CF /* Santa Clara.flf in CopyFiles */,
+				9968D73B24668598004009CF /* Diet Cola.flf in CopyFiles */,
+				9968D73C24668598004009CF /* eftichess.flf in CopyFiles */,
+				9968D73D24668598004009CF /* Swan.flf in CopyFiles */,
+				9968D73E24668598004009CF /* Contrast.flf in CopyFiles */,
+				9968D73F24668598004009CF /* Cricket.flf in CopyFiles */,
+				9968D74124668598004009CF /* Trek.flf in CopyFiles */,
+				9968D74224668598004009CF /* Small Keyboard.flf in CopyFiles */,
+				9968D74324668598004009CF /* Swamp Land.flf in CopyFiles */,
+				9968D74424668598004009CF /* dietcola.flf in CopyFiles */,
+				9968D74524668598004009CF /* Gothic.flf in CopyFiles */,
+				9968D74624668598004009CF /* Goofy.flf in CopyFiles */,
+				9968D74724668598004009CF /* Speed.flf in CopyFiles */,
+				9968D74824668598004009CF /* calgphy2.flf in CopyFiles */,
+				9968D74A24668598004009CF /* Puzzle.flf in CopyFiles */,
+				9968D74D24668598004009CF /* Cybersmall.flf in CopyFiles */,
+				9968D74E24668598004009CF /* Alpha.flf in CopyFiles */,
+				9968D74F24668598004009CF /* Banner3.flf in CopyFiles */,
+				9968D75024668598004009CF /* Pebbles.flf in CopyFiles */,
+				9968D75124668598004009CF /* Coinstak.flf in CopyFiles */,
+				9968D75224668598004009CF /* S Blood.flf in CopyFiles */,
+				9968D75324668598004009CF /* ICL-1900.flf in CopyFiles */,
+				9968D75524668598004009CF /* Digital.flf in CopyFiles */,
+				9968D75624668598004009CF /* fourtops.flf in CopyFiles */,
+				9968D75824668598004009CF /* Moscow.flf in CopyFiles */,
+				9968D75924668598004009CF /* Big Money-sw.flf in CopyFiles */,
+				9968D75A24668598004009CF /* Big Chief.flf in CopyFiles */,
+				9968D75B24668598004009CF /* Maxfour.flf in CopyFiles */,
+				9968D75C24668598004009CF /* Fraktur.flf in CopyFiles */,
+				9968D75D24668598004009CF /* 5 Line Oblique.flf in CopyFiles */,
+				9968D75E24668598004009CF /* Efti Italic.flf in CopyFiles */,
+				9968D75F24668598004009CF /* Term.flf in CopyFiles */,
+				9968D76124668598004009CF /* Katakana.flf in CopyFiles */,
+				9968D76224668598004009CF /* ticksslant.flf in CopyFiles */,
+				9968D76324668598004009CF /* Georgi16.flf in CopyFiles */,
+				9968D76424668598004009CF /* Crawford2.flf in CopyFiles */,
+				9968D76524668598004009CF /* Stronger Than All.flf in CopyFiles */,
+				9968D76624668598004009CF /* Caligraphy.flf in CopyFiles */,
+				9968D76724668598004009CF /* AMC Slash.flf in CopyFiles */,
+				9968D76824668598004009CF /* Relief.flf in CopyFiles */,
+				9968D76924668598004009CF /* Jazmine.flf in CopyFiles */,
+				9968D76A24668598004009CF /* dotmatrix.flf in CopyFiles */,
+				9968D76D24668598004009CF /* Banner4.flf in CopyFiles */,
+				9968D76E24668598004009CF /* Small Caps.flf in CopyFiles */,
+				9968D76F24668598004009CF /* Big Money-se.flf in CopyFiles */,
+				9968D77024668598004009CF /* 1Row.flf in CopyFiles */,
+				9968D77124668598004009CF /* Rotated.flf in CopyFiles */,
+				9968D77224668598004009CF /* Stick Letters.flf in CopyFiles */,
+				9968D77324668598004009CF /* Doom.flf in CopyFiles */,
+				9968D77424668598004009CF /* Linux.flf in CopyFiles */,
+				9968D77524668598004009CF /* Tengwar.flf in CopyFiles */,
+				9968D77624668598004009CF /* Twisted.flf in CopyFiles */,
+				9968D77724668598004009CF /* Wet Letter.flf in CopyFiles */,
+				9968D77824668598004009CF /* rowancap.flf in CopyFiles */,
+				9968D77924668598004009CF /* Peaks.flf in CopyFiles */,
+				9968D77A24668598004009CF /* Larry 3D 2.flf in CopyFiles */,
+				9968D77C24668598004009CF /* Ivrit.flf in CopyFiles */,
+				9968D77D24668598004009CF /* Acrobatic.flf in CopyFiles */,
+				9968D77E24668598004009CF /* Contessa.flf in CopyFiles */,
+				9968D77F24668598004009CF /* NV Script.flf in CopyFiles */,
+				9968D78124668598004009CF /* Star Wars.flf in CopyFiles */,
+				9968D78224668598004009CF /* Dot Matrix.flf in CopyFiles */,
+				9968D78324668598004009CF /* horizontalleft.flf in CopyFiles */,
+				9968D78424668598004009CF /* Merlin2.flf in CopyFiles */,
+				9968D78624668598004009CF /* ntgreek.flf in CopyFiles */,
+				9968D78724668598004009CF /* Test1.flf in CopyFiles */,
+				9968D78824668598004009CF /* smtengwar.flf in CopyFiles */,
+				9968D78924668598004009CF /* Cyberlarge.flf in CopyFiles */,
+				9968D78A24668598004009CF /* larry3d.flf in CopyFiles */,
+				9968D78B24668598004009CF /* Peaks Slant.flf in CopyFiles */,
+				9968D78C24668598004009CF /* Rounded.flf in CopyFiles */,
+				9968D78D24668598004009CF /* Short.flf in CopyFiles */,
+				9968D78E24668598004009CF /* Hex.flf in CopyFiles */,
+				9968D78F24668598004009CF /* Jacky.flf in CopyFiles */,
+				9968D79024668598004009CF /* Lil Devil.flf in CopyFiles */,
+				9968D79124668598004009CF /* Tanja.flf in CopyFiles */,
+				9968D79224668598004009CF /* Big.flf in CopyFiles */,
+				9968D79324668598004009CF /* heart_left.flf in CopyFiles */,
+				9968D79524668598004009CF /* Rectangles.flf in CopyFiles */,
+				9968D79624668598004009CF /* Knob.flf in CopyFiles */,
+				9968D79724668598004009CF /* Epic.flf in CopyFiles */,
+				9968D79824668598004009CF /* Ghost.flf in CopyFiles */,
+				9968D79A24668598004009CF /* AMC Untitled.flf in CopyFiles */,
+				9968D79B24668598004009CF /* Pawp.flf in CopyFiles */,
+				9968D79C24668598004009CF /* funfaces.flf in CopyFiles */,
+				9968D79D24668598004009CF /* Merlin1.flf in CopyFiles */,
+				9968D79E24668598004009CF /* Flipped.flf in CopyFiles */,
+				9968D7A024668598004009CF /* Arrows.flf in CopyFiles */,
+				9968D7A224668598004009CF /* Shimrod.flf in CopyFiles */,
+				9968D7A324668598004009CF /* Blocks.flf in CopyFiles */,
+				9968D7A424668598004009CF /* B1FF.flf in CopyFiles */,
+				9968D7A524668598004009CF /* funface.flf in CopyFiles */,
+				9968D7A724668598004009CF /* smisome1.flf in CopyFiles */,
+				9968D7A824668598004009CF /* Lockergnome.flf in CopyFiles */,
+				9968D7A924668598004009CF /* drpepper.flf in CopyFiles */,
+				9968D7AA24668598004009CF /* Caligraphy2.flf in CopyFiles */,
+				9968D7AB24668598004009CF /* Graffiti.flf in CopyFiles */,
+				9968D7AC24668598004009CF /* amcrazo2.flf in CopyFiles */,
+				9968D7AD24668598004009CF /* lineblocks.flf in CopyFiles */,
+				9968D7AE24668598004009CF /* wetletter.flf in CopyFiles */,
+				9968D7AF24668598004009CF /* Chiseled.flf in CopyFiles */,
+				9968D7B024668598004009CF /* amcrazor.flf in CopyFiles */,
+				9968D7B224668598004009CF /* Gradient.flf in CopyFiles */,
+				9968D7B324668598004009CF /* Henry 3D.flf in CopyFiles */,
+				9968D7B424668598004009CF /* Hieroglyphs.flf in CopyFiles */,
+				9968D7B524668598004009CF /* JS Stick Letters.flf in CopyFiles */,
+				9968D7B724668598004009CF /* Bolger.flf in CopyFiles */,
+				9968D7B824668598004009CF /* Stop.flf in CopyFiles */,
+				9968D7B924668598004009CF /* henry3d.flf in CopyFiles */,
+				9968D7BB24668598004009CF /* AMC Tubes.flf in CopyFiles */,
+				9968D7BD24668599004009CF /* Broadway.flf in CopyFiles */,
+				9968D7BE24668599004009CF /* O8.flf in CopyFiles */,
+				9968D7BF24668599004009CF /* Tinker-Toy.flf in CopyFiles */,
+				9968D7C024668599004009CF /* JS Cursive.flf in CopyFiles */,
+				9968D7C124668599004009CF /* doubleshorts.flf in CopyFiles */,
+				9968D7C224668599004009CF /* alligator3.flf in CopyFiles */,
+				9968D7C324668599004009CF /* Small Isometric1.flf in CopyFiles */,
+				9968D7C424668599004009CF /* Train.flf in CopyFiles */,
+				9968D7C524668599004009CF /* Stacey.flf in CopyFiles */,
+				9968D7C624668599004009CF /* Alligator2.flf in CopyFiles */,
+				9968D7C724668599004009CF /* Octal.flf in CopyFiles */,
+				9968D7C824668599004009CF /* Lean.flf in CopyFiles */,
+				9968D7C924668599004009CF /* Bell.flf in CopyFiles */,
+				9968D7CA24668599004009CF /* Elite.flf in CopyFiles */,
+				9968D7CB24668599004009CF /* Rozzo.flf in CopyFiles */,
+				9968D7CC24668599004009CF /* Fuzzy.flf in CopyFiles */,
+				9968D7CD24668599004009CF /* OS2.flf in CopyFiles */,
+				9968D7CE24668599004009CF /* Bigfig.flf in CopyFiles */,
+				9968D7CF24668599004009CF /* amcaaa01.flf in CopyFiles */,
+				9968D7D224668599004009CF /* smslant.flf in CopyFiles */,
+				9968D7D324668599004009CF /* Efti Robot.flf in CopyFiles */,
+				9968D7D424668599004009CF /* Nancyj-Improved.flf in CopyFiles */,
+				9968D7D524668599004009CF /* Crazy.flf in CopyFiles */,
+				9968D7D624668599004009CF /* Tubular.flf in CopyFiles */,
+				9968D7D724668599004009CF /* maxiwi.flf in CopyFiles */,
+				9968D7D824668599004009CF /* Efti Water.flf in CopyFiles */,
+				9968D7D924668599004009CF /* red_phoenix.flf in CopyFiles */,
+				9968D7DA24668599004009CF /* Fire Font-k.flf in CopyFiles */,
+				9968D7DB24668599004009CF /* ANSI Regular.flf in CopyFiles */,
+				9968D7DD24668599004009CF /* DANC4.flf in CopyFiles */,
+				9968D7DE24668599004009CF /* Ogre.flf in CopyFiles */,
+				9968D7DF24668599004009CF /* Stampatello.flf in CopyFiles */,
+				9968D7E024668599004009CF /* Konto Slant.flf in CopyFiles */,
+				9968D7E124668599004009CF /* Patorjk-HeX.flf in CopyFiles */,
+				9968D7E324668599004009CF /* lildevil.flf in CopyFiles */,
+				9968D7E424668599004009CF /* starwars 2.flf in CopyFiles */,
+				9968D7E524668599004009CF /* Three Point.flf in CopyFiles */,
+				9968D7E624668599004009CF /* Weird.flf in CopyFiles */,
+				9968D7E724668599004009CF /* Patorjk's Cheese.flf in CopyFiles */,
+				9968D7E824668599004009CF /* USA Flag.flf in CopyFiles */,
+				9968D7E924668599004009CF /* Serifcap.flf in CopyFiles */,
+				9968D7EC24668599004009CF /* Standard.flf in CopyFiles */,
+				9968D7ED24668599004009CF /* Stampate.flf in CopyFiles */,
+				9968D7EE24668599004009CF /* Thin.flf in CopyFiles */,
+				9968D7EF24668599004009CF /* Georgia11.flf in CopyFiles */,
+				9968D7F024668599004009CF /* Cybermedium.flf in CopyFiles */,
+				9968D7F124668599004009CF /* Cygnet.flf in CopyFiles */,
+				9968D7F224668599004009CF /* cosmic.flf in CopyFiles */,
+				9968D7F324668599004009CF /* Double.flf in CopyFiles */,
+				9968D7F424668599004009CF /* Morse2.flf in CopyFiles */,
+				9968D7F624668599004009CF /* Heart Left.flf in CopyFiles */,
+				9968D7F724668599004009CF /* 3x5.flf in CopyFiles */,
+				9968D7F824668599004009CF /* Keyboard.flf in CopyFiles */,
+				9968D7F924668599004009CF /* fire_font-k.flf in CopyFiles */,
+				9968D7FA24668599004009CF /* bigchief.flf in CopyFiles */,
+				9968D7FB24668599004009CF /* Star Strips.flf in CopyFiles */,
+				9968D7FC24668599004009CF /* Modular.flf in CopyFiles */,
+				9968D7FD24668599004009CF /* Roman.flf in CopyFiles */,
+				9968D7FE24668599004009CF /* miniwi.flf in CopyFiles */,
+				9968D7FF24668599004009CF /* Runic.flf in CopyFiles */,
+				9968D80024668599004009CF /* Thorned.flf in CopyFiles */,
+				9968D80124668599004009CF /* SL Script.flf in CopyFiles */,
+				9968D80324668599004009CF /* Banner.flf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		990CE6242465CC6800E23460 /* SwiftFiglet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftFiglet; sourceTree = BUILT_PRODUCTS_DIR; };
+		990CE6272465CC6800E23460 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		990CE6562465D43800E23460 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
+		990CE65C2465D45F00E23460 /* manifest.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = manifest.db; sourceTree = "<group>"; };
+		990CE65D2465D45F00E23460 /* SwiftFigletKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SwiftFigletKit.xcodeproj; sourceTree = "<group>"; };
+		990CE6612465D45F00E23460 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
+		990CE6632465D45F00E23460 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		990CE6642465D45F00E23460 /* SwiftFigletKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFigletKitTests.swift; sourceTree = "<group>"; };
+		990CE6672465D45F00E23460 /* SwiftFigletKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFigletKit.swift; sourceTree = "<group>"; };
+		990CE6682465D45F00E23460 /* String+SFKFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+SFKFont.swift"; sourceTree = "<group>"; };
+		9968D2CD24666F66004009CF /* Nipples.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nipples.flf; sourceTree = "<group>"; };
+		9968D2CE24666F66004009CF /* Muzzle.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Muzzle.flf; sourceTree = "<group>"; };
+		9968D2CF24666F66004009CF /* Computer.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Computer.flf; sourceTree = "<group>"; };
+		9968D2D124666F66004009CF /* Electronic.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Electronic.flf; sourceTree = "<group>"; };
+		9968D2D424666F66004009CF /* Ghoulish.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ghoulish.flf; sourceTree = "<group>"; };
+		9968D2D524666F66004009CF /* NT Greek.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NT Greek.flf"; sourceTree = "<group>"; };
+		9968D2D624666F66004009CF /* Fire Font-s.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Fire Font-s.flf"; sourceTree = "<group>"; };
+		9968D2D724666F66004009CF /* LCD.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LCD.flf; sourceTree = "<group>"; };
+		9968D2D824666F66004009CF /* JS Bracket Letters.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "JS Bracket Letters.flf"; sourceTree = "<group>"; };
+		9968D2D924666F66004009CF /* Efti Chess.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Efti Chess.flf"; sourceTree = "<group>"; };
+		9968D2DA24666F66004009CF /* Letters.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Letters.flf; sourceTree = "<group>"; };
+		9968D2DB24666F66004009CF /* rev.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rev.flf; sourceTree = "<group>"; };
+		9968D2DC24666F66004009CF /* Barbwire.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Barbwire.flf; sourceTree = "<group>"; };
+		9968D2DD24666F66004009CF /* dancingfont.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dancingfont.flf; sourceTree = "<group>"; };
+		9968D2DE24666F66004009CF /* threepoint.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = threepoint.flf; sourceTree = "<group>"; };
+		9968D2DF24666F66004009CF /* smkeyboard.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smkeyboard.flf; sourceTree = "<group>"; };
+		9968D2E024666F66004009CF /* Impossible.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Impossible.flf; sourceTree = "<group>"; };
+		9968D2E124666F66004009CF /* Bright.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bright.flf; sourceTree = "<group>"; };
+		9968D2E224666F66004009CF /* Madrid.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Madrid.flf; sourceTree = "<group>"; };
+		9968D2E424666F66004009CF /* 3-D.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3-D.flf"; sourceTree = "<group>"; };
+		9968D2E524666F66004009CF /* Benjamin.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Benjamin.flf; sourceTree = "<group>"; };
+		9968D2E624666F66004009CF /* Bloody.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bloody.flf; sourceTree = "<group>"; };
+		9968D2EA24666F66004009CF /* heart_right.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = heart_right.flf; sourceTree = "<group>"; };
+		9968D2EB24666F66004009CF /* Sub-Zero.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Sub-Zero.flf"; sourceTree = "<group>"; };
+		9968D2EC24666F66004009CF /* Tiles.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tiles.flf; sourceTree = "<group>"; };
+		9968D2ED24666F66004009CF /* Pyramid.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pyramid.flf; sourceTree = "<group>"; };
+		9968D2EE24666F66004009CF /* Crawford.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Crawford.flf; sourceTree = "<group>"; };
+		9968D2EF24666F66004009CF /* Small Slant.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Small Slant.flf"; sourceTree = "<group>"; };
+		9968D2F024666F66004009CF /* Big Money-nw.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Big Money-nw.flf"; sourceTree = "<group>"; };
+		9968D2F124666F66004009CF /* Shadow.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Shadow.flf; sourceTree = "<group>"; };
+		9968D2F224666F66004009CF /* starstrips.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = starstrips.flf; sourceTree = "<group>"; };
+		9968D2F324666F66004009CF /* Red Phoenix.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Red Phoenix.flf"; sourceTree = "<group>"; };
+		9968D2F524666F66004009CF /* fire_font-s.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "fire_font-s.flf"; sourceTree = "<group>"; };
+		9968D2F724666F66004009CF /* Bulbhead.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bulbhead.flf; sourceTree = "<group>"; };
+		9968D2F824666F66004009CF /* Mshebrew210.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mshebrew210.flf; sourceTree = "<group>"; };
+		9968D2F924666F66004009CF /* Doh.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doh.flf; sourceTree = "<group>"; };
+		9968D2FB24666F66004009CF /* Nancyj-Fancy.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Nancyj-Fancy.flf"; sourceTree = "<group>"; };
+		9968D2FC24666F66004009CF /* Mike.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mike.flf; sourceTree = "<group>"; };
+		9968D2FD24666F66004009CF /* THIS.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THIS.flf; sourceTree = "<group>"; };
+		9968D2FF24666F66004009CF /* Fun Faces.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Fun Faces.flf"; sourceTree = "<group>"; };
+		9968D30024666F66004009CF /* Dancing Font.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Dancing Font.flf"; sourceTree = "<group>"; };
+		9968D30124666F66004009CF /* DWhistled.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DWhistled.flf; sourceTree = "<group>"; };
+		9968D30224666F66004009CF /* Slide.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Slide.flf; sourceTree = "<group>"; };
+		9968D30324666F66004009CF /* horizontalright.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horizontalright.flf; sourceTree = "<group>"; };
+		9968D30424666F66004009CF /* ASCII-New-Roman.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ASCII-New-Roman.flf"; sourceTree = "<group>"; };
+		9968D30524666F66004009CF /* Big-Money-ne.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Big-Money-ne.flf"; sourceTree = "<group>"; };
+		9968D30624666F66004009CF /* smscript.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smscript.flf; sourceTree = "<group>"; };
+		9968D30724666F66004009CF /* amcneko.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amcneko.flf; sourceTree = "<group>"; };
+		9968D30824666F66004009CF /* JS Block Letters.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "JS Block Letters.flf"; sourceTree = "<group>"; };
+		9968D30924666F66004009CF /* amcslash.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amcslash.flf; sourceTree = "<group>"; };
+		9968D30A24666F66004009CF /* AMC Razor2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AMC Razor2.flf"; sourceTree = "<group>"; };
+		9968D30B24666F66004009CF /* Alligator.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Alligator.flf; sourceTree = "<group>"; };
+		9968D30C24666F66004009CF /* Graceful.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Graceful.flf; sourceTree = "<group>"; };
+		9968D30D24666F66004009CF /* flowerpower.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = flowerpower.flf; sourceTree = "<group>"; };
+		9968D30E24666F66004009CF /* Wow.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Wow.flf; sourceTree = "<group>"; };
+		9968D30F24666F66004009CF /* starwars.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = starwars.flf; sourceTree = "<group>"; };
+		9968D31024666F66004009CF /* kontoslant.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kontoslant.flf; sourceTree = "<group>"; };
+		9968D31124666F66004009CF /* Relief2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Relief2.flf; sourceTree = "<group>"; };
+		9968D31324666F66004009CF /* dosrebel.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dosrebel.flf; sourceTree = "<group>"; };
+		9968D31424666F66004009CF /* Ticks Slant.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Ticks Slant.flf"; sourceTree = "<group>"; };
+		9968D31524666F66004009CF /* Basic.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Basic.flf; sourceTree = "<group>"; };
+		9968D31624666F66004009CF /* Horizontal Right.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Horizontal Right.flf"; sourceTree = "<group>"; };
+		9968D31724666F66004009CF /* AMC Thin.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AMC Thin.flf"; sourceTree = "<group>"; };
+		9968D31824666F66004009CF /* Colossal.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Colossal.flf; sourceTree = "<group>"; };
+		9968D31924666F66004009CF /* Decimal.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Decimal.flf; sourceTree = "<group>"; };
+		9968D31B24666F66004009CF /* Jerusalem.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jerusalem.flf; sourceTree = "<group>"; };
+		9968D31C24666F66004009CF /* Small Shadow.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Small Shadow.flf"; sourceTree = "<group>"; };
+		9968D31D24666F66004009CF /* Bear.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bear.flf; sourceTree = "<group>"; };
+		9968D31E24666F66004009CF /* ascii_new_roman.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ascii_new_roman.flf; sourceTree = "<group>"; };
+		9968D31F24666F66004009CF /* Small.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Small.flf; sourceTree = "<group>"; };
+		9968D32024666F66004009CF /* Old Banner.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Old Banner.flf"; sourceTree = "<group>"; };
+		9968D32124666F66004009CF /* NScript.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NScript.flf; sourceTree = "<group>"; };
+		9968D32224666F66004009CF /* Calvin S.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Calvin S.flf"; sourceTree = "<group>"; };
+		9968D32324666F66004009CF /* oldbanner.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = oldbanner.flf; sourceTree = "<group>"; };
+		9968D32424666F66004009CF /* Morse.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Morse.flf; sourceTree = "<group>"; };
+		9968D32524666F66004009CF /* Fender.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fender.flf; sourceTree = "<group>"; };
+		9968D32624666F66004009CF /* smpoison.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smpoison.flf; sourceTree = "<group>"; };
+		9968D32724666F66004009CF /* Four Tops.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Four Tops.flf"; sourceTree = "<group>"; };
+		9968D32824666F66004009CF /* smallcaps.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smallcaps.flf; sourceTree = "<group>"; };
+		9968D32A24666F66004009CF /* 3d_diagonal.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3d_diagonal.flf; sourceTree = "<group>"; };
+		9968D32B24666F66004009CF /* peaksslant.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = peaksslant.flf; sourceTree = "<group>"; };
+		9968D32C24666F66004009CF /* Slant Relief.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Slant Relief.flf"; sourceTree = "<group>"; };
+		9968D32D24666F66004009CF /* usaflag.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = usaflag.flf; sourceTree = "<group>"; };
+		9968D32E24666F66004009CF /* Hollywood.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hollywood.flf; sourceTree = "<group>"; };
+		9968D32F24666F66004009CF /* Poison.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Poison.flf; sourceTree = "<group>"; };
+		9968D33024666F66004009CF /* Pepper.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pepper.flf; sourceTree = "<group>"; };
+		9968D33124666F66004009CF /* Rot13.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rot13.flf; sourceTree = "<group>"; };
+		9968D33224666F66004009CF /* Flower Power.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Flower Power.flf"; sourceTree = "<group>"; };
+		9968D33324666F66004009CF /* Efti Piti.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Efti Piti.flf"; sourceTree = "<group>"; };
+		9968D33424666F66004009CF /* Puffy.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puffy.flf; sourceTree = "<group>"; };
+		9968D33524666F66004009CF /* Heart Right.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Heart Right.flf"; sourceTree = "<group>"; };
+		9968D33624666F66004009CF /* santaclara.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = santaclara.flf; sourceTree = "<group>"; };
+		9968D33724666F66004009CF /* eftitalic.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eftitalic.flf; sourceTree = "<group>"; };
+		9968D33824666F66004009CF /* Catwalk.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Catwalk.flf; sourceTree = "<group>"; };
+		9968D33924666F66004009CF /* DOS Rebel.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "DOS Rebel.flf"; sourceTree = "<group>"; };
+		9968D33A24666F66004009CF /* Cards.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cards.flf; sourceTree = "<group>"; };
+		9968D33C24666F66004009CF /* Isometric1.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Isometric1.flf; sourceTree = "<group>"; };
+		9968D33D24666F66004009CF /* amcslder.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amcslder.flf; sourceTree = "<group>"; };
+		9968D33E24666F66004009CF /* Dr Pepper.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Dr Pepper.flf"; sourceTree = "<group>"; };
+		9968D33F24666F66004009CF /* Chunky.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chunky.flf; sourceTree = "<group>"; };
+		9968D34024666F66004009CF /* eftifont.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eftifont.flf; sourceTree = "<group>"; };
+		9968D34124666F66004009CF /* Tsalagi.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tsalagi.flf; sourceTree = "<group>"; };
+		9968D34324666F66004009CF /* Block.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Block.flf; sourceTree = "<group>"; };
+		9968D34424666F66004009CF /* Mirror.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mirror.flf; sourceTree = "<group>"; };
+		9968D34524666F66004009CF /* Avatar.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Avatar.flf; sourceTree = "<group>"; };
+		9968D34624666F66004009CF /* Two Point.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Two Point.flf"; sourceTree = "<group>"; };
+		9968D34724666F66004009CF /* defleppard.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = defleppard.flf; sourceTree = "<group>"; };
+		9968D34A24666F66004009CF /* amc3liv1.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amc3liv1.flf; sourceTree = "<group>"; };
+		9968D34B24666F66004009CF /* Runyc.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Runyc.flf; sourceTree = "<group>"; };
+		9968D34D24666F66004009CF /* Thick.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Thick.flf; sourceTree = "<group>"; };
+		9968D34F24666F66004009CF /* 4Max.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4Max.flf; sourceTree = "<group>"; };
+		9968D35024666F66004009CF /* Efti Wall.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Efti Wall.flf"; sourceTree = "<group>"; };
+		9968D35124666F66004009CF /* Univers.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Univers.flf; sourceTree = "<group>"; };
+		9968D35224666F66004009CF /* AMC 3 Liv1.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AMC 3 Liv1.flf"; sourceTree = "<group>"; };
+		9968D35324666F66004009CF /* s-relief.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "s-relief.flf"; sourceTree = "<group>"; };
+		9968D35424666F66004009CF /* Isometric3.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Isometric3.flf; sourceTree = "<group>"; };
+		9968D35524666F66004009CF /* Def Leppard.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Def Leppard.flf"; sourceTree = "<group>"; };
+		9968D35624666F66004009CF /* Glenyn.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Glenyn.flf; sourceTree = "<group>"; };
+		9968D35724666F66004009CF /* Alphabet.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Alphabet.flf; sourceTree = "<group>"; };
+		9968D35824666F66004009CF /* AMC AAA01.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AMC AAA01.flf"; sourceTree = "<group>"; };
+		9968D35924666F66004009CF /* Small Tengwar.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Small Tengwar.flf"; sourceTree = "<group>"; };
+		9968D35B24666F66004009CF /* Isometric2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Isometric2.flf; sourceTree = "<group>"; };
+		9968D35C24666F66004009CF /* Banner3-D.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Banner3-D.flf"; sourceTree = "<group>"; };
+		9968D35D24666F66004009CF /* Braced.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Braced.flf; sourceTree = "<group>"; };
+		9968D35E24666F66004009CF /* Double Shorts.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Double Shorts.flf"; sourceTree = "<group>"; };
+		9968D35F24666F66004009CF /* Script.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Script.flf; sourceTree = "<group>"; };
+		9968D36024666F66004009CF /* Varsity.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Varsity.flf; sourceTree = "<group>"; };
+		9968D36124666F66004009CF /* amcun1.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amcun1.flf; sourceTree = "<group>"; };
+		9968D36324666F66004009CF /* Soft.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Soft.flf; sourceTree = "<group>"; };
+		9968D36624666F66004009CF /* Konto.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Konto.flf; sourceTree = "<group>"; };
+		9968D36724666F66004009CF /* slscript.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = slscript.flf; sourceTree = "<group>"; };
+		9968D36824666F66004009CF /* Small Poison.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Small Poison.flf"; sourceTree = "<group>"; };
+		9968D36924666F67004009CF /* Rowan Cap.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Rowan Cap.flf"; sourceTree = "<group>"; };
+		9968D36A24666F67004009CF /* twopoint.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = twopoint.flf; sourceTree = "<group>"; };
+		9968D36B24666F67004009CF /* Fun Face.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Fun Face.flf"; sourceTree = "<group>"; };
+		9968D36C24666F67004009CF /* Cosmike.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cosmike.flf; sourceTree = "<group>"; };
+		9968D36E24666F67004009CF /* Broadway KB.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Broadway KB.flf"; sourceTree = "<group>"; };
+		9968D36F24666F67004009CF /* Stforek.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Stforek.flf; sourceTree = "<group>"; };
+		9968D37024666F67004009CF /* Cola.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cola.flf; sourceTree = "<group>"; };
+		9968D37124666F67004009CF /* Mnemonic.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mnemonic.flf; sourceTree = "<group>"; };
+		9968D37224666F67004009CF /* 3D Diagonal.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3D Diagonal.flf"; sourceTree = "<group>"; };
+		9968D37324666F67004009CF /* Sweet.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sweet.flf; sourceTree = "<group>"; };
+		9968D37424666F67004009CF /* JS Capital Curves.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "JS Capital Curves.flf"; sourceTree = "<group>"; };
+		9968D37524666F67004009CF /* Nancyj-Underlined.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Nancyj-Underlined.flf"; sourceTree = "<group>"; };
+		9968D37624666F67004009CF /* Efti Font.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Efti Font.flf"; sourceTree = "<group>"; };
+		9968D37724666F67004009CF /* 5lineoblique.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 5lineoblique.flf; sourceTree = "<group>"; };
+		9968D37824666F67004009CF /* Greek.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Greek.flf; sourceTree = "<group>"; };
+		9968D37924666F67004009CF /* eftiwater.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eftiwater.flf; sourceTree = "<group>"; };
+		9968D37A24666F67004009CF /* AMC 3 Line.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AMC 3 Line.flf"; sourceTree = "<group>"; };
+		9968D37B24666F67004009CF /* Filter.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Filter.flf; sourceTree = "<group>"; };
+		9968D37C24666F67004009CF /* eftirobot.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eftirobot.flf; sourceTree = "<group>"; };
+		9968D37D24666F67004009CF /* The Edge.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The Edge.flf"; sourceTree = "<group>"; };
+		9968D37E24666F67004009CF /* eftipiti.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eftipiti.flf; sourceTree = "<group>"; };
+		9968D37F24666F67004009CF /* 3D-ASCII.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3D-ASCII.flf"; sourceTree = "<group>"; };
+		9968D38024666F67004009CF /* Tombstone.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tombstone.flf; sourceTree = "<group>"; };
+		9968D38124666F67004009CF /* Spliff.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Spliff.flf; sourceTree = "<group>"; };
+		9968D38224666F67004009CF /* Kban.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kban.flf; sourceTree = "<group>"; };
+		9968D38324666F67004009CF /* Italic.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Italic.flf; sourceTree = "<group>"; };
+		9968D38424666F67004009CF /* amctubes.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amctubes.flf; sourceTree = "<group>"; };
+		9968D38524666F67004009CF /* swampland.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swampland.flf; sourceTree = "<group>"; };
+		9968D38724666F67004009CF /* smshadow.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smshadow.flf; sourceTree = "<group>"; };
+		9968D38824666F67004009CF /* Line Blocks.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Line Blocks.flf"; sourceTree = "<group>"; };
+		9968D38A24666F67004009CF /* 3d.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3d.flf; sourceTree = "<group>"; };
+		9968D38B24666F67004009CF /* Whimsy.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Whimsy.flf; sourceTree = "<group>"; };
+		9968D38C24666F67004009CF /* Reverse.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Reverse.flf; sourceTree = "<group>"; };
+		9968D38E24666F67004009CF /* Cursive.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cursive.flf; sourceTree = "<group>"; };
+		9968D38F24666F67004009CF /* amc3line.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amc3line.flf; sourceTree = "<group>"; };
+		9968D39024666F67004009CF /* Larry 3D.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Larry 3D.flf"; sourceTree = "<group>"; };
+		9968D39224666F67004009CF /* AMC Razor.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AMC Razor.flf"; sourceTree = "<group>"; };
+		9968D39324666F67004009CF /* Binary.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Binary.flf; sourceTree = "<group>"; };
+		9968D39424666F67004009CF /* AMC Slider.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AMC Slider.flf"; sourceTree = "<group>"; };
+		9968D39624666F67004009CF /* Mini.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mini.flf; sourceTree = "<group>"; };
+		9968D39724666F67004009CF /* Rammstein.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rammstein.flf; sourceTree = "<group>"; };
+		9968D39824666F67004009CF /* amcthin.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amcthin.flf; sourceTree = "<group>"; };
+		9968D39A24666F67004009CF /* Small Script.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Small Script.flf"; sourceTree = "<group>"; };
+		9968D39B24666F67004009CF /* Isometric4.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Isometric4.flf; sourceTree = "<group>"; };
+		9968D39C24666F67004009CF /* sblood.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sblood.flf; sourceTree = "<group>"; };
+		9968D39D24666F67004009CF /* Ticks.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ticks.flf; sourceTree = "<group>"; };
+		9968D39E24666F67004009CF /* Horizontal Left.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Horizontal Left.flf"; sourceTree = "<group>"; };
+		9968D3A024666F67004009CF /* broadway_kb.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = broadway_kb.flf; sourceTree = "<group>"; };
+		9968D3A124666F67004009CF /* Nancyj.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nancyj.flf; sourceTree = "<group>"; };
+		9968D3A224666F67004009CF /* AMC Neko.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AMC Neko.flf"; sourceTree = "<group>"; };
+		9968D3A324666F67004009CF /* Diamond.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Diamond.flf; sourceTree = "<group>"; };
+		9968D3A424666F67004009CF /* eftiwall.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eftiwall.flf; sourceTree = "<group>"; };
+		9968D3A524666F67004009CF /* Straight.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Straight.flf; sourceTree = "<group>"; };
+		9968D3A724666F67004009CF /* Delta Corps Priest 1.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Delta Corps Priest 1.flf"; sourceTree = "<group>"; };
+		9968D3A924666F67004009CF /* Stellar.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Stellar.flf; sourceTree = "<group>"; };
+		9968D3AA24666F67004009CF /* ANSI Shadow.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ANSI Shadow.flf"; sourceTree = "<group>"; };
+		9968D3AC24666F67004009CF /* Wavy.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Wavy.flf; sourceTree = "<group>"; };
+		9968D3AD24666F67004009CF /* Invita.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Invita.flf; sourceTree = "<group>"; };
+		9968D3AE24666F67004009CF /* Slant.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Slant.flf; sourceTree = "<group>"; };
+		9968D3AF24666F67004009CF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9968D3B024666F67004009CF /* Bubble.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bubble.flf; sourceTree = "<group>"; };
+		9968D3B124666F67004009CF /* Marquee.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Marquee.flf; sourceTree = "<group>"; };
+		9968D3B224666F67004009CF /* Santa Clara.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Santa Clara.flf"; sourceTree = "<group>"; };
+		9968D3B424666F67004009CF /* Diet Cola.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Diet Cola.flf"; sourceTree = "<group>"; };
+		9968D3B524666F67004009CF /* eftichess.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eftichess.flf; sourceTree = "<group>"; };
+		9968D3B624666F67004009CF /* Swan.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Swan.flf; sourceTree = "<group>"; };
+		9968D3B724666F67004009CF /* Contrast.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Contrast.flf; sourceTree = "<group>"; };
+		9968D3B824666F67004009CF /* Cricket.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cricket.flf; sourceTree = "<group>"; };
+		9968D3BA24666F67004009CF /* Trek.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Trek.flf; sourceTree = "<group>"; };
+		9968D3BB24666F67004009CF /* Small Keyboard.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Small Keyboard.flf"; sourceTree = "<group>"; };
+		9968D3BC24666F67004009CF /* Swamp Land.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Swamp Land.flf"; sourceTree = "<group>"; };
+		9968D3BD24666F67004009CF /* dietcola.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dietcola.flf; sourceTree = "<group>"; };
+		9968D3BE24666F67004009CF /* Gothic.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gothic.flf; sourceTree = "<group>"; };
+		9968D3BF24666F67004009CF /* Goofy.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Goofy.flf; sourceTree = "<group>"; };
+		9968D3C024666F67004009CF /* Speed.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Speed.flf; sourceTree = "<group>"; };
+		9968D3C124666F67004009CF /* calgphy2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calgphy2.flf; sourceTree = "<group>"; };
+		9968D3C324666F67004009CF /* Puzzle.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle.flf; sourceTree = "<group>"; };
+		9968D3C624666F67004009CF /* Cybersmall.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cybersmall.flf; sourceTree = "<group>"; };
+		9968D3C724666F67004009CF /* Alpha.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Alpha.flf; sourceTree = "<group>"; };
+		9968D3C824666F67004009CF /* Banner3.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Banner3.flf; sourceTree = "<group>"; };
+		9968D3C924666F67004009CF /* Pebbles.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pebbles.flf; sourceTree = "<group>"; };
+		9968D3CA24666F67004009CF /* Coinstak.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Coinstak.flf; sourceTree = "<group>"; };
+		9968D3CB24666F67004009CF /* S Blood.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "S Blood.flf"; sourceTree = "<group>"; };
+		9968D3CC24666F67004009CF /* ICL-1900.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ICL-1900.flf"; sourceTree = "<group>"; };
+		9968D3CE24666F67004009CF /* Digital.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Digital.flf; sourceTree = "<group>"; };
+		9968D3CF24666F67004009CF /* fourtops.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fourtops.flf; sourceTree = "<group>"; };
+		9968D3D124666F67004009CF /* Moscow.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Moscow.flf; sourceTree = "<group>"; };
+		9968D3D224666F67004009CF /* Big Money-sw.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Big Money-sw.flf"; sourceTree = "<group>"; };
+		9968D3D324666F67004009CF /* Big Chief.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Big Chief.flf"; sourceTree = "<group>"; };
+		9968D3D424666F67004009CF /* Maxfour.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Maxfour.flf; sourceTree = "<group>"; };
+		9968D3D524666F67004009CF /* Fraktur.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fraktur.flf; sourceTree = "<group>"; };
+		9968D3D624666F67004009CF /* 5 Line Oblique.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "5 Line Oblique.flf"; sourceTree = "<group>"; };
+		9968D3D724666F67004009CF /* Efti Italic.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Efti Italic.flf"; sourceTree = "<group>"; };
+		9968D3D824666F67004009CF /* Term.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Term.flf; sourceTree = "<group>"; };
+		9968D3DA24666F67004009CF /* Katakana.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Katakana.flf; sourceTree = "<group>"; };
+		9968D3DB24666F67004009CF /* ticksslant.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ticksslant.flf; sourceTree = "<group>"; };
+		9968D3DC24666F67004009CF /* Georgi16.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Georgi16.flf; sourceTree = "<group>"; };
+		9968D3DD24666F67004009CF /* Crawford2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Crawford2.flf; sourceTree = "<group>"; };
+		9968D3DE24666F67004009CF /* Stronger Than All.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Stronger Than All.flf"; sourceTree = "<group>"; };
+		9968D3DF24666F67004009CF /* Caligraphy.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Caligraphy.flf; sourceTree = "<group>"; };
+		9968D3E024666F67004009CF /* AMC Slash.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AMC Slash.flf"; sourceTree = "<group>"; };
+		9968D3E124666F67004009CF /* Relief.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Relief.flf; sourceTree = "<group>"; };
+		9968D3E224666F67004009CF /* Jazmine.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jazmine.flf; sourceTree = "<group>"; };
+		9968D3E324666F67004009CF /* dotmatrix.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dotmatrix.flf; sourceTree = "<group>"; };
+		9968D3E624666F67004009CF /* Banner4.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Banner4.flf; sourceTree = "<group>"; };
+		9968D3E724666F67004009CF /* Small Caps.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Small Caps.flf"; sourceTree = "<group>"; };
+		9968D3E824666F67004009CF /* Big Money-se.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Big Money-se.flf"; sourceTree = "<group>"; };
+		9968D3E924666F67004009CF /* 1Row.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1Row.flf; sourceTree = "<group>"; };
+		9968D3EA24666F67004009CF /* Rotated.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rotated.flf; sourceTree = "<group>"; };
+		9968D3EB24666F67004009CF /* Stick Letters.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Stick Letters.flf"; sourceTree = "<group>"; };
+		9968D3EC24666F67004009CF /* Doom.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doom.flf; sourceTree = "<group>"; };
+		9968D3ED24666F67004009CF /* Linux.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Linux.flf; sourceTree = "<group>"; };
+		9968D3EE24666F67004009CF /* Tengwar.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tengwar.flf; sourceTree = "<group>"; };
+		9968D3EF24666F67004009CF /* Twisted.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Twisted.flf; sourceTree = "<group>"; };
+		9968D3F024666F67004009CF /* Wet Letter.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Wet Letter.flf"; sourceTree = "<group>"; };
+		9968D3F124666F67004009CF /* rowancap.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rowancap.flf; sourceTree = "<group>"; };
+		9968D3F224666F67004009CF /* Peaks.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Peaks.flf; sourceTree = "<group>"; };
+		9968D3F324666F67004009CF /* Larry 3D 2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Larry 3D 2.flf"; sourceTree = "<group>"; };
+		9968D3F524666F67004009CF /* Ivrit.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ivrit.flf; sourceTree = "<group>"; };
+		9968D3F624666F67004009CF /* Acrobatic.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Acrobatic.flf; sourceTree = "<group>"; };
+		9968D3F724666F67004009CF /* Contessa.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Contessa.flf; sourceTree = "<group>"; };
+		9968D3F824666F67004009CF /* NV Script.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NV Script.flf"; sourceTree = "<group>"; };
+		9968D3FA24666F67004009CF /* Star Wars.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Star Wars.flf"; sourceTree = "<group>"; };
+		9968D3FB24666F67004009CF /* Dot Matrix.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Dot Matrix.flf"; sourceTree = "<group>"; };
+		9968D3FC24666F67004009CF /* horizontalleft.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horizontalleft.flf; sourceTree = "<group>"; };
+		9968D3FD24666F67004009CF /* Merlin2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Merlin2.flf; sourceTree = "<group>"; };
+		9968D3FF24666F67004009CF /* ntgreek.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ntgreek.flf; sourceTree = "<group>"; };
+		9968D40024666F67004009CF /* Test1.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test1.flf; sourceTree = "<group>"; };
+		9968D40124666F67004009CF /* smtengwar.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smtengwar.flf; sourceTree = "<group>"; };
+		9968D40224666F67004009CF /* Cyberlarge.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cyberlarge.flf; sourceTree = "<group>"; };
+		9968D40324666F67004009CF /* larry3d.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = larry3d.flf; sourceTree = "<group>"; };
+		9968D40424666F67004009CF /* Peaks Slant.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Peaks Slant.flf"; sourceTree = "<group>"; };
+		9968D40524666F67004009CF /* Rounded.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rounded.flf; sourceTree = "<group>"; };
+		9968D40624666F67004009CF /* Short.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Short.flf; sourceTree = "<group>"; };
+		9968D40724666F67004009CF /* Hex.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hex.flf; sourceTree = "<group>"; };
+		9968D40824666F67004009CF /* Jacky.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jacky.flf; sourceTree = "<group>"; };
+		9968D40924666F67004009CF /* Lil Devil.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Lil Devil.flf"; sourceTree = "<group>"; };
+		9968D40A24666F67004009CF /* Tanja.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tanja.flf; sourceTree = "<group>"; };
+		9968D40B24666F67004009CF /* Big.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Big.flf; sourceTree = "<group>"; };
+		9968D40C24666F67004009CF /* heart_left.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = heart_left.flf; sourceTree = "<group>"; };
+		9968D40E24666F68004009CF /* Rectangles.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rectangles.flf; sourceTree = "<group>"; };
+		9968D40F24666F68004009CF /* Knob.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Knob.flf; sourceTree = "<group>"; };
+		9968D41024666F68004009CF /* Epic.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Epic.flf; sourceTree = "<group>"; };
+		9968D41124666F68004009CF /* Ghost.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ghost.flf; sourceTree = "<group>"; };
+		9968D41324666F68004009CF /* AMC Untitled.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AMC Untitled.flf"; sourceTree = "<group>"; };
+		9968D41424666F68004009CF /* Pawp.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pawp.flf; sourceTree = "<group>"; };
+		9968D41524666F68004009CF /* funfaces.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = funfaces.flf; sourceTree = "<group>"; };
+		9968D41624666F68004009CF /* Merlin1.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Merlin1.flf; sourceTree = "<group>"; };
+		9968D41724666F68004009CF /* Flipped.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Flipped.flf; sourceTree = "<group>"; };
+		9968D41924666F68004009CF /* Arrows.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Arrows.flf; sourceTree = "<group>"; };
+		9968D41B24666F68004009CF /* Shimrod.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Shimrod.flf; sourceTree = "<group>"; };
+		9968D41C24666F68004009CF /* Blocks.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Blocks.flf; sourceTree = "<group>"; };
+		9968D41D24666F68004009CF /* B1FF.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = B1FF.flf; sourceTree = "<group>"; };
+		9968D41E24666F68004009CF /* funface.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = funface.flf; sourceTree = "<group>"; };
+		9968D42024666F68004009CF /* smisome1.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smisome1.flf; sourceTree = "<group>"; };
+		9968D42124666F68004009CF /* Lockergnome.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lockergnome.flf; sourceTree = "<group>"; };
+		9968D42224666F68004009CF /* drpepper.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = drpepper.flf; sourceTree = "<group>"; };
+		9968D42324666F68004009CF /* Caligraphy2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Caligraphy2.flf; sourceTree = "<group>"; };
+		9968D42424666F68004009CF /* Graffiti.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Graffiti.flf; sourceTree = "<group>"; };
+		9968D42524666F68004009CF /* amcrazo2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amcrazo2.flf; sourceTree = "<group>"; };
+		9968D42624666F68004009CF /* lineblocks.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lineblocks.flf; sourceTree = "<group>"; };
+		9968D42724666F68004009CF /* wetletter.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wetletter.flf; sourceTree = "<group>"; };
+		9968D42824666F68004009CF /* Chiseled.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chiseled.flf; sourceTree = "<group>"; };
+		9968D42924666F68004009CF /* amcrazor.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amcrazor.flf; sourceTree = "<group>"; };
+		9968D42B24666F68004009CF /* Gradient.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gradient.flf; sourceTree = "<group>"; };
+		9968D42C24666F68004009CF /* Henry 3D.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Henry 3D.flf"; sourceTree = "<group>"; };
+		9968D42D24666F68004009CF /* Hieroglyphs.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hieroglyphs.flf; sourceTree = "<group>"; };
+		9968D42E24666F68004009CF /* JS Stick Letters.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "JS Stick Letters.flf"; sourceTree = "<group>"; };
+		9968D43024666F68004009CF /* Bolger.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bolger.flf; sourceTree = "<group>"; };
+		9968D43124666F68004009CF /* Stop.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Stop.flf; sourceTree = "<group>"; };
+		9968D43224666F68004009CF /* henry3d.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = henry3d.flf; sourceTree = "<group>"; };
+		9968D43424666F68004009CF /* AMC Tubes.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AMC Tubes.flf"; sourceTree = "<group>"; };
+		9968D43624666F68004009CF /* Broadway.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Broadway.flf; sourceTree = "<group>"; };
+		9968D43724666F68004009CF /* O8.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = O8.flf; sourceTree = "<group>"; };
+		9968D43824666F68004009CF /* Tinker-Toy.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Tinker-Toy.flf"; sourceTree = "<group>"; };
+		9968D43924666F68004009CF /* JS Cursive.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "JS Cursive.flf"; sourceTree = "<group>"; };
+		9968D43A24666F68004009CF /* doubleshorts.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doubleshorts.flf; sourceTree = "<group>"; };
+		9968D43B24666F68004009CF /* alligator3.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alligator3.flf; sourceTree = "<group>"; };
+		9968D43C24666F68004009CF /* Small Isometric1.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Small Isometric1.flf"; sourceTree = "<group>"; };
+		9968D43D24666F68004009CF /* Train.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Train.flf; sourceTree = "<group>"; };
+		9968D43E24666F68004009CF /* Stacey.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Stacey.flf; sourceTree = "<group>"; };
+		9968D43F24666F68004009CF /* Alligator2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Alligator2.flf; sourceTree = "<group>"; };
+		9968D44024666F68004009CF /* Octal.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Octal.flf; sourceTree = "<group>"; };
+		9968D44124666F68004009CF /* Lean.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lean.flf; sourceTree = "<group>"; };
+		9968D44224666F68004009CF /* Bell.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bell.flf; sourceTree = "<group>"; };
+		9968D44324666F68004009CF /* Elite.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Elite.flf; sourceTree = "<group>"; };
+		9968D44424666F68004009CF /* Rozzo.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rozzo.flf; sourceTree = "<group>"; };
+		9968D44524666F68004009CF /* Fuzzy.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fuzzy.flf; sourceTree = "<group>"; };
+		9968D44624666F68004009CF /* OS2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OS2.flf; sourceTree = "<group>"; };
+		9968D44724666F68004009CF /* Bigfig.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bigfig.flf; sourceTree = "<group>"; };
+		9968D44824666F68004009CF /* amcaaa01.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = amcaaa01.flf; sourceTree = "<group>"; };
+		9968D44B24666F68004009CF /* smslant.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smslant.flf; sourceTree = "<group>"; };
+		9968D44C24666F68004009CF /* Efti Robot.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Efti Robot.flf"; sourceTree = "<group>"; };
+		9968D44D24666F68004009CF /* Nancyj-Improved.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Nancyj-Improved.flf"; sourceTree = "<group>"; };
+		9968D44E24666F68004009CF /* Crazy.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Crazy.flf; sourceTree = "<group>"; };
+		9968D44F24666F68004009CF /* Tubular.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tubular.flf; sourceTree = "<group>"; };
+		9968D45024666F68004009CF /* maxiwi.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = maxiwi.flf; sourceTree = "<group>"; };
+		9968D45124666F68004009CF /* Efti Water.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Efti Water.flf"; sourceTree = "<group>"; };
+		9968D45224666F68004009CF /* red_phoenix.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = red_phoenix.flf; sourceTree = "<group>"; };
+		9968D45324666F68004009CF /* Fire Font-k.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Fire Font-k.flf"; sourceTree = "<group>"; };
+		9968D45424666F68004009CF /* ANSI Regular.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ANSI Regular.flf"; sourceTree = "<group>"; };
+		9968D45624666F68004009CF /* DANC4.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DANC4.flf; sourceTree = "<group>"; };
+		9968D45724666F68004009CF /* Ogre.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ogre.flf; sourceTree = "<group>"; };
+		9968D45824666F68004009CF /* Stampatello.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Stampatello.flf; sourceTree = "<group>"; };
+		9968D45924666F68004009CF /* Konto Slant.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Konto Slant.flf"; sourceTree = "<group>"; };
+		9968D45A24666F68004009CF /* Patorjk-HeX.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Patorjk-HeX.flf"; sourceTree = "<group>"; };
+		9968D45C24666F68004009CF /* lildevil.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lildevil.flf; sourceTree = "<group>"; };
+		9968D45D24666F68004009CF /* starwars 2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "starwars 2.flf"; sourceTree = "<group>"; };
+		9968D45E24666F68004009CF /* Three Point.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Three Point.flf"; sourceTree = "<group>"; };
+		9968D45F24666F68004009CF /* Weird.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Weird.flf; sourceTree = "<group>"; };
+		9968D46024666F68004009CF /* Patorjk's Cheese.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Patorjk's Cheese.flf"; sourceTree = "<group>"; };
+		9968D46124666F68004009CF /* USA Flag.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "USA Flag.flf"; sourceTree = "<group>"; };
+		9968D46224666F68004009CF /* Serifcap.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Serifcap.flf; sourceTree = "<group>"; };
+		9968D46524666F68004009CF /* Standard.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Standard.flf; sourceTree = "<group>"; };
+		9968D46624666F68004009CF /* Stampate.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Stampate.flf; sourceTree = "<group>"; };
+		9968D46724666F68004009CF /* Thin.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Thin.flf; sourceTree = "<group>"; };
+		9968D46824666F68004009CF /* Georgia11.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Georgia11.flf; sourceTree = "<group>"; };
+		9968D46924666F68004009CF /* Cybermedium.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cybermedium.flf; sourceTree = "<group>"; };
+		9968D46A24666F68004009CF /* Cygnet.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cygnet.flf; sourceTree = "<group>"; };
+		9968D46B24666F68004009CF /* cosmic.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cosmic.flf; sourceTree = "<group>"; };
+		9968D46C24666F68004009CF /* Double.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Double.flf; sourceTree = "<group>"; };
+		9968D46D24666F68004009CF /* Morse2.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Morse2.flf; sourceTree = "<group>"; };
+		9968D46F24666F68004009CF /* Heart Left.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Heart Left.flf"; sourceTree = "<group>"; };
+		9968D47024666F68004009CF /* 3x5.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3x5.flf; sourceTree = "<group>"; };
+		9968D47124666F68004009CF /* Keyboard.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Keyboard.flf; sourceTree = "<group>"; };
+		9968D47224666F68004009CF /* fire_font-k.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "fire_font-k.flf"; sourceTree = "<group>"; };
+		9968D47324666F68004009CF /* bigchief.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bigchief.flf; sourceTree = "<group>"; };
+		9968D47424666F68004009CF /* Star Strips.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Star Strips.flf"; sourceTree = "<group>"; };
+		9968D47524666F68004009CF /* Modular.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Modular.flf; sourceTree = "<group>"; };
+		9968D47624666F68004009CF /* Roman.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Roman.flf; sourceTree = "<group>"; };
+		9968D47724666F68004009CF /* miniwi.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = miniwi.flf; sourceTree = "<group>"; };
+		9968D47824666F68004009CF /* Runic.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Runic.flf; sourceTree = "<group>"; };
+		9968D47924666F68004009CF /* Thorned.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Thorned.flf; sourceTree = "<group>"; };
+		9968D47A24666F68004009CF /* SL Script.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SL Script.flf"; sourceTree = "<group>"; };
+		9968D47C24666F68004009CF /* Banner.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Banner.flf; sourceTree = "<group>"; };
+		99BF8092246613110022B01E /* SwiftFigletKit.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFigletKit.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99BF8094246613110022B01E /* SwiftFigletKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFigletKit.swift; sourceTree = "<group>"; };
+		99BF8096246613110022B01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99EFEE842465EDB5008C37FE /* SFKFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFKFont.swift; sourceTree = "<group>"; };
+		99EFEE892465EDC0008C37FE /* SFKChar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFKChar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		990CE6212465CC6800E23460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99800A08246A9EE1004C7546 /* Files in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BF808F246613110022B01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		990CE61B2465CC6800E23460 = {
+			isa = PBXGroup;
+			children = (
+				990CE6562465D43800E23460 /* Package.swift */,
+				990CE6582465D45F00E23460 /* SwiftFigletKit */,
+				990CE6262465CC6800E23460 /* SwiftFiglet */,
+				99BF8093246613110022B01E /* SwiftFigletKit */,
+				990CE6252465CC6800E23460 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		990CE6252465CC6800E23460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				990CE6242465CC6800E23460 /* SwiftFiglet */,
+				99BF8092246613110022B01E /* SwiftFigletKit.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		990CE6262465CC6800E23460 /* SwiftFiglet */ = {
+			isa = PBXGroup;
+			children = (
+				9968D2CC24666F66004009CF /* fonts */,
+				990CE6272465CC6800E23460 /* main.swift */,
+			);
+			path = SwiftFiglet;
+			sourceTree = "<group>";
+		};
+		990CE6582465D45F00E23460 /* SwiftFigletKit */ = {
+			isa = PBXGroup;
+			children = (
+				990CE6592465D45F00E23460 /* .build */,
+				990CE65D2465D45F00E23460 /* SwiftFigletKit.xcodeproj */,
+				990CE6602465D45F00E23460 /* Tests */,
+				990CE6652465D45F00E23460 /* Sources */,
+			);
+			name = SwiftFigletKit;
+			path = ../SwiftFigletKit;
+			sourceTree = "<group>";
+		};
+		990CE6592465D45F00E23460 /* .build */ = {
+			isa = PBXGroup;
+			children = (
+				990CE65A2465D45F00E23460 /* checkouts */,
+				990CE65B2465D45F00E23460 /* repositories */,
+				990CE65C2465D45F00E23460 /* manifest.db */,
+			);
+			path = .build;
+			sourceTree = "<group>";
+		};
+		990CE65A2465D45F00E23460 /* checkouts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = checkouts;
+			sourceTree = "<group>";
+		};
+		990CE65B2465D45F00E23460 /* repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = repositories;
+			sourceTree = "<group>";
+		};
+		990CE65E2465D45F00E23460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				990CE66E2465D45F00E23460 /* SwiftFigletKit.framework */,
+				9968D65324668552004009CF /* SwiftFigletKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		990CE6602465D45F00E23460 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				990CE6612465D45F00E23460 /* LinuxMain.swift */,
+				990CE6622465D45F00E23460 /* SwiftFigletKitTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		990CE6622465D45F00E23460 /* SwiftFigletKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				990CE6632465D45F00E23460 /* XCTestManifests.swift */,
+				990CE6642465D45F00E23460 /* SwiftFigletKitTests.swift */,
+			);
+			path = SwiftFigletKitTests;
+			sourceTree = "<group>";
+		};
+		990CE6652465D45F00E23460 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				990CE6662465D45F00E23460 /* SwiftFigletKit */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		990CE6662465D45F00E23460 /* SwiftFigletKit */ = {
+			isa = PBXGroup;
+			children = (
+				990CE6672465D45F00E23460 /* SwiftFigletKit.swift */,
+				990CE6682465D45F00E23460 /* String+SFKFont.swift */,
+				99EFEE842465EDB5008C37FE /* SFKFont.swift */,
+				99EFEE892465EDC0008C37FE /* SFKChar.swift */,
+			);
+			path = SwiftFigletKit;
+			sourceTree = "<group>";
+		};
+		9968D2CC24666F66004009CF /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9968D2CD24666F66004009CF /* Nipples.flf */,
+				9968D2CE24666F66004009CF /* Muzzle.flf */,
+				9968D2CF24666F66004009CF /* Computer.flf */,
+				9968D2D124666F66004009CF /* Electronic.flf */,
+				9968D2D424666F66004009CF /* Ghoulish.flf */,
+				9968D2D524666F66004009CF /* NT Greek.flf */,
+				9968D2D624666F66004009CF /* Fire Font-s.flf */,
+				9968D2D724666F66004009CF /* LCD.flf */,
+				9968D2D824666F66004009CF /* JS Bracket Letters.flf */,
+				9968D2D924666F66004009CF /* Efti Chess.flf */,
+				9968D2DA24666F66004009CF /* Letters.flf */,
+				9968D2DB24666F66004009CF /* rev.flf */,
+				9968D2DC24666F66004009CF /* Barbwire.flf */,
+				9968D2DD24666F66004009CF /* dancingfont.flf */,
+				9968D2DE24666F66004009CF /* threepoint.flf */,
+				9968D2DF24666F66004009CF /* smkeyboard.flf */,
+				9968D2E024666F66004009CF /* Impossible.flf */,
+				9968D2E124666F66004009CF /* Bright.flf */,
+				9968D2E224666F66004009CF /* Madrid.flf */,
+				9968D2E424666F66004009CF /* 3-D.flf */,
+				9968D2E524666F66004009CF /* Benjamin.flf */,
+				9968D2E624666F66004009CF /* Bloody.flf */,
+				9968D2EA24666F66004009CF /* heart_right.flf */,
+				9968D2EB24666F66004009CF /* Sub-Zero.flf */,
+				9968D2EC24666F66004009CF /* Tiles.flf */,
+				9968D2ED24666F66004009CF /* Pyramid.flf */,
+				9968D2EE24666F66004009CF /* Crawford.flf */,
+				9968D2EF24666F66004009CF /* Small Slant.flf */,
+				9968D2F024666F66004009CF /* Big Money-nw.flf */,
+				9968D2F124666F66004009CF /* Shadow.flf */,
+				9968D2F224666F66004009CF /* starstrips.flf */,
+				9968D2F324666F66004009CF /* Red Phoenix.flf */,
+				9968D2F524666F66004009CF /* fire_font-s.flf */,
+				9968D2F724666F66004009CF /* Bulbhead.flf */,
+				9968D2F824666F66004009CF /* Mshebrew210.flf */,
+				9968D2F924666F66004009CF /* Doh.flf */,
+				9968D2FB24666F66004009CF /* Nancyj-Fancy.flf */,
+				9968D2FC24666F66004009CF /* Mike.flf */,
+				9968D2FD24666F66004009CF /* THIS.flf */,
+				9968D2FF24666F66004009CF /* Fun Faces.flf */,
+				9968D30024666F66004009CF /* Dancing Font.flf */,
+				9968D30124666F66004009CF /* DWhistled.flf */,
+				9968D30224666F66004009CF /* Slide.flf */,
+				9968D30324666F66004009CF /* horizontalright.flf */,
+				9968D30424666F66004009CF /* ASCII-New-Roman.flf */,
+				9968D30524666F66004009CF /* Big-Money-ne.flf */,
+				9968D30624666F66004009CF /* smscript.flf */,
+				9968D30724666F66004009CF /* amcneko.flf */,
+				9968D30824666F66004009CF /* JS Block Letters.flf */,
+				9968D30924666F66004009CF /* amcslash.flf */,
+				9968D30A24666F66004009CF /* AMC Razor2.flf */,
+				9968D30B24666F66004009CF /* Alligator.flf */,
+				9968D30C24666F66004009CF /* Graceful.flf */,
+				9968D30D24666F66004009CF /* flowerpower.flf */,
+				9968D30E24666F66004009CF /* Wow.flf */,
+				9968D30F24666F66004009CF /* starwars.flf */,
+				9968D31024666F66004009CF /* kontoslant.flf */,
+				9968D31124666F66004009CF /* Relief2.flf */,
+				9968D31324666F66004009CF /* dosrebel.flf */,
+				9968D31424666F66004009CF /* Ticks Slant.flf */,
+				9968D31524666F66004009CF /* Basic.flf */,
+				9968D31624666F66004009CF /* Horizontal Right.flf */,
+				9968D31724666F66004009CF /* AMC Thin.flf */,
+				9968D31824666F66004009CF /* Colossal.flf */,
+				9968D31924666F66004009CF /* Decimal.flf */,
+				9968D31B24666F66004009CF /* Jerusalem.flf */,
+				9968D31C24666F66004009CF /* Small Shadow.flf */,
+				9968D31D24666F66004009CF /* Bear.flf */,
+				9968D31E24666F66004009CF /* ascii_new_roman.flf */,
+				9968D31F24666F66004009CF /* Small.flf */,
+				9968D32024666F66004009CF /* Old Banner.flf */,
+				9968D32124666F66004009CF /* NScript.flf */,
+				9968D32224666F66004009CF /* Calvin S.flf */,
+				9968D32324666F66004009CF /* oldbanner.flf */,
+				9968D32424666F66004009CF /* Morse.flf */,
+				9968D32524666F66004009CF /* Fender.flf */,
+				9968D32624666F66004009CF /* smpoison.flf */,
+				9968D32724666F66004009CF /* Four Tops.flf */,
+				9968D32824666F66004009CF /* smallcaps.flf */,
+				9968D32A24666F66004009CF /* 3d_diagonal.flf */,
+				9968D32B24666F66004009CF /* peaksslant.flf */,
+				9968D32C24666F66004009CF /* Slant Relief.flf */,
+				9968D32D24666F66004009CF /* usaflag.flf */,
+				9968D32E24666F66004009CF /* Hollywood.flf */,
+				9968D32F24666F66004009CF /* Poison.flf */,
+				9968D33024666F66004009CF /* Pepper.flf */,
+				9968D33124666F66004009CF /* Rot13.flf */,
+				9968D33224666F66004009CF /* Flower Power.flf */,
+				9968D33324666F66004009CF /* Efti Piti.flf */,
+				9968D33424666F66004009CF /* Puffy.flf */,
+				9968D33524666F66004009CF /* Heart Right.flf */,
+				9968D33624666F66004009CF /* santaclara.flf */,
+				9968D33724666F66004009CF /* eftitalic.flf */,
+				9968D33824666F66004009CF /* Catwalk.flf */,
+				9968D33924666F66004009CF /* DOS Rebel.flf */,
+				9968D33A24666F66004009CF /* Cards.flf */,
+				9968D33C24666F66004009CF /* Isometric1.flf */,
+				9968D33D24666F66004009CF /* amcslder.flf */,
+				9968D33E24666F66004009CF /* Dr Pepper.flf */,
+				9968D33F24666F66004009CF /* Chunky.flf */,
+				9968D34024666F66004009CF /* eftifont.flf */,
+				9968D34124666F66004009CF /* Tsalagi.flf */,
+				9968D34324666F66004009CF /* Block.flf */,
+				9968D34424666F66004009CF /* Mirror.flf */,
+				9968D34524666F66004009CF /* Avatar.flf */,
+				9968D34624666F66004009CF /* Two Point.flf */,
+				9968D34724666F66004009CF /* defleppard.flf */,
+				9968D34A24666F66004009CF /* amc3liv1.flf */,
+				9968D34B24666F66004009CF /* Runyc.flf */,
+				9968D34D24666F66004009CF /* Thick.flf */,
+				9968D34F24666F66004009CF /* 4Max.flf */,
+				9968D35024666F66004009CF /* Efti Wall.flf */,
+				9968D35124666F66004009CF /* Univers.flf */,
+				9968D35224666F66004009CF /* AMC 3 Liv1.flf */,
+				9968D35324666F66004009CF /* s-relief.flf */,
+				9968D35424666F66004009CF /* Isometric3.flf */,
+				9968D35524666F66004009CF /* Def Leppard.flf */,
+				9968D35624666F66004009CF /* Glenyn.flf */,
+				9968D35724666F66004009CF /* Alphabet.flf */,
+				9968D35824666F66004009CF /* AMC AAA01.flf */,
+				9968D35924666F66004009CF /* Small Tengwar.flf */,
+				9968D35B24666F66004009CF /* Isometric2.flf */,
+				9968D35C24666F66004009CF /* Banner3-D.flf */,
+				9968D35D24666F66004009CF /* Braced.flf */,
+				9968D35E24666F66004009CF /* Double Shorts.flf */,
+				9968D35F24666F66004009CF /* Script.flf */,
+				9968D36024666F66004009CF /* Varsity.flf */,
+				9968D36124666F66004009CF /* amcun1.flf */,
+				9968D36324666F66004009CF /* Soft.flf */,
+				9968D36624666F66004009CF /* Konto.flf */,
+				9968D36724666F66004009CF /* slscript.flf */,
+				9968D36824666F66004009CF /* Small Poison.flf */,
+				9968D36924666F67004009CF /* Rowan Cap.flf */,
+				9968D36A24666F67004009CF /* twopoint.flf */,
+				9968D36B24666F67004009CF /* Fun Face.flf */,
+				9968D36C24666F67004009CF /* Cosmike.flf */,
+				9968D36E24666F67004009CF /* Broadway KB.flf */,
+				9968D36F24666F67004009CF /* Stforek.flf */,
+				9968D37024666F67004009CF /* Cola.flf */,
+				9968D37124666F67004009CF /* Mnemonic.flf */,
+				9968D37224666F67004009CF /* 3D Diagonal.flf */,
+				9968D37324666F67004009CF /* Sweet.flf */,
+				9968D37424666F67004009CF /* JS Capital Curves.flf */,
+				9968D37524666F67004009CF /* Nancyj-Underlined.flf */,
+				9968D37624666F67004009CF /* Efti Font.flf */,
+				9968D37724666F67004009CF /* 5lineoblique.flf */,
+				9968D37824666F67004009CF /* Greek.flf */,
+				9968D37924666F67004009CF /* eftiwater.flf */,
+				9968D37A24666F67004009CF /* AMC 3 Line.flf */,
+				9968D37B24666F67004009CF /* Filter.flf */,
+				9968D37C24666F67004009CF /* eftirobot.flf */,
+				9968D37D24666F67004009CF /* The Edge.flf */,
+				9968D37E24666F67004009CF /* eftipiti.flf */,
+				9968D37F24666F67004009CF /* 3D-ASCII.flf */,
+				9968D38024666F67004009CF /* Tombstone.flf */,
+				9968D38124666F67004009CF /* Spliff.flf */,
+				9968D38224666F67004009CF /* Kban.flf */,
+				9968D38324666F67004009CF /* Italic.flf */,
+				9968D38424666F67004009CF /* amctubes.flf */,
+				9968D38524666F67004009CF /* swampland.flf */,
+				9968D38724666F67004009CF /* smshadow.flf */,
+				9968D38824666F67004009CF /* Line Blocks.flf */,
+				9968D38A24666F67004009CF /* 3d.flf */,
+				9968D38B24666F67004009CF /* Whimsy.flf */,
+				9968D38C24666F67004009CF /* Reverse.flf */,
+				9968D38E24666F67004009CF /* Cursive.flf */,
+				9968D38F24666F67004009CF /* amc3line.flf */,
+				9968D39024666F67004009CF /* Larry 3D.flf */,
+				9968D39224666F67004009CF /* AMC Razor.flf */,
+				9968D39324666F67004009CF /* Binary.flf */,
+				9968D39424666F67004009CF /* AMC Slider.flf */,
+				9968D39624666F67004009CF /* Mini.flf */,
+				9968D39724666F67004009CF /* Rammstein.flf */,
+				9968D39824666F67004009CF /* amcthin.flf */,
+				9968D39A24666F67004009CF /* Small Script.flf */,
+				9968D39B24666F67004009CF /* Isometric4.flf */,
+				9968D39C24666F67004009CF /* sblood.flf */,
+				9968D39D24666F67004009CF /* Ticks.flf */,
+				9968D39E24666F67004009CF /* Horizontal Left.flf */,
+				9968D3A024666F67004009CF /* broadway_kb.flf */,
+				9968D3A124666F67004009CF /* Nancyj.flf */,
+				9968D3A224666F67004009CF /* AMC Neko.flf */,
+				9968D3A324666F67004009CF /* Diamond.flf */,
+				9968D3A424666F67004009CF /* eftiwall.flf */,
+				9968D3A524666F67004009CF /* Straight.flf */,
+				9968D3A724666F67004009CF /* Delta Corps Priest 1.flf */,
+				9968D3A924666F67004009CF /* Stellar.flf */,
+				9968D3AA24666F67004009CF /* ANSI Shadow.flf */,
+				9968D3AC24666F67004009CF /* Wavy.flf */,
+				9968D3AD24666F67004009CF /* Invita.flf */,
+				9968D3AE24666F67004009CF /* Slant.flf */,
+				9968D3AF24666F67004009CF /* README.md */,
+				9968D3B024666F67004009CF /* Bubble.flf */,
+				9968D3B124666F67004009CF /* Marquee.flf */,
+				9968D3B224666F67004009CF /* Santa Clara.flf */,
+				9968D3B424666F67004009CF /* Diet Cola.flf */,
+				9968D3B524666F67004009CF /* eftichess.flf */,
+				9968D3B624666F67004009CF /* Swan.flf */,
+				9968D3B724666F67004009CF /* Contrast.flf */,
+				9968D3B824666F67004009CF /* Cricket.flf */,
+				9968D3BA24666F67004009CF /* Trek.flf */,
+				9968D3BB24666F67004009CF /* Small Keyboard.flf */,
+				9968D3BC24666F67004009CF /* Swamp Land.flf */,
+				9968D3BD24666F67004009CF /* dietcola.flf */,
+				9968D3BE24666F67004009CF /* Gothic.flf */,
+				9968D3BF24666F67004009CF /* Goofy.flf */,
+				9968D3C024666F67004009CF /* Speed.flf */,
+				9968D3C124666F67004009CF /* calgphy2.flf */,
+				9968D3C324666F67004009CF /* Puzzle.flf */,
+				9968D3C624666F67004009CF /* Cybersmall.flf */,
+				9968D3C724666F67004009CF /* Alpha.flf */,
+				9968D3C824666F67004009CF /* Banner3.flf */,
+				9968D3C924666F67004009CF /* Pebbles.flf */,
+				9968D3CA24666F67004009CF /* Coinstak.flf */,
+				9968D3CB24666F67004009CF /* S Blood.flf */,
+				9968D3CC24666F67004009CF /* ICL-1900.flf */,
+				9968D3CE24666F67004009CF /* Digital.flf */,
+				9968D3CF24666F67004009CF /* fourtops.flf */,
+				9968D3D124666F67004009CF /* Moscow.flf */,
+				9968D3D224666F67004009CF /* Big Money-sw.flf */,
+				9968D3D324666F67004009CF /* Big Chief.flf */,
+				9968D3D424666F67004009CF /* Maxfour.flf */,
+				9968D3D524666F67004009CF /* Fraktur.flf */,
+				9968D3D624666F67004009CF /* 5 Line Oblique.flf */,
+				9968D3D724666F67004009CF /* Efti Italic.flf */,
+				9968D3D824666F67004009CF /* Term.flf */,
+				9968D3DA24666F67004009CF /* Katakana.flf */,
+				9968D3DB24666F67004009CF /* ticksslant.flf */,
+				9968D3DC24666F67004009CF /* Georgi16.flf */,
+				9968D3DD24666F67004009CF /* Crawford2.flf */,
+				9968D3DE24666F67004009CF /* Stronger Than All.flf */,
+				9968D3DF24666F67004009CF /* Caligraphy.flf */,
+				9968D3E024666F67004009CF /* AMC Slash.flf */,
+				9968D3E124666F67004009CF /* Relief.flf */,
+				9968D3E224666F67004009CF /* Jazmine.flf */,
+				9968D3E324666F67004009CF /* dotmatrix.flf */,
+				9968D3E624666F67004009CF /* Banner4.flf */,
+				9968D3E724666F67004009CF /* Small Caps.flf */,
+				9968D3E824666F67004009CF /* Big Money-se.flf */,
+				9968D3E924666F67004009CF /* 1Row.flf */,
+				9968D3EA24666F67004009CF /* Rotated.flf */,
+				9968D3EB24666F67004009CF /* Stick Letters.flf */,
+				9968D3EC24666F67004009CF /* Doom.flf */,
+				9968D3ED24666F67004009CF /* Linux.flf */,
+				9968D3EE24666F67004009CF /* Tengwar.flf */,
+				9968D3EF24666F67004009CF /* Twisted.flf */,
+				9968D3F024666F67004009CF /* Wet Letter.flf */,
+				9968D3F124666F67004009CF /* rowancap.flf */,
+				9968D3F224666F67004009CF /* Peaks.flf */,
+				9968D3F324666F67004009CF /* Larry 3D 2.flf */,
+				9968D3F524666F67004009CF /* Ivrit.flf */,
+				9968D3F624666F67004009CF /* Acrobatic.flf */,
+				9968D3F724666F67004009CF /* Contessa.flf */,
+				9968D3F824666F67004009CF /* NV Script.flf */,
+				9968D3FA24666F67004009CF /* Star Wars.flf */,
+				9968D3FB24666F67004009CF /* Dot Matrix.flf */,
+				9968D3FC24666F67004009CF /* horizontalleft.flf */,
+				9968D3FD24666F67004009CF /* Merlin2.flf */,
+				9968D3FF24666F67004009CF /* ntgreek.flf */,
+				9968D40024666F67004009CF /* Test1.flf */,
+				9968D40124666F67004009CF /* smtengwar.flf */,
+				9968D40224666F67004009CF /* Cyberlarge.flf */,
+				9968D40324666F67004009CF /* larry3d.flf */,
+				9968D40424666F67004009CF /* Peaks Slant.flf */,
+				9968D40524666F67004009CF /* Rounded.flf */,
+				9968D40624666F67004009CF /* Short.flf */,
+				9968D40724666F67004009CF /* Hex.flf */,
+				9968D40824666F67004009CF /* Jacky.flf */,
+				9968D40924666F67004009CF /* Lil Devil.flf */,
+				9968D40A24666F67004009CF /* Tanja.flf */,
+				9968D40B24666F67004009CF /* Big.flf */,
+				9968D40C24666F67004009CF /* heart_left.flf */,
+				9968D40E24666F68004009CF /* Rectangles.flf */,
+				9968D40F24666F68004009CF /* Knob.flf */,
+				9968D41024666F68004009CF /* Epic.flf */,
+				9968D41124666F68004009CF /* Ghost.flf */,
+				9968D41324666F68004009CF /* AMC Untitled.flf */,
+				9968D41424666F68004009CF /* Pawp.flf */,
+				9968D41524666F68004009CF /* funfaces.flf */,
+				9968D41624666F68004009CF /* Merlin1.flf */,
+				9968D41724666F68004009CF /* Flipped.flf */,
+				9968D41924666F68004009CF /* Arrows.flf */,
+				9968D41B24666F68004009CF /* Shimrod.flf */,
+				9968D41C24666F68004009CF /* Blocks.flf */,
+				9968D41D24666F68004009CF /* B1FF.flf */,
+				9968D41E24666F68004009CF /* funface.flf */,
+				9968D42024666F68004009CF /* smisome1.flf */,
+				9968D42124666F68004009CF /* Lockergnome.flf */,
+				9968D42224666F68004009CF /* drpepper.flf */,
+				9968D42324666F68004009CF /* Caligraphy2.flf */,
+				9968D42424666F68004009CF /* Graffiti.flf */,
+				9968D42524666F68004009CF /* amcrazo2.flf */,
+				9968D42624666F68004009CF /* lineblocks.flf */,
+				9968D42724666F68004009CF /* wetletter.flf */,
+				9968D42824666F68004009CF /* Chiseled.flf */,
+				9968D42924666F68004009CF /* amcrazor.flf */,
+				9968D42B24666F68004009CF /* Gradient.flf */,
+				9968D42C24666F68004009CF /* Henry 3D.flf */,
+				9968D42D24666F68004009CF /* Hieroglyphs.flf */,
+				9968D42E24666F68004009CF /* JS Stick Letters.flf */,
+				9968D43024666F68004009CF /* Bolger.flf */,
+				9968D43124666F68004009CF /* Stop.flf */,
+				9968D43224666F68004009CF /* henry3d.flf */,
+				9968D43424666F68004009CF /* AMC Tubes.flf */,
+				9968D43624666F68004009CF /* Broadway.flf */,
+				9968D43724666F68004009CF /* O8.flf */,
+				9968D43824666F68004009CF /* Tinker-Toy.flf */,
+				9968D43924666F68004009CF /* JS Cursive.flf */,
+				9968D43A24666F68004009CF /* doubleshorts.flf */,
+				9968D43B24666F68004009CF /* alligator3.flf */,
+				9968D43C24666F68004009CF /* Small Isometric1.flf */,
+				9968D43D24666F68004009CF /* Train.flf */,
+				9968D43E24666F68004009CF /* Stacey.flf */,
+				9968D43F24666F68004009CF /* Alligator2.flf */,
+				9968D44024666F68004009CF /* Octal.flf */,
+				9968D44124666F68004009CF /* Lean.flf */,
+				9968D44224666F68004009CF /* Bell.flf */,
+				9968D44324666F68004009CF /* Elite.flf */,
+				9968D44424666F68004009CF /* Rozzo.flf */,
+				9968D44524666F68004009CF /* Fuzzy.flf */,
+				9968D44624666F68004009CF /* OS2.flf */,
+				9968D44724666F68004009CF /* Bigfig.flf */,
+				9968D44824666F68004009CF /* amcaaa01.flf */,
+				9968D44B24666F68004009CF /* smslant.flf */,
+				9968D44C24666F68004009CF /* Efti Robot.flf */,
+				9968D44D24666F68004009CF /* Nancyj-Improved.flf */,
+				9968D44E24666F68004009CF /* Crazy.flf */,
+				9968D44F24666F68004009CF /* Tubular.flf */,
+				9968D45024666F68004009CF /* maxiwi.flf */,
+				9968D45124666F68004009CF /* Efti Water.flf */,
+				9968D45224666F68004009CF /* red_phoenix.flf */,
+				9968D45324666F68004009CF /* Fire Font-k.flf */,
+				9968D45424666F68004009CF /* ANSI Regular.flf */,
+				9968D45624666F68004009CF /* DANC4.flf */,
+				9968D45724666F68004009CF /* Ogre.flf */,
+				9968D45824666F68004009CF /* Stampatello.flf */,
+				9968D45924666F68004009CF /* Konto Slant.flf */,
+				9968D45A24666F68004009CF /* Patorjk-HeX.flf */,
+				9968D45C24666F68004009CF /* lildevil.flf */,
+				9968D45D24666F68004009CF /* starwars 2.flf */,
+				9968D45E24666F68004009CF /* Three Point.flf */,
+				9968D45F24666F68004009CF /* Weird.flf */,
+				9968D46024666F68004009CF /* Patorjk's Cheese.flf */,
+				9968D46124666F68004009CF /* USA Flag.flf */,
+				9968D46224666F68004009CF /* Serifcap.flf */,
+				9968D46524666F68004009CF /* Standard.flf */,
+				9968D46624666F68004009CF /* Stampate.flf */,
+				9968D46724666F68004009CF /* Thin.flf */,
+				9968D46824666F68004009CF /* Georgia11.flf */,
+				9968D46924666F68004009CF /* Cybermedium.flf */,
+				9968D46A24666F68004009CF /* Cygnet.flf */,
+				9968D46B24666F68004009CF /* cosmic.flf */,
+				9968D46C24666F68004009CF /* Double.flf */,
+				9968D46D24666F68004009CF /* Morse2.flf */,
+				9968D46F24666F68004009CF /* Heart Left.flf */,
+				9968D47024666F68004009CF /* 3x5.flf */,
+				9968D47124666F68004009CF /* Keyboard.flf */,
+				9968D47224666F68004009CF /* fire_font-k.flf */,
+				9968D47324666F68004009CF /* bigchief.flf */,
+				9968D47424666F68004009CF /* Star Strips.flf */,
+				9968D47524666F68004009CF /* Modular.flf */,
+				9968D47624666F68004009CF /* Roman.flf */,
+				9968D47724666F68004009CF /* miniwi.flf */,
+				9968D47824666F68004009CF /* Runic.flf */,
+				9968D47924666F68004009CF /* Thorned.flf */,
+				9968D47A24666F68004009CF /* SL Script.flf */,
+				9968D47C24666F68004009CF /* Banner.flf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		99BF8093246613110022B01E /* SwiftFigletKit */ = {
+			isa = PBXGroup;
+			children = (
+				99BF8094246613110022B01E /* SwiftFigletKit.swift */,
+				99BF8096246613110022B01E /* Info.plist */,
+			);
+			path = SwiftFigletKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		990CE6232465CC6800E23460 /* SwiftFiglet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990CE62B2465CC6800E23460 /* Build configuration list for PBXNativeTarget "SwiftFiglet" */;
+			buildPhases = (
+				990CE6202465CC6800E23460 /* Sources */,
+				990CE6212465CC6800E23460 /* Frameworks */,
+				990CE6222465CC6800E23460 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				990CE6722465D55B00E23460 /* PBXTargetDependency */,
+			);
+			name = SwiftFiglet;
+			packageProductDependencies = (
+				99800A07246A9EE1004C7546 /* Files */,
+			);
+			productName = SwiftFiglet;
+			productReference = 990CE6242465CC6800E23460 /* SwiftFiglet */;
+			productType = "com.apple.product-type.tool";
+		};
+		99BF8091246613110022B01E /* SwiftFigletKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99BF809C246613110022B01E /* Build configuration list for PBXNativeTarget "SwiftFigletKit" */;
+			buildPhases = (
+				99BF808E246613110022B01E /* Sources */,
+				99BF808F246613110022B01E /* Frameworks */,
+				99BF8090246613110022B01E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftFigletKit;
+			productName = SwiftFigletKit;
+			productReference = 99BF8092246613110022B01E /* SwiftFigletKit.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		990CE61C2465CC6800E23460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Diego Freniche Brito";
+				TargetAttributes = {
+					990CE6232465CC6800E23460 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					99BF8091246613110022B01E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 990CE61F2465CC6800E23460 /* Build configuration list for PBXProject "SwiftFiglet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 990CE61B2465CC6800E23460;
+			packageReferences = (
+				99800A06246A9EE1004C7546 /* XCRemoteSwiftPackageReference "Files" */,
+			);
+			productRefGroup = 990CE6252465CC6800E23460 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 990CE65E2465D45F00E23460 /* Products */;
+					ProjectRef = 990CE65D2465D45F00E23460 /* SwiftFigletKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				990CE6232465CC6800E23460 /* SwiftFiglet */,
+				99BF8091246613110022B01E /* SwiftFigletKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		990CE66E2465D45F00E23460 /* SwiftFigletKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftFigletKit.framework;
+			remoteRef = 990CE66D2465D45F00E23460 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9968D65324668552004009CF /* SwiftFigletKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftFigletKitTests.xctest;
+			remoteRef = 9968D65224668552004009CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99BF8090246613110022B01E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		990CE6202465CC6800E23460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990CE6282465CC6800E23460 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BF808E246613110022B01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99BF8095246613110022B01E /* SwiftFigletKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		990CE6722465D55B00E23460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftFigletKit;
+			targetProxy = 990CE6712465D55B00E23460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		990CE6292465CC6800E23460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		990CE62A2465CC6800E23460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		990CE62C2465CC6800E23460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 722SF2V9RH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		990CE62D2465CC6800E23460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 722SF2V9RH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		99BF8097246613110022B01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 722SF2V9RH;
+				INFOPLIST_FILE = SwiftFigletKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freniche.swiftfiglet.SwiftFigletKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		99BF8098246613110022B01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 722SF2V9RH;
+				INFOPLIST_FILE = SwiftFigletKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freniche.swiftfiglet.SwiftFigletKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		990CE61F2465CC6800E23460 /* Build configuration list for PBXProject "SwiftFiglet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990CE6292465CC6800E23460 /* Debug */,
+				990CE62A2465CC6800E23460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990CE62B2465CC6800E23460 /* Build configuration list for PBXNativeTarget "SwiftFiglet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990CE62C2465CC6800E23460 /* Debug */,
+				990CE62D2465CC6800E23460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99BF809C246613110022B01E /* Build configuration list for PBXNativeTarget "SwiftFigletKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99BF8097246613110022B01E /* Debug */,
+				99BF8098246613110022B01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		99800A06246A9EE1004C7546 /* XCRemoteSwiftPackageReference "Files" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JohnSundell/Files";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		99800A07246A9EE1004C7546 /* Files */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99800A06246A9EE1004C7546 /* XCRemoteSwiftPackageReference "Files" */;
+			productName = Files;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 990CE61C2465CC6800E23460 /* Project object */;
+}

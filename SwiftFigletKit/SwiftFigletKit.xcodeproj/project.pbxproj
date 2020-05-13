@@ -13,7 +13,6 @@
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_34 /* PBXTargetDependency */,
 			);
 			name = SwiftFigletKitPackageTests;
 			productName = SwiftFigletKitPackageTests;
@@ -21,42 +20,55 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		990CE61A2465CA1F00E23460 /* String+FKFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990CE6192465CA1F00E23460 /* String+FKFont.swift */; };
-		OBJ_22 /* SwiftFigletKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SwiftFigletKit.swift */; };
-		OBJ_40 /* SwiftFigletKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* SwiftFigletKitTests.swift */; };
-		OBJ_41 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
-		OBJ_43 /* SwiftFigletKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftFigletKit::SwiftFigletKit::Product" /* SwiftFigletKit.framework */; };
+		994D0B2724680AD4006BAFEC /* SFKFigletFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D0B2624680AD4006BAFEC /* SFKFigletFile.swift */; };
+		994D0B2A24681275006BAFEC /* SFKFigletFileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D0B2824681179006BAFEC /* SFKFigletFileTests.swift */; };
+		994E7DF5246866A800A944B6 /* SFKFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E7DF4246866A800A944B6 /* SFKFontTests.swift */; };
+		9968D62E2466707F004009CF /* SFKBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9968D62D2466707F004009CF /* SFKBanner.swift */; };
+		9968D64624667322004009CF /* SwiftFigletKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftFigletKit::SwiftFigletKit::Product" /* SwiftFigletKit.framework */; };
+		9968D64C2466735B004009CF /* SwiftFigletKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* SwiftFigletKitTests.swift */; };
+		9968D64D2466735B004009CF /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
+		99800A11246AC1DC004C7546 /* Wow.flf in Resources */ = {isa = PBXBuildFile; fileRef = 99800A0F246AC1DC004C7546 /* Wow.flf */; };
+		99800A12246AC1DC004C7546 /* Broadway.flf in Resources */ = {isa = PBXBuildFile; fileRef = 99800A10246AC1DC004C7546 /* Broadway.flf */; };
+		99BF808B246612450022B01E /* SFKFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BF8089246612450022B01E /* SFKFont.swift */; };
+		99BF808C246612450022B01E /* SFKChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BF808A246612450022B01E /* SFKChar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		990CE6162465C97000E23460 /* PBXContainerItemProxy */ = {
+		9968D64724667322004009CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SwiftFigletKit::SwiftFigletKit";
 			remoteInfo = SwiftFigletKit;
 		};
-		990CE6172465C97200E23460 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "SwiftFigletKit::SwiftFigletKitTests";
-			remoteInfo = SwiftFigletKitTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		990CE6192465CA1F00E23460 /* String+FKFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+FKFont.swift"; sourceTree = "<group>"; };
 		990CE62E2465D00700E23460 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
 		990CE6312465D02C00E23460 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		994D0B2624680AD4006BAFEC /* SFKFigletFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFKFigletFile.swift; sourceTree = "<group>"; };
+		994D0B2824681179006BAFEC /* SFKFigletFileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFKFigletFileTests.swift; sourceTree = "<group>"; };
+		994E7DF4246866A800A944B6 /* SFKFontTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFKFontTests.swift; sourceTree = "<group>"; };
+		9968D62D2466707F004009CF /* SFKBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFKBanner.swift; sourceTree = "<group>"; };
+		9968D64124667322004009CF /* SwiftFigletKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFigletKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99800A0F246AC1DC004C7546 /* Wow.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Wow.flf; sourceTree = "<group>"; };
+		99800A10246AC1DC004C7546 /* Broadway.flf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Broadway.flf; sourceTree = "<group>"; };
+		99BF8089246612450022B01E /* SFKFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFKFont.swift; sourceTree = "<group>"; };
+		99BF808A246612450022B01E /* SFKChar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFKChar.swift; sourceTree = "<group>"; };
 		OBJ_12 /* SwiftFigletKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFigletKitTests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
-		OBJ_9 /* SwiftFigletKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFigletKit.swift; sourceTree = "<group>"; };
-		"SwiftFigletKit::SwiftFigletKit::Product" /* SwiftFigletKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftFigletKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"SwiftFigletKit::SwiftFigletKitTests::Product" /* SwiftFigletKitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftFigletKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftFigletKit::SwiftFigletKit::Product" /* SwiftFigletKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftFigletKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9968D63E24667322004009CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9968D64624667322004009CF /* SwiftFigletKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
@@ -64,17 +76,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_42 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_43 /* SwiftFigletKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99800A0E246AC1DC004C7546 /* testFonts */ = {
+			isa = PBXGroup;
+			children = (
+				99800A0F246AC1DC004C7546 /* Wow.flf */,
+				99800A10246AC1DC004C7546 /* Broadway.flf */,
+			);
+			path = testFonts;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +99,10 @@
 		OBJ_11 /* SwiftFigletKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				99800A0E246AC1DC004C7546 /* testFonts */,
 				OBJ_12 /* SwiftFigletKitTests.swift */,
+				994D0B2824681179006BAFEC /* SFKFigletFileTests.swift */,
+				994E7DF4246866A800A944B6 /* SFKFontTests.swift */,
 				OBJ_13 /* XCTestManifests.swift */,
 			);
 			name = SwiftFigletKitTests;
@@ -97,12 +113,12 @@
 			isa = PBXGroup;
 			children = (
 				"SwiftFigletKit::SwiftFigletKit::Product" /* SwiftFigletKit.framework */,
-				"SwiftFigletKit::SwiftFigletKitTests::Product" /* SwiftFigletKitTests.xctest */,
+				9968D64124667322004009CF /* SwiftFigletKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				990CE6312465D02C00E23460 /* README.md */,
@@ -111,7 +127,6 @@
 				OBJ_10 /* Tests */,
 				OBJ_14 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -125,8 +140,10 @@
 		OBJ_8 /* SwiftFigletKit */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* SwiftFigletKit.swift */,
-				990CE6192465CA1F00E23460 /* String+FKFont.swift */,
+				99BF808A246612450022B01E /* SFKChar.swift */,
+				99BF8089246612450022B01E /* SFKFont.swift */,
+				9968D62D2466707F004009CF /* SFKBanner.swift */,
+				994D0B2624680AD4006BAFEC /* SFKFigletFile.swift */,
 			);
 			name = SwiftFigletKit;
 			path = Sources/SwiftFigletKit;
@@ -135,6 +152,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9968D64024667322004009CF /* SwiftFigletKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9968D64924667322004009CF /* Build configuration list for PBXNativeTarget "SwiftFigletKitTests" */;
+			buildPhases = (
+				9968D63D24667322004009CF /* Sources */,
+				9968D63E24667322004009CF /* Frameworks */,
+				9968D63F24667322004009CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9968D64824667322004009CF /* PBXTargetDependency */,
+			);
+			name = SwiftFigletKitTests;
+			productName = SwiftFigletKitTests;
+			productReference = 9968D64124667322004009CF /* SwiftFigletKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		"SwiftFigletKit::SwiftFigletKit" /* SwiftFigletKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_18 /* Build configuration list for PBXNativeTarget "SwiftFigletKit" */;
@@ -150,23 +185,6 @@
 			productName = SwiftFigletKit;
 			productReference = "SwiftFigletKit::SwiftFigletKit::Product" /* SwiftFigletKit.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		"SwiftFigletKit::SwiftFigletKitTests" /* SwiftFigletKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_36 /* Build configuration list for PBXNativeTarget "SwiftFigletKitTests" */;
-			buildPhases = (
-				OBJ_39 /* Sources */,
-				OBJ_42 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				OBJ_44 /* PBXTargetDependency */,
-			);
-			name = SwiftFigletKitTests;
-			productName = SwiftFigletKitTests;
-			productReference = "SwiftFigletKit::SwiftFigletKitTests::Product" /* SwiftFigletKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		"SwiftFigletKit::SwiftPMPackageDescription" /* SwiftFigletKitPackageDescription */ = {
 			isa = PBXNativeTarget;
@@ -189,7 +207,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 9999;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					9968D64024667322004009CF = {
+						CreatedOnToolsVersion = 11.3.1;
+						DevelopmentTeam = 722SF2V9RH;
+						ProvisioningStyle = Automatic;
+					};
+					"SwiftFigletKit::SwiftFigletKit" = {
+						DevelopmentTeam = 722SF2V9RH;
+					};
+				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SwiftFigletKit" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -198,7 +227,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -206,18 +235,43 @@
 				"SwiftFigletKit::SwiftFigletKit" /* SwiftFigletKit */,
 				"SwiftFigletKit::SwiftPMPackageDescription" /* SwiftFigletKitPackageDescription */,
 				"SwiftFigletKit::SwiftFigletKitPackageTests::ProductTarget" /* SwiftFigletKitPackageTests */,
-				"SwiftFigletKit::SwiftFigletKitTests" /* SwiftFigletKitTests */,
+				9968D64024667322004009CF /* SwiftFigletKitTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		9968D63F24667322004009CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99800A11246AC1DC004C7546 /* Wow.flf in Resources */,
+				99800A12246AC1DC004C7546 /* Broadway.flf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		9968D63D24667322004009CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9968D64C2466735B004009CF /* SwiftFigletKitTests.swift in Sources */,
+				9968D64D2466735B004009CF /* XCTestManifests.swift in Sources */,
+				994D0B2A24681275006BAFEC /* SFKFigletFileTests.swift in Sources */,
+				994E7DF5246866A800A944B6 /* SFKFontTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				990CE61A2465CA1F00E23460 /* String+FKFont.swift in Sources */,
-				OBJ_22 /* SwiftFigletKit.swift in Sources */,
+				99BF808B246612450022B01E /* SFKFont.swift in Sources */,
+				994D0B2724680AD4006BAFEC /* SFKFigletFile.swift in Sources */,
+				99BF808C246612450022B01E /* SFKChar.swift in Sources */,
+				9968D62E2466707F004009CF /* SFKBanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,34 +282,139 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_39 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_40 /* SwiftFigletKitTests.swift in Sources */,
-				OBJ_41 /* XCTestManifests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_34 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SwiftFigletKit::SwiftFigletKitTests" /* SwiftFigletKitTests */;
-			targetProxy = 990CE6172465C97200E23460 /* PBXContainerItemProxy */;
-		};
-		OBJ_44 /* PBXTargetDependency */ = {
+		9968D64824667322004009CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "SwiftFigletKit::SwiftFigletKit" /* SwiftFigletKit */;
-			targetProxy = 990CE6162465C97000E23460 /* PBXContainerItemProxy */;
+			targetProxy = 9968D64724667322004009CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		9968D64A24667322004009CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 722SF2V9RH;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = SwiftFigletKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freniche.swiftfiglet.SwiftFigletKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9968D64B24667322004009CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 722SF2V9RH;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = SwiftFigletKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freniche.swiftfiglet.SwiftFigletKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		OBJ_19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				DEVELOPMENT_TEAM = 722SF2V9RH;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -265,7 +424,7 @@
 				INFOPLIST_FILE = SwiftFigletKit.xcodeproj/SwiftFigletKit_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -284,6 +443,8 @@
 		OBJ_20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				DEVELOPMENT_TEAM = 722SF2V9RH;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +454,7 @@
 				INFOPLIST_FILE = SwiftFigletKit.xcodeproj/SwiftFigletKit_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -342,7 +503,7 @@
 					"SWIFT_PACKAGE=1",
 					"DEBUG=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -366,56 +527,6 @@
 			};
 			name = Release;
 		};
-		OBJ_37 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SwiftFigletKit.xcodeproj/SwiftFigletKitTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = SwiftFigletKitTests;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		OBJ_38 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SwiftFigletKit.xcodeproj/SwiftFigletKitTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = SwiftFigletKitTests;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -429,7 +540,7 @@
 					"$(inherited)",
 					"SWIFT_PACKAGE=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -443,6 +554,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9968D64924667322004009CF /* Build configuration list for PBXNativeTarget "SwiftFigletKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9968D64A24667322004009CF /* Debug */,
+				9968D64B24667322004009CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		OBJ_18 /* Build configuration list for PBXNativeTarget "SwiftFigletKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -475,15 +595,6 @@
 			buildConfigurations = (
 				OBJ_32 /* Debug */,
 				OBJ_33 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_36 /* Build configuration list for PBXNativeTarget "SwiftFigletKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_37 /* Debug */,
-				OBJ_38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
